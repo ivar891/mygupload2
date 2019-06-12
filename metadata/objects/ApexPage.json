@@ -3,46 +3,6 @@
   "activateable": false,
   "childRelationships": [
     {
-      "cascadeDelete": false,
-      "childSObject": "LiveChatButton",
-      "deprecatedAndHidden": false,
-      "field": "ChatPageId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "LiveChatButton",
-      "deprecatedAndHidden": false,
-      "field": "PostchatPageId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "LiveChatButton",
-      "deprecatedAndHidden": false,
-      "field": "PrechatFormPageId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "OpportunitySplitType",
-      "deprecatedAndHidden": false,
-      "field": "SplitField",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": true
-    },
-    {
       "cascadeDelete": true,
       "childSObject": "SetupEntityAccess",
       "deprecatedAndHidden": false,
