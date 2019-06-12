@@ -41,7 +41,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "Quick Text History ID",
+      "label": "ID Historique de texte rapide",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -100,7 +100,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Deleted",
+      "label": "Supprimé",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -159,7 +159,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Quick Text ID",
+      "label": "ID de Texte rapide",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -220,7 +220,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Created By ID",
+      "label": "ID créé par",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -281,7 +281,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Created Date",
+      "label": "Date de création",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -340,7 +340,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Changed Field",
+      "label": "Champ modifié",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -353,35 +353,49 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Category",
-          "validFor": null,
-          "value": "Category"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Channel",
+          "label": "Canal",
           "validFor": null,
           "value": "Channel"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Created.",
+          "label": "Catégorie",
+          "validFor": null,
+          "value": "Category"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Créé.",
           "validFor": null,
           "value": "created"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Feed event",
+          "label": "Enregistrement déverrouillé.",
+          "validFor": null,
+          "value": "unlocked"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Enregistrement verrouillé.",
+          "validFor": null,
+          "value": "locked"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Événement de fil",
           "validFor": null,
           "value": "feedEvent"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Individual Merged",
+          "label": "Individu fusionné",
           "validFor": null,
           "value": "individualMerged"
         },
@@ -395,44 +409,30 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Owner",
-          "validFor": null,
-          "value": "Owner"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Owner (Accepted)",
-          "validFor": null,
-          "value": "ownerAccepted"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Owner (Assignment)",
-          "validFor": null,
-          "value": "ownerAssignment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Quick Text Name",
+          "label": "Nom du Texte rapide",
           "validFor": null,
           "value": "Name"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Record locked.",
+          "label": "Propriétaire",
           "validFor": null,
-          "value": "locked"
+          "value": "Owner"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Record unlocked.",
+          "label": "Propriétaire (Accepté)",
           "validFor": null,
-          "value": "unlocked"
+          "value": "ownerAccepted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Propriétaire (Attribution)",
+          "validFor": null,
+          "value": "ownerAssignment"
         }
       ],
       "polymorphicForeignKey": false,
@@ -484,7 +484,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Old Value",
+      "label": "Ancienne valeur",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -543,7 +543,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "New Value",
+      "label": "Nouvelle valeur",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -575,8 +575,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": null,
-  "label": "Quick Text History",
-  "labelPlural": "Quick Text History",
+  "label": "Historique de texte rapide",
+  "labelPlural": "Historique de texte rapide",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -593,7 +593,7 @@
   "searchable": false,
   "supportedScopes": [
     {
-      "label": "All quick text history",
+      "label": "Toutes historique de texte rapide",
       "name": "everything"
     }
   ],
