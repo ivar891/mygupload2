@@ -41,7 +41,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "ID d'historique de solution",
+      "label": "Solution History ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -100,7 +100,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Supprimé",
+      "label": "Deleted",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -159,7 +159,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "ID de la solution",
+      "label": "Solution ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -220,7 +220,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "ID créé par",
+      "label": "Created By ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -281,7 +281,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Date de création",
+      "label": "Created Date",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -340,7 +340,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Champ modifié",
+      "label": "Changed Field",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -353,58 +353,114 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Créé.",
+          "label": "Applicable Region",
+          "validFor": null,
+          "value": "Global__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Created.",
           "validFor": null,
           "value": "created"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Détails de la solution",
+          "label": "DB",
           "validFor": null,
-          "value": "SolutionNote"
+          "value": "EDY_ORGCUSTOM__DB__c"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Enregistrement déverrouillé.",
+          "label": "External ID",
           "validFor": null,
-          "value": "unlocked"
+          "value": "External_ID__c"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Enregistrement verrouillé.",
-          "validFor": null,
-          "value": "locked"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Événement de fil",
+          "label": "Feed event",
           "validFor": null,
           "value": "feedEvent"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Individu fusionné",
+          "label": "Individual Merged",
           "validFor": null,
           "value": "individualMerged"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Propriétaire (Accepté)",
+          "label": "Internal Notes",
+          "validFor": null,
+          "value": "Internal_Notes__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Keywords",
+          "validFor": null,
+          "value": "Keywords__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Language",
+          "validFor": null,
+          "value": "SolutionLanguage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Master Solution",
+          "validFor": null,
+          "value": "Parent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Old Solution Name",
+          "validFor": null,
+          "value": "EDY_ORGCUSTOM__Old_SolutionName__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Old Solution Note",
+          "validFor": null,
+          "value": "EDY_ORGCUSTOM__Old_SolutionNote__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Org Cust Case ID",
+          "validFor": null,
+          "value": "Org_Cust_Case_ID__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Owner (Accepted)",
           "validFor": null,
           "value": "ownerAccepted"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Propriétaire (Attribution)",
+          "label": "Owner (Assignment)",
           "validFor": null,
           "value": "ownerAssignment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Primary Audience",
+          "validFor": null,
+          "value": "Primary_Audience__c"
         },
         {
           "active": true,
@@ -416,21 +472,49 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Statut",
+          "label": "Record locked.",
           "validFor": null,
-          "value": "Status"
+          "value": "locked"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Titre de la solution",
+          "label": "Record unlocked.",
+          "validFor": null,
+          "value": "unlocked"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Solution Details",
+          "validFor": null,
+          "value": "SolutionNote"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Solution Expiration Date",
+          "validFor": null,
+          "value": "Solution_Expiration_Date__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Solution Title",
           "validFor": null,
           "value": "SolutionName"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Visible dans la base de connaissances publique",
+          "label": "Status",
+          "validFor": null,
+          "value": "Status"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Visible in Public Knowledge Base",
           "validFor": null,
           "value": "IsPublishedInPublicKb"
         }
@@ -484,7 +568,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Ancienne valeur",
+      "label": "Old Value",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -543,7 +627,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Nouvelle valeur",
+      "label": "New Value",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -575,8 +659,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": null,
-  "label": "Historique de la solution",
-  "labelPlural": "Historique de la solution",
+  "label": "Solution History",
+  "labelPlural": "Solution History",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -593,7 +677,7 @@
   "searchable": false,
   "supportedScopes": [
     {
-      "label": "Toutes historique de la solution",
+      "label": "All solution history",
       "name": "everything"
     }
   ],
