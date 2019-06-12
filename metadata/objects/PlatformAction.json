@@ -41,7 +41,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "ID non utilisé",
+      "label": "Not used ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -100,7 +100,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "ID d'action de plate-forme",
+      "label": "Platform Action ID",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -159,7 +159,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Date de dernière modification",
+      "label": "Last Modified Date",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -218,7 +218,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Étiquette",
+      "label": "Label",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -290,28 +290,28 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Action rapide",
+          "label": "Quick Action",
           "validFor": null,
           "value": "QuickAction"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Bouton standard",
+          "label": "Standard Button",
           "validFor": null,
           "value": "StandardButton"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Bouton personnalisé",
+          "label": "Custom Button",
           "validFor": null,
           "value": "CustomButton"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Action de productivité (mise en évidence)",
+          "label": "Productivity (Highlight) Action",
           "validFor": null,
           "value": "ProductivityAction"
         },
@@ -325,7 +325,7 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Action invocable",
+          "label": "Invocable Action",
           "validFor": null,
           "value": "InvocableAction"
         }
@@ -379,7 +379,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Type secondaire",
+      "label": "Subtype",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -438,7 +438,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Nom d'API",
+      "label": "API Name",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -497,7 +497,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Cible de l'action",
+      "label": "Action Target",
       "length": 2048,
       "mask": null,
       "maskType": null,
@@ -556,7 +556,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Type cible de l'action",
+      "label": "Action Target Type",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -569,21 +569,21 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Cible de description de l'action",
+          "label": "Target is for describing the action",
           "validFor": null,
           "value": "Describe"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Cible d'invocation de l'action",
+          "label": "Target is for invoking the action",
           "validFor": null,
           "value": "Invoke"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Cible d'une page Visualforce",
+          "label": "Target is for a visualforce page",
           "validFor": null,
           "value": "Visualforce"
         }
@@ -637,7 +637,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Message de confirmation",
+      "label": "Confirmation Message",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -696,7 +696,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "ID de groupe",
+      "label": "Group ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -755,7 +755,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Est un groupe par défaut",
+      "label": "Is Group Default",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -814,7 +814,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Catégorie",
+      "label": "Category",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -827,14 +827,14 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Action principale",
+          "label": "Primary action",
           "validFor": null,
           "value": "Primary"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Action de dépassement",
+          "label": "Overflow action",
           "validFor": null,
           "value": "Overflow"
         }
@@ -888,7 +888,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Statut d'invocation",
+      "label": "Invocation Status",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -901,28 +901,28 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Nouveau",
+          "label": "New",
           "validFor": null,
           "value": "New"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "En attente",
+          "label": "Pending",
           "validFor": null,
           "value": "Pending"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Réussie",
+          "label": "Successful",
           "validFor": null,
           "value": "Successful"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Échouée",
+          "label": "Failed",
           "validFor": null,
           "value": "Failed"
         }
@@ -976,7 +976,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "ID d'utilisateur",
+      "label": "User ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -1037,7 +1037,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Entité source",
+      "label": "Source Entity",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -1096,7 +1096,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Contexte de la liste d'actions",
+      "label": "Action List Context",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -1109,133 +1109,133 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "En-tête d'une vue de liste",
+          "label": "Header for a list view",
           "validFor": null,
           "value": "ListView"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "En-tête d'une liste associée",
+          "label": "Header for a related list",
           "validFor": null,
           "value": "RelatedList"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Vue d'un enregistrement de vue de liste",
+          "label": "View for a list view record",
           "validFor": null,
           "value": "ListViewRecord"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Vue d'un enregistrement de liste associée",
+          "label": "View for a related list record",
           "validFor": null,
           "value": "RelatedListRecord"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Vue d'un enregistrement",
+          "label": "View page for a record",
           "validFor": null,
           "value": "Record"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Un élément dans le fil",
+          "label": "An element in the Feed",
           "validFor": null,
           "value": "FeedElement"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Vue spécifique à Chatter",
+          "label": "Chatter specific view",
           "validFor": null,
           "value": "Chatter"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Vue globale",
+          "label": "View page for Global",
           "validFor": null,
           "value": "Global"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Vue Page Lightning",
+          "label": "View for Lightning Page",
           "validFor": null,
           "value": "Flexipage"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "En-tête d'une liste MRU",
+          "label": "Header for an MRU list",
           "validFor": null,
           "value": "MruList"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Vue d'un enregistrement de liste MRU",
+          "label": "View for a MRU list record",
           "validFor": null,
           "value": "MruRow"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Page de modification d'un enregistrement",
+          "label": "Edit page for a record",
           "validFor": null,
           "value": "RecordEdit"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Vue d'un composant de détail de photo d'entité",
+          "label": "View for an entity photo detail component",
           "validFor": null,
           "value": "Photo"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Vue d'un composant de détail de photo de bannière",
+          "label": "View for an entity Banner photo detail component",
           "validFor": null,
           "value": "BannerPhoto"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Vue de graphiques d'accueil d'objets",
+          "label": "View for object home charts",
           "validFor": null,
           "value": "ObjectHomeChart"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Vue d'une définition de vue de liste",
+          "label": "View for a list view definition",
           "validFor": null,
           "value": "ListViewDefinition"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Vue d'actions ancrables",
+          "label": "View for dockable actions",
           "validFor": null,
           "value": "Dockable"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Vue de référence",
+          "label": "View for lookup",
           "validFor": null,
           "value": "Lookup"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Vue de l’assistant",
+          "label": "View for Assistant",
           "validFor": null,
           "value": "Assistant"
         }
@@ -1289,7 +1289,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Format de l'appareil",
+      "label": "Device Format",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -1302,21 +1302,21 @@
         {
           "active": true,
           "defaultValue": true,
-          "label": "Téléphone",
+          "label": "Phone",
           "validFor": null,
           "value": "Phone"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Tablette",
+          "label": "Tablet",
           "validFor": null,
           "value": "Tablet"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Ordinateur de bureau",
+          "label": "Desktop",
           "validFor": null,
           "value": "Desktop"
         },
@@ -1377,7 +1377,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Type de contenu de l'icône",
+      "label": "Icon Content Type",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -1436,7 +1436,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Hauteur de l'icône",
+      "label": "Icon Height",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -1495,7 +1495,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Largeur de l'icône",
+      "label": "Icon Width",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -1554,7 +1554,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "URL de l'icône",
+      "label": "Icon URL",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -1613,7 +1613,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Action en masse",
+      "label": "Is Mass Action",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -1672,7 +1672,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Couleur principale",
+      "label": "Primary Color",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -1731,7 +1731,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Entité source associée",
+      "label": "Related Source Entity",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -1803,28 +1803,28 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Actions de la page",
+          "label": "Page Actions",
           "validFor": null,
           "value": "Page"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Actions d'éditeur d'activité",
+          "label": "Activity Composer Actions",
           "validFor": null,
           "value": "ActivityComposer"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Actions d'éditeur de collaboration",
+          "label": "Collaboration Composer Actions",
           "validFor": null,
           "value": "CollaborateComposer"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Liens d'action uniques",
+          "label": "Single Action Links",
           "validFor": null,
           "value": "SingleActionLinks"
         }
@@ -1878,7 +1878,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "ID d'enregistrement de liste associée",
+      "label": "Related List Record ID",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -1937,7 +1937,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "URL cible",
+      "label": "Target URL",
       "length": 2048,
       "mask": null,
       "maskType": null,
@@ -1996,7 +1996,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Objet cible",
+      "label": "Target Object",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -2028,8 +2028,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": "0JV",
-  "label": "Action de plate-forme",
-  "labelPlural": "Actions de plate-forme",
+  "label": "Platform Action",
+  "labelPlural": "Platform Actions",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -2046,7 +2046,7 @@
   "searchable": false,
   "supportedScopes": [
     {
-      "label": "Toutes actions de plate-forme",
+      "label": "All platform actions",
       "name": "everything"
     }
   ],
