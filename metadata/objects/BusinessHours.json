@@ -1,98 +1,7 @@
 {
   "actionOverrides": [],
   "activateable": false,
-  "childRelationships": [
-    {
-      "cascadeDelete": false,
-      "childSObject": "Case",
-      "deprecatedAndHidden": false,
-      "field": "BusinessHoursId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "Cases",
-      "restrictedDelete": true
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "CaseChangeEvent",
-      "deprecatedAndHidden": false,
-      "field": "BusinessHoursId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "CaseMilestone",
-      "deprecatedAndHidden": false,
-      "field": "BusinessHoursId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "Entitlement",
-      "deprecatedAndHidden": false,
-      "field": "BusinessHoursId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "Entitlements",
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "EntitlementChangeEvent",
-      "deprecatedAndHidden": false,
-      "field": "BusinessHoursId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "EntitlementTemplate",
-      "deprecatedAndHidden": false,
-      "field": "BusinessHoursId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "EntityMilestone",
-      "deprecatedAndHidden": false,
-      "field": "BusinessHoursId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "SlaProcess",
-      "deprecatedAndHidden": false,
-      "field": "BusinessHoursId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "WorkOrder",
-      "deprecatedAndHidden": false,
-      "field": "BusinessHoursId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "WorkOrders",
-      "restrictedDelete": true
-    }
-  ],
+  "childRelationships": [],
   "compactLayoutable": true,
   "createable": true,
   "custom": false,
@@ -2306,11 +2215,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/BusinessHours/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/BusinessHours/{ID}",
-    "uiDetailTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}",
-    "uiEditTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://ap15.salesforce.com/{ID}",
+    "uiEditTemplate": "https://ap15.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/BusinessHours/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/BusinessHours/describe",
-    "uiNewRecord": "https://demohardingpoint200.my.salesforce.com/01m/e",
+    "uiNewRecord": "https://ap15.salesforce.com/01m/e",
     "layouts": "/services/data/v43.0/sobjects/BusinessHours/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/BusinessHours"
   }
