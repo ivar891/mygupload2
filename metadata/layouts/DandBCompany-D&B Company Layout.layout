@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <excludeButtons>SearchGlobalDunsAction</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
         <detailHeading>true</detailHeading>
@@ -236,7 +235,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>GlobalUltimateTotalEmployees</field>
+                <field>FamilyMembers</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -278,7 +277,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>FamilyMembers</field>
+                <field>EmployeesTotalReliability</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -286,7 +285,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>EmployeesTotalReliability</field>
+                <field>GlobalUltimateTotalEmployees</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -360,14 +359,17 @@
     </layoutSections>
     <layoutSections>
         <customLabel>false</customLabel>
-        <detailHeading>true</detailHeading>
+        <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
-        <label>Custom Links</label>
-        <layoutColumns/>
-        <layoutColumns/>
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <miniLayout>
+        <fields>Name</fields>
+        <fields>DunsNumber</fields>
+        <fields>Phone</fields>
+        <fields>Address</fields>
+    </miniLayout>
     <relatedLists>
         <fields>ACCOUNT.NAME</fields>
         <fields>ACCOUNT.SITE</fields>
@@ -380,10 +382,4 @@
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
-    <summaryLayout>
-        <masterLabel>00h30000004JmSO</masterLabel>
-        <sizeX>4</sizeX>
-        <sizeY>0</sizeY>
-        <summaryLayoutStyle>Default</summaryLayoutStyle>
-    </summaryLayout>
 </Layout>
