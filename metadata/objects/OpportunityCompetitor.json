@@ -170,7 +170,29 @@
       "namePointing": false,
       "nillable": true,
       "permissionable": false,
-      "picklistValues": [],
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Competitor A",
+          "validFor": null,
+          "value": "Competitor A"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Competitor B",
+          "validFor": null,
+          "value": "Competitor B"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Competitor C",
+          "validFor": null,
+          "value": "Competitor C"
+        }
+      ],
       "polymorphicForeignKey": false,
       "precision": 0,
       "queryByDistance": false,
