@@ -360,13 +360,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "analyticsdemo_batch_id__c",
-          "validFor": null,
-          "value": "analyticsdemo_batch_id__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Asset",
           "validFor": null,
           "value": "Asset"
@@ -402,51 +395,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Case Record Type",
-          "validFor": null,
-          "value": "RecordType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Case Source",
-          "validFor": null,
-          "value": "Source"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "chatKey",
-          "validFor": null,
-          "value": "SCQuickSetup__chatKey__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "City",
-          "validFor": null,
-          "value": "City__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Closed.",
           "validFor": null,
           "value": "closed"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Closed by Self-Service User",
-          "validFor": null,
-          "value": "IsSelfServiceClosed"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Closed Date",
-          "validFor": null,
-          "value": "ClosedDate__c"
         },
         {
           "active": true,
@@ -465,114 +416,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Country",
-          "validFor": null,
-          "value": "Country__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Created.",
           "validFor": null,
           "value": "created"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Created Date",
-          "validFor": null,
-          "value": "CreatedDate__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "CSAT",
-          "validFor": null,
-          "value": "CSAT__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Custom Date Field",
-          "validFor": null,
-          "value": "Custom_Date_Field__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Customer emoticon value",
-          "validFor": null,
-          "value": "UMCustomer_emoticon_value__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Customer Geolocalization",
-          "validFor": null,
-          "value": "UMgeolocalization__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Customer Geolocalization (Latitude)",
-          "validFor": null,
-          "value": "UMgeolocalization__Latitude__s"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Customer Geolocalization (Longitude)",
-          "validFor": null,
-          "value": "UMgeolocalization__Longitude__s"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Customer Type",
-          "validFor": null,
-          "value": "Customer_Type__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Date Closed",
-          "validFor": null,
-          "value": "DateTime_Closed_c__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Date Opened",
-          "validFor": null,
-          "value": "DateTime_Opened_c__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Date Time Test",
-          "validFor": null,
-          "value": "Date_Time_Test__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "DB",
-          "validFor": null,
-          "value": "EDY_ORGCUSTOM__DB__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "DB Case Duration Hours",
-          "validFor": null,
-          "value": "DB_Case_Duration_Hours__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "DB Hours",
-          "validFor": null,
-          "value": "DB_Hours__c"
         },
         {
           "active": true,
@@ -584,44 +430,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "ED Leading Causes",
+          "label": "Engineering Req Number",
           "validFor": null,
-          "value": "ED_Leading_Causes__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "ED Predicted CSAT",
-          "validFor": null,
-          "value": "ED_Outcome__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "ED Prescription",
-          "validFor": null,
-          "value": "ED_Prescription__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Encryption Field",
-          "validFor": null,
-          "value": "Encryption_Field__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Entitlement Name",
-          "validFor": null,
-          "value": "Entitlement"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Entitlement Process Start Time",
-          "validFor": null,
-          "value": "SlaStartDate"
+          "value": "EngineeringReqNumber__c"
         },
         {
           "active": true,
@@ -633,27 +444,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Escalation URL",
-          "validFor": null,
-          "value": "Escalation_URL__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Estimated Cost",
-          "validFor": null,
-          "value": "Est_Cost__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "External ID",
-          "validFor": null,
-          "value": "External_ID__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Feed event",
           "validFor": null,
           "value": "feedEvent"
@@ -661,9 +451,30 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "First Contact Close",
+          "label": "HPLocation",
           "validFor": null,
-          "value": "First_Contact_Close__c"
+          "value": "HPLocation__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "HPLocation (Latitude)",
+          "validFor": null,
+          "value": "HPLocation__Latitude__s"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "HPLocation (Longitude)",
+          "validFor": null,
+          "value": "HPLocation__Longitude__s"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "HPTime",
+          "validFor": null,
+          "value": "HPTime__c"
         },
         {
           "active": true,
@@ -671,55 +482,6 @@
           "label": "Individual Merged",
           "validFor": null,
           "value": "individualMerged"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "KB Article Attached",
-          "validFor": null,
-          "value": "KB_Article_Attached__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Language",
-          "validFor": null,
-          "value": "Language"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Milestone Status",
-          "validFor": null,
-          "value": "MilestoneStatus__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Offer Voucher",
-          "validFor": null,
-          "value": "Offer_Voucher__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Old Description",
-          "validFor": null,
-          "value": "EDY_ORGCUSTOM__Old_Description__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Old Subject",
-          "validFor": null,
-          "value": "EDY_ORGCUSTOM__Old_Subject__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Org Cust Case ID",
-          "validFor": null,
-          "value": "Org_Cust_Case_ID__c"
         },
         {
           "active": true,
@@ -752,6 +514,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Potential Liability",
+          "validFor": null,
+          "value": "PotentialLiability__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Priority",
           "validFor": null,
           "value": "Priority"
@@ -761,28 +530,7 @@
           "defaultValue": false,
           "label": "Product",
           "validFor": null,
-          "value": "Product"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Product Family",
-          "validFor": null,
-          "value": "Product_Family_KB__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Quality Score",
-          "validFor": null,
-          "value": "Quality_Score__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Question from Chatter",
-          "validFor": null,
-          "value": "FeedItem"
+          "value": "Product__c"
         },
         {
           "active": true,
@@ -801,51 +549,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Response Time (mins)",
+          "label": "SLA Violation",
           "validFor": null,
-          "value": "Response_Time_mins__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Send Email Trigger",
-          "validFor": null,
-          "value": "Send_Email_Trigger__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Send Field Service",
-          "validFor": null,
-          "value": "Send_FieldService__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Service Territory",
-          "validFor": null,
-          "value": "Service_Territory__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "SLA Compliant",
-          "validFor": null,
-          "value": "SLA_Compliant__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "SLA Type",
-          "validFor": null,
-          "value": "SLA_Type__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "State",
-          "validFor": null,
-          "value": "State__c"
+          "value": "SLAViolation__c"
         },
         {
           "active": true,
@@ -857,20 +563,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Stopped",
-          "validFor": null,
-          "value": "IsStopped"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Street",
-          "validFor": null,
-          "value": "Street__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Subject",
           "validFor": null,
           "value": "Subject"
@@ -878,65 +570,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Sub-Type",
-          "validFor": null,
-          "value": "Sub_Type__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Team",
-          "validFor": null,
-          "value": "Team__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Time Open",
-          "validFor": null,
-          "value": "Time_Open__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Type",
           "validFor": null,
           "value": "Type"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Type of Support",
-          "validFor": null,
-          "value": "Type_of_Support__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Visible in Self-Service Portal",
-          "validFor": null,
-          "value": "IsVisibleInSelfService"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Volume",
-          "validFor": null,
-          "value": "Volume__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Work Type",
-          "validFor": null,
-          "value": "Work_Type__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Zip",
-          "validFor": null,
-          "value": "Zip__c"
         }
       ],
       "polymorphicForeignKey": false,
