@@ -270,6 +270,20 @@
           "label": "Other",
           "validFor": null,
           "value": "Other"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Business Partner",
+          "validFor": null,
+          "value": "Business Partner"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Household Partner",
+          "validFor": null,
+          "value": "Household Partner"
         }
       ],
       "polymorphicForeignKey": false,
