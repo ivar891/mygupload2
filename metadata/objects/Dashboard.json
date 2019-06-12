@@ -14,16 +14,6 @@
     },
     {
       "cascadeDelete": true,
-      "childSObject": "AttachedContentNote",
-      "deprecatedAndHidden": false,
-      "field": "LinkedEntityId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "AttachedContentNotes",
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": true,
       "childSObject": "CombinedAttachment",
       "deprecatedAndHidden": false,
       "field": "ParentId",
@@ -74,16 +64,6 @@
     },
     {
       "cascadeDelete": true,
-      "childSObject": "DashboardTag",
-      "deprecatedAndHidden": false,
-      "field": "ItemId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "Tags",
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": true,
       "childSObject": "EntitySubscription",
       "deprecatedAndHidden": false,
       "field": "ParentId",
@@ -121,16 +101,6 @@
       "junctionReferenceTo": [],
       "relationshipName": null,
       "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "NetworkActivityAudit",
-      "deprecatedAndHidden": false,
-      "field": "ParentEntityId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "ParentEntities",
-      "restrictedDelete": false
     }
   ],
   "compactLayoutable": true,
@@ -139,7 +109,7 @@
   "customSetting": false,
   "deletable": false,
   "deprecatedAndHidden": false,
-  "feedEnabled": true,
+  "feedEnabled": false,
   "fields": [
     {
       "aggregatable": true,
@@ -2209,11 +2179,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/Dashboard/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/Dashboard/{ID}",
-    "uiDetailTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}",
-    "uiEditTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://ap15.salesforce.com/{ID}",
+    "uiEditTemplate": "https://ap15.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/Dashboard/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/Dashboard/describe",
-    "uiNewRecord": "https://demohardingpoint200.my.salesforce.com/01Z/e",
+    "uiNewRecord": "https://ap15.salesforce.com/01Z/e",
     "layouts": "/services/data/v43.0/sobjects/Dashboard/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/Dashboard"
   }
