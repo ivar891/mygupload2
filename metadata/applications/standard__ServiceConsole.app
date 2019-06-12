@@ -179,17 +179,7 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>standard-Knowledge</tabs>
-    <tabs>standard-LiveAgent</tabs>
-    <tabs>GRAX_Graph_Connect</tabs>
-    <tabs>GRAX_Consolidation</tabs>
     <workspaceConfig>
-        <mappings>
-            <tab>GRAX_Consolidation</tab>
-        </mappings>
-        <mappings>
-            <tab>GRAX_Graph_Connect</tab>
-        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
@@ -202,13 +192,7 @@
             <tab>standard-Contact</tab>
         </mappings>
         <mappings>
-            <tab>standard-Knowledge</tab>
-        </mappings>
-        <mappings>
             <tab>standard-Lead</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-LiveAgent</tab>
         </mappings>
         <mappings>
             <fieldName>AccountId</fieldName>
