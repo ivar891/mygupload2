@@ -3,7 +3,7 @@ public class AccountHierarchyTestData {
 	public static void createTestHierarchy() {
 		// Create Accounts with Hierarchy
 	
-		// Create Top Level Accounts.
+		// Create Top Level Accounts
 	
 	
 		Account[] subAccounts = new Account[]{};
