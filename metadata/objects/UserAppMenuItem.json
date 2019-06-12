@@ -535,13 +535,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Network"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "ServiceProvider"
         },
         {
@@ -1015,11 +1008,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/UserAppMenuItem/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/UserAppMenuItem/{ID}",
-    "uiDetailTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}",
-    "uiEditTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://ap15.salesforce.com/{ID}",
+    "uiEditTemplate": "https://ap15.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/UserAppMenuItem/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/UserAppMenuItem/describe",
-    "uiNewRecord": "https://demohardingpoint200.my.salesforce.com/07p/e",
+    "uiNewRecord": "https://ap15.salesforce.com/07p/e",
     "layouts": "/services/data/v43.0/sobjects/UserAppMenuItem/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/UserAppMenuItem"
   }
