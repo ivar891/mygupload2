@@ -409,13 +409,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Quote Line Item",
-          "validFor": null,
-          "value": "QuoteLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Record locked.",
           "validFor": null,
           "value": "locked"
