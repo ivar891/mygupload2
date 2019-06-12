@@ -472,27 +472,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Credit Card Expiration Date",
-          "validFor": null,
-          "value": "Credit_Card_Expiration_Date__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Credit Card Name",
-          "validFor": null,
-          "value": "Credit_Card_Name__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Credit Card Number",
-          "validFor": null,
-          "value": "Credit_Card_Number__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Customer Authorized By",
           "validFor": null,
           "value": "CustomerAuthorizedBy"
@@ -507,23 +486,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "DB Days",
-          "validFor": null,
-          "value": "DB_Days__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Description",
           "validFor": null,
           "value": "Description"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "External ID",
-          "validFor": null,
-          "value": "External_ID__c"
         },
         {
           "active": true,
@@ -605,13 +570,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Order Record Type",
-          "validFor": null,
-          "value": "RecordType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Order Reference Number",
           "validFor": null,
           "value": "OrderReferenceNumber"
@@ -675,13 +633,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Quote",
-          "validFor": null,
-          "value": "Quote"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Record locked.",
           "validFor": null,
           "value": "locked"
@@ -738,13 +689,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Shipping Method",
-          "validFor": null,
-          "value": "Shipping_Method__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Shipping State/Province",
           "validFor": null,
           "value": "ShippingState"
@@ -783,13 +727,6 @@
           "label": "Status Category",
           "validFor": null,
           "value": "StatusCode"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Tracking ID",
-          "validFor": null,
-          "value": "Tracking_ID__c"
         }
       ],
       "polymorphicForeignKey": false,
