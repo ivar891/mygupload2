@@ -9,4 +9,6 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>GRAX_Graph_Connect</tabs>
+    <tabs>GRAX_Consolidation</tabs>
 </CustomApplication>
