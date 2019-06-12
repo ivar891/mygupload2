@@ -294,6 +294,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Prospecting",
+          "validFor": null,
+          "value": "Prospecting"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Qualification",
           "validFor": null,
           "value": "Qualification"
@@ -301,23 +308,44 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Discovery",
+          "label": "Needs Analysis",
           "validFor": null,
-          "value": "Discovery"
+          "value": "Needs Analysis"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Proposal/Quote",
+          "label": "Value Proposition",
           "validFor": null,
-          "value": "Proposal/Quote"
+          "value": "Value Proposition"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Negotiation",
+          "label": "Id. Decision Makers",
           "validFor": null,
-          "value": "Negotiation"
+          "value": "Id. Decision Makers"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Perception Analysis",
+          "validFor": null,
+          "value": "Perception Analysis"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Proposal/Price Quote",
+          "validFor": null,
+          "value": "Proposal/Price Quote"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Negotiation/Review",
+          "validFor": null,
+          "value": "Negotiation/Review"
         },
         {
           "active": true,
