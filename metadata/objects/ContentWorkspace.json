@@ -14,16 +14,6 @@
     },
     {
       "cascadeDelete": true,
-      "childSObject": "AttachedContentNote",
-      "deprecatedAndHidden": false,
-      "field": "LinkedEntityId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "AttachedContentNotes",
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": true,
       "childSObject": "CombinedAttachment",
       "deprecatedAndHidden": false,
       "field": "ParentId",
@@ -1325,11 +1315,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/ContentWorkspace/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/ContentWorkspace/{ID}",
-    "uiDetailTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}",
-    "uiEditTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://ap15.salesforce.com/{ID}",
+    "uiEditTemplate": "https://ap15.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/ContentWorkspace/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/ContentWorkspace/describe",
-    "uiNewRecord": "https://demohardingpoint200.my.salesforce.com/058/e",
+    "uiNewRecord": "https://ap15.salesforce.com/058/e",
     "layouts": "/services/data/v43.0/sobjects/ContentWorkspace/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/ContentWorkspace"
   }
