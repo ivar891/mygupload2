@@ -2,9 +2,9 @@
 <Role xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseAccessLevel>Edit</caseAccessLevel>
     <contactAccessLevel>Edit</contactAccessLevel>
-    <description>VP of Marketing</description>
+    <description>VP, Marketing</description>
     <mayForecastManagerShare>false</mayForecastManagerShare>
-    <name>VP of Marketing</name>
+    <name>VP, Marketing</name>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
-    <parentRole>CEO</parentRole>
+    <parentRole>SVPSalesMarketing</parentRole>
 </Role>
