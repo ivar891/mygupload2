@@ -41,7 +41,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "SetupEntityAccess ID",
+      "label": "ID d'accès à l'entité de configuration",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -100,7 +100,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Parent ID",
+      "label": "ID parent",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -161,7 +161,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Setup Entity ID",
+      "label": "ID d'entité de configuration",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -181,9 +181,7 @@
         "ConnectedApplication",
         "CustomPermission",
         "ExternalDataSource",
-        "ExternalSocialAccount",
-        "NamedCredential",
-        "ServicePresenceStatus"
+        "NamedCredential"
       ],
       "relationshipName": null,
       "relationshipOrder": null,
@@ -229,7 +227,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Setup Entity Type",
+      "label": "Type d'entité de configuration",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -286,28 +284,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ExternalSocialAccount"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "NamedCredential"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Network"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServicePresenceStatus"
         },
         {
           "active": true,
@@ -366,7 +343,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "System Modstamp",
+      "label": "Horodateur des modifications du système",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -398,8 +375,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": "0J0",
-  "label": "Setup Entity Access",
-  "labelPlural": "Setup Entity Access",
+  "label": "Accès à l'entité de configuration",
+  "labelPlural": "Accès à l'entité de configuration",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -416,7 +393,7 @@
   "searchable": false,
   "supportedScopes": [
     {
-      "label": "All setup entity access",
+      "label": "Toutes accès à l'entité de configuration",
       "name": "everything"
     }
   ],
