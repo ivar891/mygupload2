@@ -360,58 +360,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Additional Details",
-          "validFor": null,
-          "value": "Item_Additional_Details__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "analyticsdemo_batch_id__c",
-          "validFor": null,
-          "value": "analyticsdemo_batch_id__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Approval Threshold",
-          "validFor": null,
-          "value": "Approval_Threshold__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Color",
-          "validFor": null,
-          "value": "Attribute_4__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Conferencing",
-          "validFor": null,
-          "value": "Attribute_1__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Created.",
           "validFor": null,
           "value": "created"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "DB",
-          "validFor": null,
-          "value": "EDY_ORGCUSTOM__DB__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Detail",
-          "validFor": null,
-          "value": "Detail__c"
         },
         {
           "active": true,
@@ -432,21 +383,7 @@
           "defaultValue": false,
           "label": "External ID",
           "validFor": null,
-          "value": "External_ID__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "External ID",
-          "validFor": null,
           "value": "ExternalId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Features",
-          "validFor": null,
-          "value": "Item_Features__c"
         },
         {
           "active": true,
@@ -458,93 +395,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Guided Selling",
-          "validFor": null,
-          "value": "Guided_Selling__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Home Audio",
-          "validFor": null,
-          "value": "Attribute_3__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Image Height",
-          "validFor": null,
-          "value": "Image_Height__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Image ID",
-          "validFor": null,
-          "value": "Image__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Image URL",
-          "validFor": null,
-          "value": "Image_URL__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Image Width",
-          "validFor": null,
-          "value": "Image_Width__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Individual Merged",
           "validFor": null,
           "value": "individualMerged"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Item Long Description",
-          "validFor": null,
-          "value": "Item_Long_Description__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Item MSRP",
-          "validFor": null,
-          "value": "Item_MSRP__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Item Short Description",
-          "validFor": null,
-          "value": "Item_Short_Description__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Number Of Quantity Installments",
-          "validFor": null,
-          "value": "NumberOfQuantityInstallments"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Number Of Revenue Installments",
-          "validFor": null,
-          "value": "NumberOfRevenueInstallments"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Old Name",
-          "validFor": null,
-          "value": "EDY_ORGCUSTOM__Old_Name__c"
         },
         {
           "active": true,
@@ -559,13 +412,6 @@
           "label": "Owner (Assignment)",
           "validFor": null,
           "value": "ownerAssignment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Portable Audio",
-          "validFor": null,
-          "value": "Attribute_2__c"
         },
         {
           "active": true,
@@ -591,27 +437,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Product from Headquarters",
-          "validFor": null,
-          "value": "Product_from_Headquarters__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Product Group",
-          "validFor": null,
-          "value": "Product_Catalog__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Product Model",
-          "validFor": null,
-          "value": "Model__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Product Name",
           "validFor": null,
           "value": "Name"
@@ -619,37 +444,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Product Record Type",
-          "validFor": null,
-          "value": "RecordType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Product SKU",
           "validFor": null,
           "value": "StockKeepingUnit"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Quantity Installment Period",
-          "validFor": null,
-          "value": "QuantityInstallmentPeriod"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Quantity Schedule Type",
-          "validFor": null,
-          "value": "QuantityScheduleType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Quantity Scheduling Enabled",
-          "validFor": null,
-          "value": "CanUseQuantitySchedule"
         },
         {
           "active": true,
@@ -671,55 +468,6 @@
           "label": "Record unlocked.",
           "validFor": null,
           "value": "unlocked"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Revenue Installment Period",
-          "validFor": null,
-          "value": "RevenueInstallmentPeriod"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Revenue Schedule Type",
-          "validFor": null,
-          "value": "RevenueScheduleType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Revenue Scheduling Enabled",
-          "validFor": null,
-          "value": "CanUseRevenueSchedule"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Service",
-          "validFor": null,
-          "value": "Attribute_5__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Site.com ID",
-          "validFor": null,
-          "value": "Site_com_ID__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Specifications",
-          "validFor": null,
-          "value": "Item_Specifications__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Status",
-          "validFor": null,
-          "value": "Status__c"
         }
       ],
       "polymorphicForeignKey": false,
