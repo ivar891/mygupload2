@@ -41,7 +41,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "Custom Object Share ID",
+      "label": "カスタムオブジェクト共有 ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -100,7 +100,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Parent ID",
+      "label": "参照先 ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -161,7 +161,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "User/Group ID",
+      "label": "ユーザ / グループ ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -223,7 +223,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Custom Object Access",
+      "label": "カスタムオブジェクトのアクセス権",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -236,21 +236,21 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Read Only",
+          "label": "参照のみ",
           "validFor": null,
           "value": "Read"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Read/Write",
+          "label": "参照・更新",
           "validFor": null,
           "value": "Edit"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Owner",
+          "label": "所有者",
           "validFor": null,
           "value": "All"
         }
@@ -304,7 +304,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Row Cause",
+      "label": "テリトリー割り当て方法",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -317,84 +317,84 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Owner",
+          "label": "所有者",
           "validFor": null,
           "value": "Owner"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Manual Sharing",
+          "label": "共有の直接設定",
           "validFor": null,
           "value": "Manual"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Sharing Rule",
+          "label": "共有ルール",
           "validFor": null,
           "value": "Rule"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Account Sharing",
+          "label": "取引先の共有",
           "validFor": null,
           "value": "ImplicitChild"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Associated record owner or sharing",
+          "label": "関連するレコードを所有もしくは共有している",
           "validFor": null,
           "value": "ImplicitParent"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Person Contact",
+          "label": "個人取引先責任者",
           "validFor": null,
           "value": "ImplicitPerson"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Sales Team",
+          "label": "営業チーム",
           "validFor": null,
           "value": "Team"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Territory Assignment Rule",
+          "label": "テリトリー割り当てルール",
           "validFor": null,
           "value": "Territory"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Territory Manual",
+          "label": "テリトリーの直接設定",
           "validFor": null,
           "value": "TerritoryManual"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Territory Manual",
+          "label": "テリトリーの直接設定",
           "validFor": null,
           "value": "Territory2AssociationManual"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Territory Sharing Rule",
+          "label": "テリトリー共有ルール",
           "validFor": null,
           "value": "TerritoryRule"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Territory assignment for forecasting and reporting",
+          "label": "売上予測およびレポート作成のテリトリーの割り当て",
           "validFor": null,
           "value": "Territory2Forecast"
         }
@@ -448,7 +448,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Last Modified Date",
+      "label": "最終更新日",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -507,7 +507,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Last Modified By ID",
+      "label": "最終更新者 ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -568,7 +568,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Deleted",
+      "label": "削除",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -600,8 +600,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": null,
-  "label": "Goal Share",
-  "labelPlural": "Goal Share",
+  "label": "Goal 共有",
+  "labelPlural": "Goal 共有",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -618,7 +618,7 @@
   "searchable": false,
   "supportedScopes": [
     {
-      "label": "All goal share",
+      "label": "すべてのGoal 共有",
       "name": "everything"
     }
   ],
