@@ -14,16 +14,6 @@
     },
     {
       "cascadeDelete": true,
-      "childSObject": "AttachedContentNote",
-      "deprecatedAndHidden": false,
-      "field": "LinkedEntityId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "AttachedContentNotes",
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": true,
       "childSObject": "CombinedAttachment",
       "deprecatedAndHidden": false,
       "field": "ParentId",
@@ -103,26 +93,6 @@
       "restrictedDelete": false
     },
     {
-      "cascadeDelete": false,
-      "childSObject": "MetricDataLink",
-      "deprecatedAndHidden": false,
-      "field": "DataSourceId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "LinkDataSource",
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "NetworkActivityAudit",
-      "deprecatedAndHidden": false,
-      "field": "ParentEntityId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "ParentEntities",
-      "restrictedDelete": false
-    },
-    {
       "cascadeDelete": true,
       "childSObject": "ReportFeed",
       "deprecatedAndHidden": false,
@@ -130,26 +100,6 @@
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": "Feeds",
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": true,
-      "childSObject": "ReportTag",
-      "deprecatedAndHidden": false,
-      "field": "ItemId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "Tags",
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": true,
-      "childSObject": "WaveTrendedReport",
-      "deprecatedAndHidden": false,
-      "field": "ReportId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
       "restrictedDelete": false
     }
   ],
@@ -159,7 +109,7 @@
   "customSetting": false,
   "deletable": false,
   "deprecatedAndHidden": false,
-  "feedEnabled": true,
+  "feedEnabled": false,
   "fields": [
     {
       "aggregatable": true,
@@ -192,7 +142,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "Report ID",
+      "label": "ID de rapport",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -251,7 +201,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Owner ID",
+      "label": "ID du propriétaire",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -314,7 +264,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Folder Name",
+      "label": "Nom du dossier",
       "length": 256,
       "mask": null,
       "maskType": null,
@@ -373,7 +323,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Created Date",
+      "label": "Date de création",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -432,7 +382,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Created By ID",
+      "label": "ID créé par",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -493,7 +443,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Last Modified Date",
+      "label": "Date de dernière modification",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -552,7 +502,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Last Modified By ID",
+      "label": "Dernière modification par ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -613,7 +563,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Deleted",
+      "label": "Supprimé",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -672,7 +622,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "Report Name",
+      "label": "Nom du rapport",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -790,7 +740,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Report Unique Name",
+      "label": "Nom unique du rapport",
       "length": 80,
       "mask": null,
       "maskType": null,
@@ -849,7 +799,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Namespace Prefix",
+      "label": "Préfixe d'espace de noms",
       "length": 15,
       "mask": null,
       "maskType": null,
@@ -908,7 +858,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Last Run",
+      "label": "Dernière exécution",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -967,7 +917,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "System Modstamp",
+      "label": "Horodateur des modifications du système",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -1039,28 +989,28 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Joined",
+          "label": "Joint",
           "validFor": null,
           "value": "MultiBlock"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Matrix",
+          "label": "Matriciel",
           "validFor": null,
           "value": "Matrix"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Summary",
+          "label": "Récapitulatif",
           "validFor": null,
           "value": "Summary"
         },
         {
           "active": true,
           "defaultValue": true,
-          "label": "Tabular",
+          "label": "Tabulaire",
           "validFor": null,
           "value": "Tabular"
         }
@@ -1114,7 +1064,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Last Viewed Date",
+      "label": "Date de dernier affichage",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -1173,7 +1123,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Last Referenced Date",
+      "label": "Dernière date référencée",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -1205,8 +1155,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": "00O",
-  "label": "Report",
-  "labelPlural": "Reports",
+  "label": "Rapport",
+  "labelPlural": "Rapports",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -1223,28 +1173,24 @@
   "searchable": true,
   "supportedScopes": [
     {
-      "label": "All Users' Private Items",
+      "label": "Les éléments privés de tous les utilisateurs",
       "name": "allPrivate"
     },
     {
-      "label": "Reports I created",
+      "label": "Rapports que j'ai créé(e)s",
       "name": "created"
     },
     {
-      "label": "All reports",
+      "label": "Tous les rapports",
       "name": "everything"
     },
     {
-      "label": "My reports",
+      "label": "Mes rapports",
       "name": "mine"
     },
     {
       "label": "",
       "name": "organizationOwned"
-    },
-    {
-      "label": "Trended By Me",
-      "name": "trendedByMe"
     }
   ],
   "triggerable": false,
