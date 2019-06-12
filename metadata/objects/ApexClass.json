@@ -134,23 +134,13 @@
     },
     {
       "cascadeDelete": false,
-      "childSObject": "WaveTemplate",
+      "childSObject": "TransactionSecurityPolicy",
       "deprecatedAndHidden": false,
-      "field": "ConfigurationModifierId",
+      "field": "ApexPolicyId",
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": null,
       "restrictedDelete": true
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "WaveTrendedReport",
-      "deprecatedAndHidden": false,
-      "field": "ApexClassId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
     }
   ],
   "compactLayoutable": false,
