@@ -100,7 +100,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "削除",
+      "label": "Deleted",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -159,7 +159,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "作成日",
+      "label": "Created Date",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -218,7 +218,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "作成者 ID",
+      "label": "Created By ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -279,7 +279,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "最終更新日",
+      "label": "Last Modified Date",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -338,7 +338,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "最終更新者 ID",
+      "label": "Last Modified By ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -1200,7 +1200,7 @@
   "searchable": false,
   "supportedScopes": [
     {
-      "label": "すべてのテナント利用エンタイトルメント",
+      "label": "All tenant usage entitlements",
       "name": "everything"
     }
   ],
