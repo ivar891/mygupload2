@@ -209,7 +209,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": true,
+      "createable": false,
       "custom": false,
       "defaultValue": null,
       "defaultValueFormula": null,
@@ -268,7 +268,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": true,
+      "createable": false,
       "custom": false,
       "defaultValue": null,
       "defaultValueFormula": null,
@@ -329,7 +329,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": true,
+      "createable": false,
       "custom": false,
       "defaultValue": null,
       "defaultValueFormula": null,
@@ -388,7 +388,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": true,
+      "createable": false,
       "custom": false,
       "defaultValue": null,
       "defaultValueFormula": null,
@@ -493,124 +493,6 @@
       "soapType": "xsd:dateTime",
       "sortable": true,
       "type": "datetime",
-      "unique": false,
-      "updateable": false,
-      "writeRequiresMasterRead": false
-    },
-    {
-      "aggregatable": false,
-      "aiPredictionField": false,
-      "autoNumber": false,
-      "byteLength": 0,
-      "calculated": false,
-      "calculatedFormula": null,
-      "cascadeDelete": false,
-      "caseSensitive": false,
-      "compoundFieldName": null,
-      "controllerName": null,
-      "createable": false,
-      "custom": false,
-      "defaultValue": false,
-      "defaultValueFormula": null,
-      "defaultedOnCreate": true,
-      "dependentPicklist": false,
-      "deprecatedAndHidden": false,
-      "digits": 0,
-      "displayLocationInDecimal": false,
-      "encrypted": false,
-      "externalId": false,
-      "extraTypeInfo": null,
-      "filterable": true,
-      "filteredLookupInfo": null,
-      "formulaTreatNullNumberAsZero": false,
-      "groupable": true,
-      "highScaleNumber": false,
-      "htmlFormatted": false,
-      "idLookup": false,
-      "inlineHelpText": null,
-      "label": "May Edit",
-      "length": 0,
-      "mask": null,
-      "maskType": null,
-      "name": "MayEdit",
-      "nameField": false,
-      "namePointing": false,
-      "nillable": false,
-      "permissionable": false,
-      "picklistValues": [],
-      "polymorphicForeignKey": false,
-      "precision": 0,
-      "queryByDistance": false,
-      "referenceTargetField": null,
-      "referenceTo": [],
-      "relationshipName": null,
-      "relationshipOrder": null,
-      "restrictedDelete": false,
-      "restrictedPicklist": false,
-      "scale": 0,
-      "searchPrefilterable": false,
-      "soapType": "xsd:boolean",
-      "sortable": true,
-      "type": "boolean",
-      "unique": false,
-      "updateable": false,
-      "writeRequiresMasterRead": false
-    },
-    {
-      "aggregatable": false,
-      "aiPredictionField": false,
-      "autoNumber": false,
-      "byteLength": 0,
-      "calculated": false,
-      "calculatedFormula": null,
-      "cascadeDelete": false,
-      "caseSensitive": false,
-      "compoundFieldName": null,
-      "controllerName": null,
-      "createable": false,
-      "custom": false,
-      "defaultValue": false,
-      "defaultValueFormula": null,
-      "defaultedOnCreate": true,
-      "dependentPicklist": false,
-      "deprecatedAndHidden": false,
-      "digits": 0,
-      "displayLocationInDecimal": false,
-      "encrypted": false,
-      "externalId": false,
-      "extraTypeInfo": null,
-      "filterable": true,
-      "filteredLookupInfo": null,
-      "formulaTreatNullNumberAsZero": false,
-      "groupable": true,
-      "highScaleNumber": false,
-      "htmlFormatted": false,
-      "idLookup": false,
-      "inlineHelpText": null,
-      "label": "Is Locked",
-      "length": 0,
-      "mask": null,
-      "maskType": null,
-      "name": "IsLocked",
-      "nameField": false,
-      "namePointing": false,
-      "nillable": false,
-      "permissionable": false,
-      "picklistValues": [],
-      "polymorphicForeignKey": false,
-      "precision": 0,
-      "queryByDistance": false,
-      "referenceTargetField": null,
-      "referenceTo": [],
-      "relationshipName": null,
-      "relationshipOrder": null,
-      "restrictedDelete": false,
-      "restrictedPicklist": false,
-      "scale": 0,
-      "searchPrefilterable": false,
-      "soapType": "xsd:boolean",
-      "sortable": true,
-      "type": "boolean",
       "unique": false,
       "updateable": false,
       "writeRequiresMasterRead": false
@@ -815,20 +697,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Accept/Reject",
-          "validFor": null,
-          "value": "Field.WorkOrder.Accept_Reject__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Accept/Reject Action",
-          "validFor": null,
-          "value": "QuickAction.WorkOrder.Accept_Reject"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Access Type",
           "validFor": null,
           "value": "Field.CollaborationGroup.CollaborationType"
@@ -836,30 +704,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Account",
+          "label": "Account Name",
           "validFor": null,
-          "value": "Field.ProductRequest.AccountId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Account",
-          "validFor": null,
-          "value": "Field.WorkOrder.AccountId"
+          "value": "Field.Account.Name.begin"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Account Name",
           "validFor": null,
-          "value": "Field.Opportunity.AccountId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Account Name",
-          "validFor": null,
-          "value": "Field.Case.AccountId"
+          "value": "Field.Account.Name"
         },
         {
           "active": true,
@@ -871,23 +725,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active Account Contact Relationship Tab",
+          "label": "Account Name",
           "validFor": null,
-          "value": "Tab.AccountContactRelation"
+          "value": "Field.Account.Name.end"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active Account Insight Article Tab",
+          "label": "Account Name",
           "validFor": null,
-          "value": "Tab.Account_Insight_Article__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Account Insight Tab",
-          "validFor": null,
-          "value": "Tab.Account_Insight__c"
+          "value": "Field.Opportunity.AccountId"
         },
         {
           "active": true,
@@ -895,48 +742,6 @@
           "label": "Active Account Tab",
           "validFor": null,
           "value": "Tab.Account"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active AgentWork__c Tab",
-          "validFor": null,
-          "value": "Tab.AgentWork__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Apple Config Tab",
-          "validFor": null,
-          "value": "Tab.Apple_Config__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Applicant Tab",
-          "validFor": null,
-          "value": "Tab.HR_Applicant__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Appointment Dependency Tab",
-          "validFor": null,
-          "value": "Tab.FSL__Time_Dependency__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Appointment Tab",
-          "validFor": null,
-          "value": "Tab.Appointment__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active App Tab",
-          "validFor": null,
-          "value": "Tab.asb_App__c"
         },
         {
           "active": true,
@@ -955,58 +760,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active Assigned Resource Tab",
-          "validFor": null,
-          "value": "Tab.AssignedResource"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active AsyncRequest Tab",
-          "validFor": null,
-          "value": "Tab.pi__AsyncRequest__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Banner Image Tab",
-          "validFor": null,
-          "value": "Tab.asb_BannerImage__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Banner Tab",
-          "validFor": null,
-          "value": "Tab.asb_Banner__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Active Campaign Tab",
           "validFor": null,
           "value": "Tab.Campaign"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active CaseArticle__c Tab",
-          "validFor": null,
-          "value": "Tab.CaseArticle__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active CaseHistory__c Tab",
-          "validFor": null,
-          "value": "Tab.CaseHistory__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Case Pipeline Snapshot Tab",
-          "validFor": null,
-          "value": "Tab.Case_Pipeline_Snapshot__c"
         },
         {
           "active": true,
@@ -1018,79 +774,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active Catalog Tab",
+          "label": "Active Consumption Schedule Tab",
           "validFor": null,
-          "value": "Tab.Catalog__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Certification Tab",
-          "validFor": null,
-          "value": "Tab.Certification__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Channel Plan Tab",
-          "validFor": null,
-          "value": "Tab.SFDC_Channel_Account_Plan__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Channel Program Level Tab",
-          "validFor": null,
-          "value": "Tab.ChannelProgramLevel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Channel Program Tab",
-          "validFor": null,
-          "value": "Tab.ChannelProgram"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Channel Team Tab",
-          "validFor": null,
-          "value": "Tab.SFDC_Plan_Resource_Association__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Chatter Story Tab",
-          "validFor": null,
-          "value": "Tab.Chatter_Story__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active ChatterTool Tab",
-          "validFor": null,
-          "value": "Tab.ChatterTool__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active CIO Dashboard Data Tab",
-          "validFor": null,
-          "value": "Tab.CIO_Dashboard_Data__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Cirrus Tab",
-          "validFor": null,
-          "value": "Tab.Cirrus__kav"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Claim Tab",
-          "validFor": null,
-          "value": "Tab.Claims__c"
+          "value": "Tab.ConsumptionSchedule"
         },
         {
           "active": true,
@@ -1109,128 +795,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active Customer Survey Tab",
-          "validFor": null,
-          "value": "Tab.Customer_Survey__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Custom Widget Tab",
-          "validFor": null,
-          "value": "Tab.Custom_Widgets__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active DEMODATA Tab",
-          "validFor": null,
-          "value": "Tab.DEMODATA__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Demo Template Tab",
-          "validFor": null,
-          "value": "Tab.Org_Template__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Digital Sales Aid Tab",
-          "validFor": null,
-          "value": "Tab.Digital_Sales_Aid__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Einstein Account Insight Tab",
-          "validFor": null,
-          "value": "Tab.AccountInsight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Einstein Contact Suggestion Tab",
-          "validFor": null,
-          "value": "Tab.ContactSuggestionInsight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Einstein Opportunity Contact Role Suggestion Tab",
-          "validFor": null,
-          "value": "Tab.OpportunityContactRoleSuggestionInsight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Einstein Opportunity Insight Tab",
-          "validFor": null,
-          "value": "Tab.OpportunityInsight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Employee Tab",
-          "validFor": null,
-          "value": "Tab.HR_Employee__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Engage Campaign Recipient Tab",
-          "validFor": null,
-          "value": "Tab.pi__EngageCampaignRecipient__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Engage Contact Stat Tab",
-          "validFor": null,
-          "value": "Tab.engage_reports__Engage_Contact_Stat__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Engage Email Template Tab",
-          "validFor": null,
-          "value": "Tab.engage_reports__Engage_Email_Template__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Engage Lead Stat Tab",
-          "validFor": null,
-          "value": "Tab.engage_reports__Engage_Lead_Stat__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Engage Send Tab",
-          "validFor": null,
-          "value": "Tab.engage_reports__Engage_Send__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Active Event Tab",
           "validFor": null,
           "value": "Tab.Event"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Expense Tab",
-          "validFor": null,
-          "value": "Tab.Milestone1_Expense__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Fake Search Tab",
-          "validFor": null,
-          "value": "Tab.Fake_Search__c"
         },
         {
           "active": true,
@@ -1242,121 +809,37 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active Field Tab",
-          "validFor": null,
-          "value": "Tab.Field__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Form Tab",
-          "validFor": null,
-          "value": "Tab.WebToObject__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active FSL Operation Tab",
-          "validFor": null,
-          "value": "Tab.FSL__FSL_Operation__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Gantt Filter Tab",
-          "validFor": null,
-          "value": "Tab.FSL__Gantt_Filter__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Gantt Palette Tab",
-          "validFor": null,
-          "value": "Tab.FSL__GanttPalette__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Active GRAX : Object Configuration Tab",
           "validFor": null,
-          "value": "Tab.GRAXQuery__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active grax$auditlog Tab",
-          "validFor": null,
-          "value": "Tab.grax_auditlog__x"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active graxaccountindex Tab",
-          "validFor": null,
-          "value": "Tab.graxaccountindex__x"
+          "value": "Tab.grax__GRAXQuery__c"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Active GRAX Archive Process Tab",
           "validFor": null,
-          "value": "Tab.GRAX_Archive_Process__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active graxcaseindex Tab",
-          "validFor": null,
-          "value": "Tab.graxcaseindex__x"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active graxcontactindex Tab",
-          "validFor": null,
-          "value": "Tab.graxcontactindex__x"
+          "value": "Tab.grax__GRAX_Archive_Process__c"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Active GRAX Data Record Id Tab",
           "validFor": null,
-          "value": "Tab.GRAX_Data_Record_Id__c"
+          "value": "Tab.grax__GRAX_Data_Record_Id__c"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Active GRAX Data Record Tab",
           "validFor": null,
-          "value": "Tab.GRAX_Data_Record__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active graxopportunityindex Tab",
-          "validFor": null,
-          "value": "Tab.graxopportunityindex__x"
+          "value": "Tab.grax__GRAX_Data_Record__c"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Active GRAX Schedule Process Tab",
           "validFor": null,
-          "value": "Tab.GRAX_Schedule_Process__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active graxsgisampleindex Tab",
-          "validFor": null,
-          "value": "Tab.graxsgisampleindex__x"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active graxtaskindex Tab",
-          "validFor": null,
-          "value": "Tab.graxtaskindex__x"
+          "value": "Tab.grax__GRAX_Schedule_Process__c"
         },
         {
           "active": true,
@@ -1368,359 +851,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active Holiday Tab",
-          "validFor": null,
-          "value": "Tab.Holiday_Calendar__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active HR Object TimeMachine Tab",
-          "validFor": null,
-          "value": "Tab.HR_Object_timemachine__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Idea in Action Tab",
-          "validFor": null,
-          "value": "Tab.Ideas_Projects__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Idea Issue Tab",
-          "validFor": null,
-          "value": "Tab.Idea_Issues__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Idea Milestone Tab",
-          "validFor": null,
-          "value": "Tab.Idea_Milestone__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Idea Team Tab",
-          "validFor": null,
-          "value": "Tab.Idea_Team__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Interaction Analysis Tab",
-          "validFor": null,
-          "value": "Tab.scrubDemo_Interaction_Analysis__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Interviewer Feedback Tab",
-          "validFor": null,
-          "value": "Tab.Interviewer_Feedback__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Invoice Tab",
-          "validFor": null,
-          "value": "Tab.Invoice_Example__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Job Requisition Tab",
-          "validFor": null,
-          "value": "Tab.HR_Job_Requisition__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Jobs Tab",
-          "validFor": null,
-          "value": "Tab.Jobs__x"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active KCSArticle_DataCategorySelection__c Tab",
-          "validFor": null,
-          "value": "Tab.KCSArticle_DataCategorySelection__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active KCSArticle_ka__c Tab",
-          "validFor": null,
-          "value": "Tab.KCSArticle_ka__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active KCSArticle_kav__c Tab",
-          "validFor": null,
-          "value": "Tab.KCSArticle_kav__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active KCSArticle_ViewStat__c Tab",
-          "validFor": null,
-          "value": "Tab.KCSArticle_ViewStat__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active KCSArticle_VoteStat__c Tab",
-          "validFor": null,
-          "value": "Tab.KCSArticle_VoteStat__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active KCS Article Tab",
-          "validFor": null,
-          "value": "Tab.KCSArticle__kav"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Knowledge Tab",
-          "validFor": null,
-          "value": "Tab.Knowledge__kav"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Large Object Tab",
-          "validFor": null,
-          "value": "Tab.Large_Object__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Lead Deck Filter Tab",
-          "validFor": null,
-          "value": "Tab.pi__LDFilter__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Active Lead Tab",
           "validFor": null,
           "value": "Tab.Lead"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Lightning CTI Config Tab",
-          "validFor": null,
-          "value": "Tab.openCTIconfig__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Listing Activity Tab",
-          "validFor": null,
-          "value": "Tab.asb_ListingActivity__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Listing Asset Tab",
-          "validFor": null,
-          "value": "Tab.asb_ListingAsset__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Listing Extension Tab",
-          "validFor": null,
-          "value": "Tab.asb_ListingExtension__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Listing Popularity Tab",
-          "validFor": null,
-          "value": "Tab.asb_ListingPopularity__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Listing Tab",
-          "validFor": null,
-          "value": "Tab.asb_Listing__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Live Agent Lightning Setup Tab",
-          "validFor": null,
-          "value": "Tab.Live_Agent_ID__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Live Agent Session Tab",
-          "validFor": null,
-          "value": "Tab.LiveAgentSession"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active LiveChatTranscript__c Tab",
-          "validFor": null,
-          "value": "Tab.LiveChatTranscript__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active LiveChatTranscriptEvent__c Tab",
-          "validFor": null,
-          "value": "Tab.LiveChatTranscriptEvent__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Live Chat Transcript Tab",
-          "validFor": null,
-          "value": "Tab.LiveChatTranscript"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Location Tab",
-          "validFor": null,
-          "value": "Tab.Location"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Log Tab",
-          "validFor": null,
-          "value": "Tab.asb_Log__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Log Tab",
-          "validFor": null,
-          "value": "Tab.Milestone1_Log__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Maintenance Asset Tab",
-          "validFor": null,
-          "value": "Tab.MaintenanceAsset"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Maintenance Plan Tab",
-          "validFor": null,
-          "value": "Tab.MaintenancePlan"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Map Polygon Tab",
-          "validFor": null,
-          "value": "Tab.FSL__Polygon__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Meter Reading Tab",
-          "validFor": null,
-          "value": "Tab.Meter_Reading__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Milestone Tab",
-          "validFor": null,
-          "value": "Tab.Milestone1_Milestone__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Mobileconfig Tab",
-          "validFor": null,
-          "value": "Tab.Mobileconfig__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active My Notes Tab",
-          "validFor": null,
-          "value": "Tab.My_Notes__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active News Tab",
-          "validFor": null,
-          "value": "Tab.News__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active ObjectChangeLog Tab",
-          "validFor": null,
-          "value": "Tab.pi__ObjectChangeLog__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Objective - Opportunity Association Tab",
-          "validFor": null,
-          "value": "Tab.SFDC_Objective_Opportunity_Association__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Objective Tab",
-          "validFor": null,
-          "value": "Tab.SFDC_Objective__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Object Milestone Tab",
-          "validFor": null,
-          "value": "Tab.EntityMilestone"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Offers & Recommendations Tab",
-          "validFor": null,
-          "value": "Tab.Offer_sdo__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Operating Hours Tab",
-          "validFor": null,
-          "value": "Tab.OperatingHours"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active OpportunityHistory__c Tab",
-          "validFor": null,
-          "value": "Tab.OpportunityHistory__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Opportunity Pipeline Snapshot Tab",
-          "validFor": null,
-          "value": "Tab.Opportunity_Pipeline_Snapshot__c"
         },
         {
           "active": true,
@@ -1732,149 +865,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active Optimization Data Tab",
-          "validFor": null,
-          "value": "Tab.FSL__Optimization_Data__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Optimization Request Tab",
-          "validFor": null,
-          "value": "Tab.FSL__Optimization_Request__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Active Order Tab",
           "validFor": null,
           "value": "Tab.Order"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Pardot Category Score (Contact) Tab",
-          "validFor": null,
-          "value": "Tab.pi__Category_Contact_Score__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Pardot Category Score (Lead) Tab",
-          "validFor": null,
-          "value": "Tab.pi__Category_Lead_Score__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Pardot Scoring Category Tab",
-          "validFor": null,
-          "value": "Tab.pi__Pardot_Scoring_Category__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Pardot Task Tab",
-          "validFor": null,
-          "value": "Tab.pi__PardotTask__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Partner Fund Allocation Tab",
-          "validFor": null,
-          "value": "Tab.PartnerFundAllocation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Partner Fund Claim Tab",
-          "validFor": null,
-          "value": "Tab.PartnerFundClaim"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Partner Fund Request Tab",
-          "validFor": null,
-          "value": "Tab.PartnerFundRequest"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Partner Marketing Budget Tab",
-          "validFor": null,
-          "value": "Tab.PartnerMarketingBudget"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Pay Cycle Tab",
-          "validFor": null,
-          "value": "Tab.Pay_Cycle__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Payroll System Tab",
-          "validFor": null,
-          "value": "Tab.Payroll_System__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Platform Events Button Tab",
-          "validFor": null,
-          "value": "Tab.Platform_Events_Button__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Platform Events Page Tab",
-          "validFor": null,
-          "value": "Tab.Platform_Events_Page__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Product Consumed Tab",
-          "validFor": null,
-          "value": "Tab.ProductConsumed"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Product Item Tab",
-          "validFor": null,
-          "value": "Tab.ProductItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Product Item Transaction Tab",
-          "validFor": null,
-          "value": "Tab.ProductItemTransaction"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Product Request Line Item Tab",
-          "validFor": null,
-          "value": "Tab.ProductRequestLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Product Request Tab",
-          "validFor": null,
-          "value": "Tab.ProductRequest"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Product Required Tab",
-          "validFor": null,
-          "value": "Tab.ProductRequired"
         },
         {
           "active": true,
@@ -1886,401 +879,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active Product Transfer Tab",
-          "validFor": null,
-          "value": "Tab.ProductTransfer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Project Snapshot Tab",
-          "validFor": null,
-          "value": "Tab.Project_Snapshot__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Project Tab",
-          "validFor": null,
-          "value": "Tab.Milestone1_Project__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Project Task Tab",
-          "validFor": null,
-          "value": "Tab.Milestone1_Task__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Question Tab",
-          "validFor": null,
-          "value": "Tab.FAQ__kav"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Queue Stat Tab",
-          "validFor": null,
-          "value": "Tab.Queue_Stat__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Quota__c Tab",
-          "validFor": null,
-          "value": "Tab.Quota__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Quote Tab",
-          "validFor": null,
-          "value": "Tab.Quote"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Recent News Tab",
-          "validFor": null,
-          "value": "Tab.News_Announcements__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Referral Tab",
-          "validFor": null,
-          "value": "Tab.Referral__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Related Idea Tab",
-          "validFor": null,
-          "value": "Tab.Related_Idea__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Requested Day Tab",
-          "validFor": null,
-          "value": "Tab.Requested_Day__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Resource Capacity Tab",
-          "validFor": null,
-          "value": "Tab.ServiceResourceCapacity"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Return Order Line Item Tab",
-          "validFor": null,
-          "value": "Tab.ReturnOrderLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Return Order Tab",
-          "validFor": null,
-          "value": "Tab.ReturnOrder"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Sample Event Data Store Tab",
-          "validFor": null,
-          "value": "Tab.Sample_Event_Data_Store__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active SAP Sales Order Tab",
-          "validFor": null,
-          "value": "Tab.SAPOrders__x"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active ScheduledTSDetails Tab",
-          "validFor": null,
-          "value": "Tab.ScheduledTSDetails__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Scheduling Policy Objective Tab",
-          "validFor": null,
-          "value": "Tab.FSL__Scheduling_Policy_Goal__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Scheduling Policy Tab",
-          "validFor": null,
-          "value": "Tab.FSL__Scheduling_Policy__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Scheduling Policy Work Rule Tab",
-          "validFor": null,
-          "value": "Tab.FSL__Scheduling_Policy_Work_Rule__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Score Reason Tab",
-          "validFor": null,
-          "value": "Tab.MOCK_Score_Reason__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Scores Tab",
-          "validFor": null,
-          "value": "Tab.Scores__x"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Score Tab",
-          "validFor": null,
-          "value": "Tab.MOCK_Score__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active SDO News Tab",
-          "validFor": null,
-          "value": "Tab.SDO_News__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active SDO SiteSetup Tab",
-          "validFor": null,
-          "value": "Tab.PKBSiteSetup__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active SDO Tool Tab",
-          "validFor": null,
-          "value": "Tab.SDO_Tool__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active SDO Wizard Step Tab",
-          "validFor": null,
-          "value": "Tab.Wizard_Step__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active SDO Wizard Step Tool Tab",
-          "validFor": null,
-          "value": "Tab.Wizard_Step_Tool__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active SDO Wizard Tab",
-          "validFor": null,
-          "value": "Tab.Wizard__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Service Appointment Tab",
-          "validFor": null,
-          "value": "Tab.ServiceAppointment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Service Crew Member Tab",
-          "validFor": null,
-          "value": "Tab.ServiceCrewMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Service Crew Tab",
-          "validFor": null,
-          "value": "Tab.ServiceCrew"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Service Objective Tab",
-          "validFor": null,
-          "value": "Tab.FSL__Service_Goal__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Service Resource Tab",
-          "validFor": null,
-          "value": "Tab.ServiceResource"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Service Territory Location Tab",
-          "validFor": null,
-          "value": "Tab.ServiceTerritoryLocation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Service Territory Tab",
-          "validFor": null,
-          "value": "Tab.ServiceTerritory"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Shipment Tab",
-          "validFor": null,
-          "value": "Tab.Shipment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active SLR Cache Tab",
-          "validFor": null,
-          "value": "Tab.FSL__SLR_Cache__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Social Post Tab",
-          "validFor": null,
-          "value": "Tab.SocialPost"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Store Tab",
-          "validFor": null,
-          "value": "Tab.asb_Store__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Survey Question Response Tab",
-          "validFor": null,
-          "value": "Tab.SurveyQuestionResponse__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Survey Question Tab",
-          "validFor": null,
-          "value": "Tab.Survey_Question__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Survey Tab",
-          "validFor": null,
-          "value": "Tab.Survey__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Survey Taken Tab",
-          "validFor": null,
-          "value": "Tab.SurveyTaker__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Active Task Tab",
           "validFor": null,
           "value": "Tab.Task"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Template Map Tab",
-          "validFor": null,
-          "value": "Tab.Template_Map__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Territory Optimization Request Tab",
-          "validFor": null,
-          "value": "Tab.FSL__Territory_Optimization_Request__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Test Header Tab",
-          "validFor": null,
-          "value": "Tab.Data_sfga_header__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Time-Off Balances Tab",
-          "validFor": null,
-          "value": "Tab.Time_Off_Info__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Time-Off Request Tab",
-          "validFor": null,
-          "value": "Tab.Time_Off_Request__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Time Sheet Entry Tab",
-          "validFor": null,
-          "value": "Tab.TimeSheetEntry"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Time Sheet Tab",
-          "validFor": null,
-          "value": "Tab.TimeSheet"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Time Tab",
-          "validFor": null,
-          "value": "Tab.Milestone1_Time__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active UserServicePresence__c Tab",
-          "validFor": null,
-          "value": "Tab.UserServicePresence__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active User Setting Tab",
-          "validFor": null,
-          "value": "Tab.FSL__UserSetting__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active User Setting Territory Tab",
-          "validFor": null,
-          "value": "Tab.FSL__User_Setting_Territory__c"
         },
         {
           "active": true,
@@ -2292,51 +893,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active User Territory Tab",
+          "label": "Add Member Action",
           "validFor": null,
-          "value": "Tab.FSL__User_Territory__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Widget CSS Definition Tab",
-          "validFor": null,
-          "value": "Tab.Widget_CSS_Definition__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Widget Template Tab",
-          "validFor": null,
-          "value": "Tab.Widget_Template__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Work Order Line Item Tab",
-          "validFor": null,
-          "value": "Tab.WorkOrderLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Work Order Tab",
-          "validFor": null,
-          "value": "Tab.WorkOrder"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Work Rule Tab",
-          "validFor": null,
-          "value": "Tab.FSL__Work_Rule__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Add Line Item Action",
-          "validFor": null,
-          "value": "QuickAction.ProductRequest.Add_Line_Item"
+          "value": "QuickAction.CollaborationGroup.NewGroupMember"
         },
         {
           "active": true,
@@ -2344,41 +903,6 @@
           "label": "Add Record Action",
           "validFor": null,
           "value": "QuickAction.CollaborationGroup.NewGroupRecord"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Add Resource Action",
-          "validFor": null,
-          "value": "QuickAction.ServiceAppointment.Add_Resource"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Address",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipToStreet.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Address",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipToStreet.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Address",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipToStreet"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Address",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipToStreet.cursor"
         },
         {
           "active": true,
@@ -2404,69 +928,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Appointment Action",
-          "validFor": null,
-          "value": "QuickAction.Create_Appointment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Appointment Name",
-          "validFor": null,
-          "value": "Field.Appointment__c.Name.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Appointment Name",
-          "validFor": null,
-          "value": "Field.Appointment__c.Name"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Appointment Name",
-          "validFor": null,
-          "value": "Field.Appointment__c.Name.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Appointment Time",
-          "validFor": null,
-          "value": "Field.Appointment__c.Appointment_Time__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Articles Search",
-          "validFor": null,
-          "value": "SearchAction.KnowledgeArticle"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Asset",
-          "validFor": null,
-          "value": "Field.Case.AssetId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Asset",
-          "validFor": null,
-          "value": "Field.WorkOrderLineItem.AssetId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Asset",
-          "validFor": null,
-          "value": "Field.WorkOrder.AssetId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Assigned To",
           "validFor": null,
           "value": "Field.Task.OwnerId"
@@ -2483,7 +944,7 @@
           "defaultValue": false,
           "label": "Attachments",
           "validFor": null,
-          "value": "Field.EmailMessage.AttachmentIds.end"
+          "value": "Field.OutgoingEmail.ContentDocumentIds.end"
         },
         {
           "active": true,
@@ -2491,34 +952,6 @@
           "label": "Attachments",
           "validFor": null,
           "value": "Field.OutgoingEmail.AttachmentIds.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Attachments",
-          "validFor": null,
-          "value": "Field.EmailMessage.ContentDocumentIds.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Attachments",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.ContentDocumentIds.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Attach to Case",
-          "validFor": null,
-          "value": "AttachToRecord"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Attach to Email as PDF",
-          "validFor": null,
-          "value": "AttachToEmailAsPDF"
         },
         {
           "active": true,
@@ -2544,72 +977,30 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "BCC Addresses",
+          "label": "Body",
           "validFor": null,
-          "value": "Field.EmailMessage.BccAddress.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "BCC Addresses",
-          "validFor": null,
-          "value": "Field.EmailMessage.BccAddress"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Billing Geocode Accuracy",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipToGeocodeAccuracy"
+          "value": "Field.Note.Body.begin"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Body",
           "validFor": null,
-          "value": "Field.CaseComment.CommentBody.begin"
+          "value": "Field.Note.Body.end"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Body",
           "validFor": null,
-          "value": "Field.CaseComment.CommentBody"
+          "value": "Field.Note.Body.cursor"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Body",
           "validFor": null,
-          "value": "Field.CaseComment.CommentBody.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Body",
-          "validFor": null,
-          "value": "Field.CaseComment.CommentBody.cursor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Case",
-          "validFor": null,
-          "value": "Field.WorkOrder.CaseId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Case Comment Action",
-          "validFor": null,
-          "value": "QuickAction.Case.Case_Comment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Case Origin",
-          "validFor": null,
-          "value": "Field.Case.Origin"
+          "value": "Field.Note.Body"
         },
         {
           "active": true,
@@ -2617,20 +1008,6 @@
           "label": "Case Owner",
           "validFor": null,
           "value": "Field.Case.OwnerId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Case Reason",
-          "validFor": null,
-          "value": "Field.Case.Reason"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "CC",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.CcAddress.begin"
         },
         {
           "active": true,
@@ -2644,28 +1021,14 @@
           "defaultValue": false,
           "label": "CC",
           "validFor": null,
+          "value": "Field.OutgoingEmail.CcAddress.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CC",
+          "validFor": null,
           "value": "Field.OutgoingEmail.CcAddress"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "CC Addresses",
-          "validFor": null,
-          "value": "Field.EmailMessage.CcAddress.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "CC Addresses",
-          "validFor": null,
-          "value": "Field.EmailMessage.CcAddress"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Change Appointment Status Action",
-          "validFor": null,
-          "value": "QuickAction.ServiceAppointment.Change_Appointment_Status"
         },
         {
           "active": true,
@@ -2673,6 +1036,20 @@
           "label": "Change Date Action",
           "validFor": null,
           "value": "QuickAction.Task.Defer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Date Action",
+          "validFor": null,
+          "value": "QuickAction.Task.Defer_0"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Priority Action",
+          "validFor": null,
+          "value": "QuickAction.Task.UpdatePriority_0"
         },
         {
           "active": true,
@@ -2686,70 +1063,14 @@
           "defaultValue": false,
           "label": "Change Status Action",
           "validFor": null,
-          "value": "QuickAction.WorkOrder.ChangeStatus"
+          "value": "QuickAction.Task.UpdateStatus"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Change Status Action",
           "validFor": null,
-          "value": "QuickAction.Task.UpdateStatus"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "City",
-          "validFor": null,
-          "value": "Field.WorkOrder.City.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "City",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipToCity"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "City",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipToCity.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "City",
-          "validFor": null,
-          "value": "Field.WorkOrder.City"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "City",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipToCity.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "City",
-          "validFor": null,
-          "value": "Field.WorkOrder.City.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Classification Layout Action",
-          "validFor": null,
-          "value": "QuickAction.Case.Classification_Layout"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Close Case Action",
-          "validFor": null,
-          "value": "QuickAction.Case.Close_Case"
+          "value": "QuickAction.Task.UpdateStatus_0"
         },
         {
           "active": true,
@@ -2757,6 +1078,13 @@
           "label": "Close Date",
           "validFor": null,
           "value": "Field.Opportunity.CloseDate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Comments",
+          "validFor": null,
+          "value": "Field.Task.Description.end"
         },
         {
           "active": true,
@@ -2782,16 +1110,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Comments",
+          "label": "Company",
           "validFor": null,
-          "value": "Field.Task.Description.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Community Action",
-          "validFor": null,
-          "value": "QuickAction.Case.CaseComment"
+          "value": "Field.Lead.Company.begin"
         },
         {
           "active": true,
@@ -2810,34 +1131,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Company",
-          "validFor": null,
-          "value": "Field.Lead.Company.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Complete Action",
-          "validFor": null,
-          "value": "QuickAction.WorkOrderLineItem.Complete"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Contact",
-          "validFor": null,
-          "value": "Field.WorkOrder.ContactId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Contact",
-          "validFor": null,
-          "value": "Field.Appointment__c.Contact__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Contact Name",
           "validFor": null,
           "value": "Field.Case.ContactId"
@@ -2845,72 +1138,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Contact Support Action",
+          "label": "Create New Task Action",
           "validFor": null,
-          "value": "QuickAction.New_Case_CustomerCommunity"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Country",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipToCountry"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Country",
-          "validFor": null,
-          "value": "Field.WorkOrder.Country"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Create Product Request Action",
-          "validFor": null,
-          "value": "QuickAction.WorkOrder.Create_Product_Request"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Create Work Order Action",
-          "validFor": null,
-          "value": "QuickAction.Case.Create_Work_Order"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Decision Timeframe",
-          "validFor": null,
-          "value": "Field.Lead.Decision_Timeframe__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.Milestone1_Milestone__c.Description__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.Event.Description.cursor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.Event.Description.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.Event.Description.end"
+          "value": "QuickAction.FeedItem.NewTaskFromFeedItem"
         },
         {
           "active": true,
@@ -2924,28 +1154,14 @@
           "defaultValue": false,
           "label": "Description",
           "validFor": null,
-          "value": "Field.WorkOrder.Description.begin"
+          "value": "Field.Case.Description.cursor"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Description",
           "validFor": null,
-          "value": "Field.Milestone1_Milestone__c.Description__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.WorkOrderLineItem.Description.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.Milestone1_Milestone__c.Description__c"
+          "value": "Field.CollaborationGroup.Description"
         },
         {
           "active": true,
@@ -2966,21 +1182,7 @@
           "defaultValue": false,
           "label": "Description",
           "validFor": null,
-          "value": "Field.WorkOrder.Description"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.CollaborationGroup.Description"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.WorkOrderLineItem.Description"
+          "value": "Field.CollaborationGroup.Description.end"
         },
         {
           "active": true,
@@ -2999,97 +1201,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.WorkOrder.Description.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.Milestone1_Milestone__c.Description__c.cursor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.Case.Description.cursor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.WorkOrderLineItem.Description.cursor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.WorkOrder.Description.cursor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.CollaborationGroup.Description.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.Event.Description"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Description",
-          "validFor": null,
-          "value": "Field.WorkOrderLineItem.Description.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Destination Location",
-          "validFor": null,
-          "value": "Field.ProductRequest.DestinationLocationId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Details Action",
-          "validFor": null,
-          "value": "QuickAction.Case.Details"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Discount",
-          "validFor": null,
-          "value": "Field.OpportunityLineItem.Discount"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Disposition Action",
-          "validFor": null,
-          "value": "QuickAction.Case.Disposition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Due Date",
-          "validFor": null,
-          "value": "Field.ServiceAppointment.DueDate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Due Date",
           "validFor": null,
           "value": "Field.Task.ActivityDate"
@@ -3097,9 +1208,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Earliest Start Permitted",
+          "label": "Edit Comments Action",
           "validFor": null,
-          "value": "Field.ServiceAppointment.EarliestStartTime"
+          "value": "QuickAction.Task.EditDescription_0"
         },
         {
           "active": true,
@@ -3107,720 +1218,6 @@
           "label": "Edit Comments Action",
           "validFor": null,
           "value": "QuickAction.Task.EditDescription"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Account Insights",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Account_Insights__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 1 Date",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_1_Date__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 1 Source",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_1_Source__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 1 Source",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_1_Source__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 1 Source",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_1_Source__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 1 Title",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_1_Title__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 1 Title",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_1_Title__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 1 Title",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_1_Title__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 1 URL",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_1_URL__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 2 Date",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_2_Date__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 2 Source",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_2_Source__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 2 Source",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_2_Source__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 2 Source",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_2_Source__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 2 Title",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_2_Title__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 2 Title",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_2_Title__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 2 Title",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_2_Title__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 2 URL",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_2_URL__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 3 Date",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_3_Date__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 3 Source",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_3_Source__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 3 Source",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_3_Source__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 3 Source",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_3_Source__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 3 Title",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_3_Title__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 3 Title",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_3_Title__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 3 Title",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_3_Title__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 3 URL",
-          "validFor": null,
-          "value": "Field.Account.Einstein_Article_3_URL__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Competitor Mentioned",
-          "validFor": null,
-          "value": "Field.Opportunity.Competitor_Mentioned__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Competitor they Mentioned",
-          "validFor": null,
-          "value": "Field.Opportunity.Competitor_they_Mentioned__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Competitor they Mentioned",
-          "validFor": null,
-          "value": "Field.Opportunity.Competitor_they_Mentioned__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Competitor they Mentioned",
-          "validFor": null,
-          "value": "Field.Opportunity.Competitor_they_Mentioned__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein Configuration Action",
-          "validFor": null,
-          "value": "QuickAction.Account.Einstein_Configuration"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein Configuration Action",
-          "validFor": null,
-          "value": "QuickAction.Opportunity.Einstein_Configuration"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein Configuration Action",
-          "validFor": null,
-          "value": "QuickAction.Lead.EinsteinConfigurationLead"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Contact to Email",
-          "validFor": null,
-          "value": "Field.Opportunity.Contact_to_email__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Custom Predictive Factors?",
-          "validFor": null,
-          "value": "Field.Lead.CustomL__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Deal Boosting",
-          "validFor": null,
-          "value": "Field.Opportunity.Deal_boosting__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Deal Boosting Reason",
-          "validFor": null,
-          "value": "Field.Opportunity.Boosting_Reason__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Deal Slowing",
-          "validFor": null,
-          "value": "Field.Opportunity.Deal_Slowing__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Deal Slowing Reason",
-          "validFor": null,
-          "value": "Field.Opportunity.Slowing_Reason__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Email Body",
-          "validFor": null,
-          "value": "Field.Opportunity.Email_Body__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Email Body",
-          "validFor": null,
-          "value": "Field.Opportunity.Email_Body__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Email Body",
-          "validFor": null,
-          "value": "Field.Opportunity.Email_Body__c.cursor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Email Body",
-          "validFor": null,
-          "value": "Field.Opportunity.Email_Body__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Email Subject",
-          "validFor": null,
-          "value": "Field.Opportunity.Email_Subject__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Email Subject",
-          "validFor": null,
-          "value": "Field.Opportunity.Email_Subject__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Email Subject",
-          "validFor": null,
-          "value": "Field.Opportunity.Email_Subject__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Indicator 1 Positive",
-          "validFor": null,
-          "value": "Field.Lead.Indicator_1_Positive__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Indicator 1 Strength",
-          "validFor": null,
-          "value": "Field.Lead.Indicator_1_Strength__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Indicator 2 Positive",
-          "validFor": null,
-          "value": "Field.Lead.Indicator_2_Positive__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Indicator 2 Strength",
-          "validFor": null,
-          "value": "Field.Lead.Indicator_2_Strength__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Indicator 3 Positive",
-          "validFor": null,
-          "value": "Field.Lead.Indicator_3_Positive__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Indicator 3 Strength",
-          "validFor": null,
-          "value": "Field.Lead.Indicator_3_Strength__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Indicator 4 Positive",
-          "validFor": null,
-          "value": "Field.Lead.Indicator_4_Positive__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Indicator 4 Strength",
-          "validFor": null,
-          "value": "Field.Lead.Indicator_4_Strength__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Indicator 5 Positive",
-          "validFor": null,
-          "value": "Field.Lead.Indicator_5_Positive__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Indicator 5 Strength",
-          "validFor": null,
-          "value": "Field.Lead.Indicator_5_Strength__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Last Activity Subject",
-          "validFor": null,
-          "value": "Field.Opportunity.Last_Activity_Subject__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Last Activity Subject",
-          "validFor": null,
-          "value": "Field.Opportunity.Last_Activity_Subject__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Last Activity Subject",
-          "validFor": null,
-          "value": "Field.Opportunity.Last_Activity_Subject__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Last Activity Text",
-          "validFor": null,
-          "value": "Field.Opportunity.Last_Activity_Text__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Last Activity Text",
-          "validFor": null,
-          "value": "Field.Opportunity.Last_Activity_Text__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Last Activity Text",
-          "validFor": null,
-          "value": "Field.Opportunity.Last_Activity_Text__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Last Activity Type",
-          "validFor": null,
-          "value": "Field.Opportunity.Last_Activity_Type__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Lead Score",
-          "validFor": null,
-          "value": "Field.Lead.escore__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Name of Contact",
-          "validFor": null,
-          "value": "Field.Opportunity.Name_of_Contact__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Name of Contact",
-          "validFor": null,
-          "value": "Field.Opportunity.Name_of_Contact__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Name of Contact",
-          "validFor": null,
-          "value": "Field.Opportunity.Name_of_Contact__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - No Communication",
-          "validFor": null,
-          "value": "Field.Opportunity.No_Communication__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Prospect Unresponsive",
-          "validFor": null,
-          "value": "Field.Opportunity.Prospect_Unresponsive__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Re-engaged",
-          "validFor": null,
-          "value": "Field.Opportunity.Re_engaged__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Task Overdue",
-          "validFor": null,
-          "value": "Field.Opportunity.Task_Overdue__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Time Consuming Oppty",
-          "validFor": null,
-          "value": "Field.Opportunity.Time_Consuming_Oppty__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive 1",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_1__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive 1",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_1__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive 1",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_1__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive 2",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_2__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive 2",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_2__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive 2",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_2__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive 3",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_3__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive 3",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_3__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive 3",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_3__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive 4",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_4__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive 4",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_4__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive 4",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_4__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive 5",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_5__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive 5",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_5__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive 5",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_5__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive Result 1",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_Result_1__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive Result 1",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_Result_1__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive Result 1",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_Result_1__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive Result 2",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_Result_2__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive Result 2",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_Result_2__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive Result 2",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_Result_2__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive Result 3",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_Result_3__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive Result 3",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_Result_3__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive Result 3",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_Result_3__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive Result 4",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_Result_4__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive Result 4",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_Result_4__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive Result 4",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_Result_4__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive Result 5",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_Result_5__c.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive Result 5",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_Result_5__c.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Top Predictive Result 5",
-          "validFor": null,
-          "value": "Field.Lead.Top_Predictive_Result_5__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Winning Unlikely",
-          "validFor": null,
-          "value": "Field.Opportunity.Winning_Unlikely__c"
         },
         {
           "active": true,
@@ -3841,56 +1238,7 @@
           "defaultValue": false,
           "label": "Email Action",
           "validFor": null,
-          "value": "QuickAction.ServiceAppointment.SendEmail"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Email Action",
-          "validFor": null,
-          "value": "QuickAction.WorkOrderLineItem.SendEmail"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Email Action",
-          "validFor": null,
-          "value": "QuickAction.Case.Email"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Email Action",
-          "validFor": null,
           "value": "QuickAction.SendEmail"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Email Action",
-          "validFor": null,
-          "value": "QuickAction.Case.SendEmail"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Email Action",
-          "validFor": null,
-          "value": "QuickAction.WorkOrder.SendEmail"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Email Action",
-          "validFor": null,
-          "value": "QuickAction.Quote.SendEmail"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Email Template",
-          "validFor": null,
-          "value": "Field.EmailTemplate"
         },
         {
           "active": true,
@@ -3909,58 +1257,30 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "End Date",
+          "label": "First Name",
           "validFor": null,
-          "value": "Field.WorkOrder.EndDate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "End Time",
-          "validFor": null,
-          "value": "Field.TimeSheetEntry.EndTime"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Escalated",
-          "validFor": null,
-          "value": "Field.Case.IsEscalated"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Escalate to Case Action",
-          "validFor": null,
-          "value": "QuickAction.FeedItem.EscalateQFIToCase"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Expected Delivery Date",
-          "validFor": null,
-          "value": "Field.Shipment.ExpectedDeliveryDate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Field.EmailMessage.BccAddress.begin",
-          "validFor": null,
-          "value": "Field.EmailMessage.BccAddress.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Field.EmailMessage.CcAddress.begin",
-          "validFor": null,
-          "value": "Field.EmailMessage.CcAddress.begin"
+          "value": "Field.Contact.FirstName.end"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "First Name",
           "validFor": null,
-          "value": "Field.Contact.FirstName.end"
+          "value": "Field.Lead.FirstName.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "First Name",
+          "validFor": null,
+          "value": "Field.Contact.FirstName.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "First Name",
+          "validFor": null,
+          "value": "Field.Lead.FirstName.end"
         },
         {
           "active": true,
@@ -3979,58 +1299,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "First Name",
-          "validFor": null,
-          "value": "Field.Contact.FirstName.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "First Name",
-          "validFor": null,
-          "value": "Field.Lead.FirstName.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "First Name",
-          "validFor": null,
-          "value": "Field.Lead.FirstName.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "From",
-          "validFor": null,
-          "value": "Field.EmailMessage.ValidatedFromAddress"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "From",
           "validFor": null,
           "value": "Field.OutgoingEmail.ValidatedFromAddress"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "From Address",
-          "validFor": null,
-          "value": "Field.EmailMessage.FromAddress"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "General Inquiry Action",
-          "validFor": null,
-          "value": "QuickAction.Contact.GeneralInquiry"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Geocode Accuracy",
-          "validFor": null,
-          "value": "Field.WorkOrder.GeocodeAccuracy"
         },
         {
           "active": true,
@@ -4065,35 +1336,7 @@
           "defaultValue": false,
           "label": "HTML Body",
           "validFor": null,
-          "value": "Field.EmailMessage.HtmlBody.cursor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "HTML Body",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.HtmlBody"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "HTML Body",
-          "validFor": null,
-          "value": "Field.EmailMessage.HtmlBody"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "HTML Body",
-          "validFor": null,
           "value": "Field.OutgoingEmail.HtmlBody.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "HTML Body",
-          "validFor": null,
-          "value": "Field.EmailMessage.HtmlBody.end"
         },
         {
           "active": true,
@@ -4107,63 +1350,35 @@
           "defaultValue": false,
           "label": "HTML Body",
           "validFor": null,
-          "value": "Field.EmailMessage.HtmlBody.begin"
+          "value": "Field.OutgoingEmail.HtmlBody"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Information",
+          "label": "Industry",
           "validFor": null,
-          "value": "Field.CollaborationGroup.InformationBody.cursor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Information",
-          "validFor": null,
-          "value": "Field.CollaborationGroup.InformationBody.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Information",
-          "validFor": null,
-          "value": "Field.CollaborationGroup.InformationBody.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Information",
-          "validFor": null,
-          "value": "Field.CollaborationGroup.InformationBody"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Insert into Email as HTML",
-          "validFor": null,
-          "value": "InsertToEmail"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Keywords",
-          "validFor": null,
-          "value": "Field.SearchString"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Knowledge Sidebar Component",
-          "validFor": null,
-          "value": "SidebarCmp.Knowledge"
+          "value": "Field.Account.Industry"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Last Name",
           "validFor": null,
-          "value": "Field.Contact.LastName.end"
+          "value": "Field.Lead.LastName.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Name",
+          "validFor": null,
+          "value": "Field.Lead.LastName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Name",
+          "validFor": null,
+          "value": "Field.Contact.LastName.begin"
         },
         {
           "active": true,
@@ -4184,70 +1399,7 @@
           "defaultValue": false,
           "label": "Last Name",
           "validFor": null,
-          "value": "Field.Contact.LastName.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Last Name",
-          "validFor": null,
-          "value": "Field.Lead.LastName.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Last Name",
-          "validFor": null,
-          "value": "Field.Lead.LastName"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Latitude",
-          "validFor": null,
-          "value": "Field.WorkOrder.Latitude"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Latitude",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipToLatitude"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Lead Score Value",
-          "validFor": null,
-          "value": "Field.Lead.Lead_Score_Value__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Line Description",
-          "validFor": null,
-          "value": "Field.OpportunityLineItem.Description.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Line Description",
-          "validFor": null,
-          "value": "Field.OpportunityLineItem.Description"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Line Description",
-          "validFor": null,
-          "value": "Field.OpportunityLineItem.Description.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Location",
-          "validFor": null,
-          "value": "Field.WorkOrder.LocationId"
+          "value": "Field.Contact.LastName.end"
         },
         {
           "active": true,
@@ -4261,14 +1413,14 @@
           "defaultValue": false,
           "label": "Location",
           "validFor": null,
-          "value": "Field.Event.Location.begin"
+          "value": "Field.Event.Location.end"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Location",
           "validFor": null,
-          "value": "Field.Event.Location.end"
+          "value": "Field.Event.Location.begin"
         },
         {
           "active": true,
@@ -4280,16 +1432,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Longitude",
+          "label": "Log a Call Action",
           "validFor": null,
-          "value": "Field.WorkOrder.Longitude"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Longitude",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipToLongitude"
+          "value": "QuickAction.Case.LogACall"
         },
         {
           "active": true,
@@ -4297,48 +1442,6 @@
           "label": "Member",
           "validFor": null,
           "value": "Field.CollaborationGroupMember.MemberId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Most Relevant Article",
-          "validFor": null,
-          "value": "SearchResult.KnowledgeArticle.MostRelevantItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Name",
-          "validFor": null,
-          "value": "Field.CollaborationGroup.Name.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Name",
-          "validFor": null,
-          "value": "Field.HR_Applicant__c.Name.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Name",
-          "validFor": null,
-          "value": "Field.HR_Applicant__c.Name"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Name",
-          "validFor": null,
-          "value": "Field.HR_Applicant__c.Name.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Name",
-          "validFor": null,
-          "value": "Field.Task.WhoId"
         },
         {
           "active": true,
@@ -4359,28 +1462,28 @@
           "defaultValue": false,
           "label": "Name",
           "validFor": null,
+          "value": "Field.CollaborationGroup.Name.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name",
+          "validFor": null,
+          "value": "Field.Task.WhoId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name",
+          "validFor": null,
           "value": "Field.CollaborationGroup.Name"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Need By Date",
+          "label": "New Account Action",
           "validFor": null,
-          "value": "Field.ProductRequest.NeedByDate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "New Case Action",
-          "validFor": null,
-          "value": "QuickAction.Asset.CreateCase"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "New Case Action",
-          "validFor": null,
-          "value": "QuickAction.NewCaseUnauthenticated"
+          "value": "QuickAction.NewAccount"
         },
         {
           "active": true,
@@ -4392,9 +1495,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "New Case Action",
+          "label": "New Child Case Action",
           "validFor": null,
-          "value": "QuickAction.Contact.Contact_New_Case"
+          "value": "QuickAction.Case.NewChildCase"
         },
         {
           "active": true,
@@ -4408,35 +1511,7 @@
           "defaultValue": false,
           "label": "New Event Action",
           "validFor": null,
-          "value": "QuickAction.SBQQ__NewEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "New Event Action",
-          "validFor": null,
-          "value": "QuickAction.LiveText__NewEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "New Event Action",
-          "validFor": null,
-          "value": "QuickAction.FSL__NewEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "New Event Action",
-          "validFor": null,
           "value": "QuickAction.NewEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "New Group Action",
-          "validFor": null,
-          "value": "QuickAction.LiveText__NewGroup"
         },
         {
           "active": true,
@@ -4448,16 +1523,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "New Group Member Action",
+          "label": "New Lead Action",
           "validFor": null,
-          "value": "QuickAction.CollaborationGroup.NewGroupMember"
+          "value": "QuickAction.NewLead"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "New Milestone Action",
+          "label": "New Note Action",
           "validFor": null,
-          "value": "QuickAction.Milestone1_Project__c.New_Milestone"
+          "value": "QuickAction.NewNote"
         },
         {
           "active": true,
@@ -4469,13 +1544,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "New Opportunity Product Action",
-          "validFor": null,
-          "value": "QuickAction.Opportunity.Add_Product_Line"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "New Task Action",
           "validFor": null,
           "value": "QuickAction.NewTask"
@@ -4483,23 +1551,23 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "New Work Order Action",
+          "label": "Next Step",
           "validFor": null,
-          "value": "QuickAction.Asset.CreateWorkOrder"
+          "value": "Field.Opportunity.NextStep"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "New Work Order Line Item Action",
+          "label": "Next Step",
           "validFor": null,
-          "value": "QuickAction.WorkOrder.CreateWOLI"
+          "value": "Field.Opportunity.NextStep.end"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Opportunity",
+          "label": "Next Step",
           "validFor": null,
-          "value": "Field.OpportunityLineItem.OpportunityId"
+          "value": "Field.Opportunity.NextStep.begin"
         },
         {
           "active": true,
@@ -4525,23 +1593,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Owner",
+          "label": "Parent Case",
           "validFor": null,
-          "value": "Field.LiveChatTranscript.OwnerId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Parent",
-          "validFor": null,
-          "value": "Field.ProductRequestLineItem.ParentId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Parent Record",
-          "validFor": null,
-          "value": "Field.ServiceAppointment.ParentRecordId"
+          "value": "Field.Case.ParentId"
         },
         {
           "active": true,
@@ -4555,21 +1609,14 @@
           "defaultValue": false,
           "label": "Phone",
           "validFor": null,
+          "value": "Field.Account.Phone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Phone",
+          "validFor": null,
           "value": "Field.Lead.Phone"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Price Book",
-          "validFor": null,
-          "value": "Field.WorkOrder.Pricebook2Id"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Priority",
-          "validFor": null,
-          "value": "Field.Task.Priority"
         },
         {
           "active": true,
@@ -4581,135 +1628,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Product",
+          "label": "Priority",
           "validFor": null,
-          "value": "Field.OpportunityLineItem.Product2Id"
+          "value": "Field.Task.Priority"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Product",
+          "label": "Private",
           "validFor": null,
-          "value": "Field.ProductRequestLineItem.Product2Id"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Product Family",
-          "validFor": null,
-          "value": "Field.Case.Product_Family_KB__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Product Interest",
-          "validFor": null,
-          "value": "Field.Lead.Product_Interest__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Product Request Action",
-          "validFor": null,
-          "value": "QuickAction.Product_Request"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Project",
-          "validFor": null,
-          "value": "Field.Milestone1_Milestone__c.Project__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Project Milestone Name",
-          "validFor": null,
-          "value": "Field.Milestone1_Milestone__c.Name.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Project Milestone Name",
-          "validFor": null,
-          "value": "Field.Milestone1_Milestone__c.Name"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Project Milestone Name",
-          "validFor": null,
-          "value": "Field.Milestone1_Milestone__c.Name.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Published",
-          "validFor": null,
-          "value": "Field.CaseComment.IsPublished"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Quantity",
-          "validFor": null,
-          "value": "Field.OpportunityLineItem.Quantity"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Quantity Received",
-          "validFor": null,
-          "value": "Field.ProductTransfer.QuantityReceived"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Quantity Requested",
-          "validFor": null,
-          "value": "Field.ProductRequestLineItem.QuantityRequested"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Quantity Sent",
-          "validFor": null,
-          "value": "Field.ProductTransfer.QuantitySent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Quantity Unit Of Measure",
-          "validFor": null,
-          "value": "Field.ProductRequestLineItem.QuantityUnitOfMeasure"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Quantity Unit Of Measure",
-          "validFor": null,
-          "value": "Field.ProductTransfer.QuantityUnitOfMeasure"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Rating",
-          "validFor": null,
-          "value": "Field.Lead.Rating"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Received",
-          "validFor": null,
-          "value": "Field.ProductTransfer.IsReceived"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Receive Product Action",
-          "validFor": null,
-          "value": "QuickAction.ProductTransfer.Receive_Product"
+          "value": "Field.Note.IsPrivate"
         },
         {
           "active": true,
@@ -4717,13 +1645,6 @@
           "label": "Record",
           "validFor": null,
           "value": "Field.CollaborationGroupRecord.RecordId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Register Deal Action",
-          "validFor": null,
-          "value": "QuickAction.Register_Deal"
         },
         {
           "active": true,
@@ -4749,41 +1670,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Request Time",
-          "validFor": null,
-          "value": "Field.LiveChatTranscript.RequestTime"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Running Late (in mins)",
-          "validFor": null,
-          "value": "Field.ServiceAppointment.Running_Late_in_mins__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Running Late Action",
-          "validFor": null,
-          "value": "QuickAction.ServiceAppointment.Running_Late"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Sales Price",
-          "validFor": null,
-          "value": "Field.OpportunityLineItem.UnitPrice"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Salutation",
-          "validFor": null,
-          "value": "Field.Contact.Salutation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Salutation",
           "validFor": null,
           "value": "Field.Lead.Salutation"
@@ -4791,100 +1677,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Search",
+          "label": "Salutation",
           "validFor": null,
-          "value": "Search"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Service Appointment",
-          "validFor": null,
-          "value": "Field.AssignedResource.ServiceAppointmentId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Service Resource",
-          "validFor": null,
-          "value": "Field.AssignedResource.ServiceResourceId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Service Territory",
-          "validFor": null,
-          "value": "Field.WorkOrder.ServiceTerritoryId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Shipment Type",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipmentType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Shipping Information Action",
-          "validFor": null,
-          "value": "QuickAction.ProductRequest.Shipping_Information"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Ship To Name",
-          "validFor": null,
-          "value": "Field.Shipment.ShipToName"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Ship To Name",
-          "validFor": null,
-          "value": "Field.Shipment.ShipToName.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Ship To Name",
-          "validFor": null,
-          "value": "Field.Shipment.ShipToName.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Snapins_Case_QuickAction_08h1N0000000006 Action",
-          "validFor": null,
-          "value": "QuickAction.Snapins_Case_QuickAction_08h1N0000000006"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Snapins_Case_QuickAction_08h1N000000000B Action",
-          "validFor": null,
-          "value": "QuickAction.Snapins_Case_QuickAction_08h1N000000000B"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Snapins_Contact_QuickAction_08h1N0000000006 Action",
-          "validFor": null,
-          "value": "QuickAction.Snapins_Contact_QuickAction_08h1N0000000006"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Snapins_Contact_QuickAction_08h1N000000000B Action",
-          "validFor": null,
-          "value": "QuickAction.Snapins_Contact_QuickAction_08h1N000000000B"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Source Location",
-          "validFor": null,
-          "value": "Field.ProductRequest.SourceLocationId"
+          "value": "Field.Contact.Salutation"
         },
         {
           "active": true,
@@ -4903,34 +1698,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Start Date",
-          "validFor": null,
-          "value": "Field.WorkOrder.StartDate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Start Time",
-          "validFor": null,
-          "value": "Field.TimeSheetEntry.StartTime"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "State",
-          "validFor": null,
-          "value": "Field.WorkOrder.State"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "State/Province",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipToState"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Status",
           "validFor": null,
           "value": "Field.Case.Status"
@@ -4940,168 +1707,7 @@
           "defaultValue": false,
           "label": "Status",
           "validFor": null,
-          "value": "Field.HR_Applicant__c.HR_Status__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Status",
-          "validFor": null,
-          "value": "Field.LiveChatTranscript.Status"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Status",
-          "validFor": null,
-          "value": "Field.HR_Job_Requisition__c.HR_Status__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Status",
-          "validFor": null,
-          "value": "Field.WorkOrder.Status"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Status",
-          "validFor": null,
-          "value": "Field.WorkOrderLineItem.Status"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Status",
-          "validFor": null,
           "value": "Field.Task.Status"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Status",
-          "validFor": null,
-          "value": "Field.Appointment__c.Status__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Status",
-          "validFor": null,
-          "value": "Field.ServiceAppointment.Status"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Street",
-          "validFor": null,
-          "value": "Field.WorkOrder.Street"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Street",
-          "validFor": null,
-          "value": "Field.WorkOrder.Street.cursor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Street",
-          "validFor": null,
-          "value": "Field.WorkOrder.Street.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Street",
-          "validFor": null,
-          "value": "Field.WorkOrder.Street.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.TimeSheetEntry.Subject.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.Subject.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.EmailMessage.Subject"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.WorkOrderLineItem.Subject.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.EmailMessage.Subject.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.WorkOrder.Subject.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.Case.Subject.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.Case.Subject.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.TimeSheetEntry.Subject"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.WorkOrder.Subject.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.Task.Subject"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.WorkOrderLineItem.Subject.begin"
         },
         {
           "active": true,
@@ -5115,21 +1721,14 @@
           "defaultValue": false,
           "label": "Subject",
           "validFor": null,
+          "value": "Field.OutgoingEmail.Subject.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
           "value": "Field.Case.Subject"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.TimeSheetEntry.Subject.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.WorkOrderLineItem.Subject"
         },
         {
           "active": true,
@@ -5143,14 +1742,7 @@
           "defaultValue": false,
           "label": "Subject",
           "validFor": null,
-          "value": "Field.WorkOrder.Subject"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.EmailMessage.Subject.end"
+          "value": "Field.Case.Subject.end"
         },
         {
           "active": true,
@@ -5162,65 +1754,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Technical Issue Action",
+          "label": "Subject",
           "validFor": null,
-          "value": "QuickAction.Contact.Technical_Issue"
+          "value": "Field.Case.Subject.begin"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Time Entry Action",
+          "label": "Subject",
           "validFor": null,
-          "value": "QuickAction.WorkOrder.Time_Entry"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Time Sheet",
-          "validFor": null,
-          "value": "Field.TimeSheetEntry.TimeSheetId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Title",
-          "validFor": null,
-          "value": "Field.Lead.Title.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Title",
-          "validFor": null,
-          "value": "Field.HR_Job_Requisition__c.Name"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Title",
-          "validFor": null,
-          "value": "Field.Contact.Title"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Title",
-          "validFor": null,
-          "value": "Field.HR_Job_Requisition__c.Name.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Title",
-          "validFor": null,
-          "value": "Field.HR_Job_Requisition__c.Name.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Title",
-          "validFor": null,
-          "value": "Field.Contact.Title.begin"
+          "value": "Field.Task.Subject"
         },
         {
           "active": true,
@@ -5234,7 +1777,7 @@
           "defaultValue": false,
           "label": "Title",
           "validFor": null,
-          "value": "Field.Lead.Title.end"
+          "value": "Field.Lead.Title.begin"
         },
         {
           "active": true,
@@ -5242,6 +1785,48 @@
           "label": "Title",
           "validFor": null,
           "value": "Field.Lead.Title"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Note.Title.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Contact.Title.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Note.Title"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Contact.Title"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Lead.Title.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Note.Title.end"
         },
         {
           "active": true,
@@ -5267,65 +1852,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "To Address",
-          "validFor": null,
-          "value": "Field.EmailMessage.ToAddress.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "To Address",
-          "validFor": null,
-          "value": "Field.EmailMessage.ToAddress"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "To Address",
-          "validFor": null,
-          "value": "Field.EmailMessage.ToAddress.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Tracking Number",
-          "validFor": null,
-          "value": "Field.Shipment.TrackingNumber"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Tracking Number",
-          "validFor": null,
-          "value": "Field.Shipment.TrackingNumber.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Tracking Number",
-          "validFor": null,
-          "value": "Field.Shipment.TrackingNumber.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Tracking URL",
-          "validFor": null,
-          "value": "Field.Shipment.TrackingUrl"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Type",
           "validFor": null,
-          "value": "Field.TimeSheetEntry.Type"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Type",
-          "validFor": null,
-          "value": "Field.Case.Type"
+          "value": "Field.Account.Type"
         },
         {
           "active": true,
@@ -5344,114 +1873,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Update Live Chat Transcript Action",
+          "label": "Website",
           "validFor": null,
-          "value": "QuickAction.LiveChatTranscript._LightningUpdateLiveChatTranscript"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Update Status Action",
-          "validFor": null,
-          "value": "QuickAction.HR_Job_Requisition__c.Update_Status"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Update Status Action",
-          "validFor": null,
-          "value": "QuickAction.Case.Update_Status"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Update Status Action",
-          "validFor": null,
-          "value": "QuickAction.HR_Applicant__c.Update_Status"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Web Email",
-          "validFor": null,
-          "value": "Field.Case.SuppliedEmail"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Work Order",
-          "validFor": null,
-          "value": "Field.ProductRequest.WorkOrderId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Work Order Action",
-          "validFor": null,
-          "value": "QuickAction.Work_Order"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Work Order Line Item",
-          "validFor": null,
-          "value": "Field.ProductRequest.WorkOrderLineItemId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Work Order Line Item",
-          "validFor": null,
-          "value": "Field.TimeSheetEntry.WorkOrderLineItemId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Work Type",
-          "validFor": null,
-          "value": "Field.WorkOrder.WorkTypeId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Zip",
-          "validFor": null,
-          "value": "Field.WorkOrder.PostalCode.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Zip",
-          "validFor": null,
-          "value": "Field.WorkOrder.PostalCode"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Zip",
-          "validFor": null,
-          "value": "Field.WorkOrder.PostalCode.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Zip/Postal Code",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipToPostalCode.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Zip/Postal Code",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipToPostalCode.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Zip/Postal Code",
-          "validFor": null,
-          "value": "Field.ProductRequest.ShipToPostalCode"
+          "value": "Field.Account.Website"
         }
       ],
       "polymorphicForeignKey": false,
