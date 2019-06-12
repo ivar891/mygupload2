@@ -21,16 +21,6 @@
       "junctionReferenceTo": [],
       "relationshipName": null,
       "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": true,
-      "childSObject": "CategoryNodeLocalization",
-      "deprecatedAndHidden": false,
-      "field": "CategoryNodeId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "Localization",
-      "restrictedDelete": false
     }
   ],
   "compactLayoutable": false,
