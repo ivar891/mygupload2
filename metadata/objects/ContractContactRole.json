@@ -774,11 +774,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/ContractContactRole/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/ContractContactRole/{ID}",
-    "uiDetailTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}",
-    "uiEditTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://ap15.salesforce.com/{ID}",
+    "uiEditTemplate": "https://ap15.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/ContractContactRole/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/ContractContactRole/describe",
-    "uiNewRecord": "https://demohardingpoint200.my.salesforce.com/02a/e",
+    "uiNewRecord": "https://ap15.salesforce.com/02a/e",
     "layouts": "/services/data/v43.0/sobjects/ContractContactRole/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/ContractContactRole"
   }
