@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
-    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <fieldOverrides>
+        <field>CloseDate</field>
+        <formula>TODAY()+30</formula>
+    </fieldOverrides>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
     <quickActionLayout>
         <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
         <quickActionLayoutColumns>
@@ -29,11 +33,15 @@
                 <field>Amount</field>
                 <uiBehavior>Edit</uiBehavior>
             </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>NextStep</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
         </quickActionLayoutColumns>
         <quickActionLayoutColumns/>
     </quickActionLayout>
     <standardLabel>New</standardLabel>
     <targetObject>Opportunity</targetObject>
-    <targetRecordType>Opportunity.SimpleOpportunity</targetRecordType>
     <type>Create</type>
 </QuickAction>
