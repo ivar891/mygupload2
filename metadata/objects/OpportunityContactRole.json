@@ -11,16 +11,6 @@
       "junctionReferenceTo": [],
       "relationshipName": null,
       "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "OpportunityContactRoleSuggestionInsight",
-      "deprecatedAndHidden": false,
-      "field": "CreatedRecordId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
     }
   ],
   "compactLayoutable": true,
