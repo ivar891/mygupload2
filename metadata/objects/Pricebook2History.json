@@ -41,7 +41,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "Price Book History ID",
+      "label": "ID d'historique de catalogue de prix",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -100,7 +100,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Deleted",
+      "label": "Supprimé",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -159,7 +159,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Price Book ID",
+      "label": "ID du catalogue de prix",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -220,7 +220,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Created By ID",
+      "label": "ID créé par",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -281,7 +281,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Created Date",
+      "label": "Date de création",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -340,7 +340,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Changed Field",
+      "label": "Champ modifié",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -353,30 +353,23 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active",
+          "label": "Actif",
           "validFor": null,
           "value": "IsActive"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Archived",
+          "label": "Archivé",
           "validFor": null,
           "value": "IsArchived"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Created.",
+          "label": "Créé.",
           "validFor": null,
           "value": "created"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Default Order Pricebook",
-          "validFor": null,
-          "value": "Default_Order_Pricebook__c"
         },
         {
           "active": true,
@@ -388,65 +381,58 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "External ID",
+          "label": "Enregistrement déverrouillé.",
           "validFor": null,
-          "value": "External_ID__c"
+          "value": "unlocked"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Feed event",
-          "validFor": null,
-          "value": "feedEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Individual Merged",
-          "validFor": null,
-          "value": "individualMerged"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Is Standard Price Book",
-          "validFor": null,
-          "value": "IsStandard"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Owner (Accepted)",
-          "validFor": null,
-          "value": "ownerAccepted"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Owner (Assignment)",
-          "validFor": null,
-          "value": "ownerAssignment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Price Book Name",
-          "validFor": null,
-          "value": "Name"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Record locked.",
+          "label": "Enregistrement verrouillé.",
           "validFor": null,
           "value": "locked"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Record unlocked.",
+          "label": "Est un catalogue de prix standard",
           "validFor": null,
-          "value": "unlocked"
+          "value": "IsStandard"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Événement de fil",
+          "validFor": null,
+          "value": "feedEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Individu fusionné",
+          "validFor": null,
+          "value": "individualMerged"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nom du catalogue de prix",
+          "validFor": null,
+          "value": "Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Propriétaire (Accepté)",
+          "validFor": null,
+          "value": "ownerAccepted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Propriétaire (Attribution)",
+          "validFor": null,
+          "value": "ownerAssignment"
         }
       ],
       "polymorphicForeignKey": false,
@@ -498,7 +484,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Old Value",
+      "label": "Ancienne valeur",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -557,7 +543,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "New Value",
+      "label": "Nouvelle valeur",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -589,8 +575,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": null,
-  "label": "Price Book History",
-  "labelPlural": "Price Book History",
+  "label": "Historique de catalogue de prix",
+  "labelPlural": "Historique de catalogue de prix",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -607,7 +593,7 @@
   "searchable": false,
   "supportedScopes": [
     {
-      "label": "All price book history",
+      "label": "Toutes historique de catalogue de prix",
       "name": "everything"
     }
   ],
