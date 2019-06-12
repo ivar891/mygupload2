@@ -14,16 +14,6 @@
     },
     {
       "cascadeDelete": true,
-      "childSObject": "AttachedContentNote",
-      "deprecatedAndHidden": false,
-      "field": "LinkedEntityId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "AttachedContentNotes",
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": true,
       "childSObject": "CombinedAttachment",
       "deprecatedAndHidden": false,
       "field": "ParentId",
@@ -101,16 +91,6 @@
       "junctionReferenceTo": [],
       "relationshipName": null,
       "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "NetworkActivityAudit",
-      "deprecatedAndHidden": false,
-      "field": "ParentEntityId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "ParentEntities",
-      "restrictedDelete": false
     }
   ],
   "compactLayoutable": false,
@@ -119,7 +99,7 @@
   "customSetting": false,
   "deletable": false,
   "deprecatedAndHidden": false,
-  "feedEnabled": true,
+  "feedEnabled": false,
   "fields": [
     {
       "aggregatable": true,
