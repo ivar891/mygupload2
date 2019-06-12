@@ -8,14 +8,7 @@
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Case</tabs>
-    <tabs>standard-Knowledge</tabs>
-    <tabs>standard-LiveAgent</tabs>
-    <tabs>standard-QuickText</tabs>
-    <tabs>standard-KnowledgePublishing</tabs>
-    <tabs>standard-Workspace</tabs>
-    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Solution</tabs>
     <tabs>standard-report</tabs>
-    <tabs>standard-WaveHome</tabs>
-    <tabs>GRAX_Graph_Connect</tabs>
-    <tabs>GRAX_Consolidation</tabs>
+    <tabs>standard-Dashboard</tabs>
 </CustomApplication>
