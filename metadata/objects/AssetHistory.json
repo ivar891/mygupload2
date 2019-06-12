@@ -388,13 +388,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Asset Record Type",
-          "validFor": null,
-          "value": "RecordType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Asset Serviced By",
           "validFor": null,
           "value": "AssetServicedBy"
@@ -423,30 +416,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Customer Email",
-          "validFor": null,
-          "value": "Email__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "DB Days",
-          "validFor": null,
-          "value": "DB_Days__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Description",
           "validFor": null,
           "value": "Description"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "External ID",
-          "validFor": null,
-          "value": "External_ID__c"
         },
         {
           "active": true,
@@ -475,13 +447,6 @@
           "label": "Internal Asset",
           "validFor": null,
           "value": "IsInternal"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Location",
-          "validFor": null,
-          "value": "Location"
         },
         {
           "active": true,
@@ -556,30 +521,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Scheduled Servicing",
-          "validFor": null,
-          "value": "Scheduled_Servicing__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Serial Number",
           "validFor": null,
           "value": "SerialNumber"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Service Contract",
-          "validFor": null,
-          "value": "Service_Contract__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Service Frequency (Weeks)",
-          "validFor": null,
-          "value": "Service_Frequency_Weeks__c"
         },
         {
           "active": true,
@@ -591,23 +535,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Suggested Products",
-          "validFor": null,
-          "value": "Suggested_Products__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Usage End Date",
           "validFor": null,
           "value": "UsageEndDate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Warranty Status",
-          "validFor": null,
-          "value": "Entitlement_Status__c"
         }
       ],
       "polymorphicForeignKey": false,
