@@ -366,58 +366,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Added",
+          "label": "Planned",
           "validFor": null,
-          "value": "Added"
+          "value": "Planned"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Attended",
+          "label": "Received",
           "validFor": null,
-          "value": "Attended"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Contacted",
-          "validFor": null,
-          "value": "Contacted"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Converted",
-          "validFor": null,
-          "value": "Converted"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Engaged",
-          "validFor": null,
-          "value": "Engaged"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Invited",
-          "validFor": null,
-          "value": "Invited"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Posted",
-          "validFor": null,
-          "value": "Posted"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Registered",
-          "validFor": null,
-          "value": "Registered"
+          "value": "Received"
         },
         {
           "active": true,
@@ -522,7 +480,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": true,
+      "createable": false,
       "custom": false,
       "defaultValue": null,
       "defaultValueFormula": null,
@@ -581,7 +539,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": true,
+      "createable": false,
       "custom": false,
       "defaultValue": null,
       "defaultValueFormula": null,
@@ -642,7 +600,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": true,
+      "createable": false,
       "custom": false,
       "defaultValue": null,
       "defaultValueFormula": null,
@@ -701,7 +659,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": true,
+      "createable": false,
       "custom": false,
       "defaultValue": null,
       "defaultValueFormula": null,
@@ -2011,72 +1969,37 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Website",
+          "label": "Web",
           "validFor": null,
-          "value": "Website"
+          "value": "Web"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Social Media",
+          "label": "Phone Inquiry",
           "validFor": null,
-          "value": "Social Media"
+          "value": "Phone Inquiry"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Marketing Event",
+          "label": "Partner Referral",
           "validFor": null,
-          "value": "Marketing Event"
+          "value": "Partner Referral"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Referral",
+          "label": "Purchased List",
           "validFor": null,
-          "value": "Referral"
+          "value": "Purchased List"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Cold Call",
+          "label": "Other",
           "validFor": null,
-          "value": "Cold Call"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Data.com",
-          "validFor": null,
-          "value": "Data.com"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Partner",
-          "validFor": null,
-          "value": "Partner"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Community",
-          "validFor": null,
-          "value": "Community"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Inbound Call",
-          "validFor": null,
-          "value": "Inbound Call"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Salesforce IoT",
-          "validFor": null,
-          "value": "Salesforce IoT"
+          "value": "Other"
         }
       ],
       "polymorphicForeignKey": false,
@@ -2384,11 +2307,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/CampaignMember/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/CampaignMember/{ID}",
-    "uiDetailTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}",
-    "uiEditTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://ap15.salesforce.com/{ID}",
+    "uiEditTemplate": "https://ap15.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/CampaignMember/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/CampaignMember/describe",
-    "uiNewRecord": "https://demohardingpoint200.my.salesforce.com/00v/e",
+    "uiNewRecord": "https://ap15.salesforce.com/00v/e",
     "layouts": "/services/data/v43.0/sobjects/CampaignMember/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/CampaignMember"
   }
