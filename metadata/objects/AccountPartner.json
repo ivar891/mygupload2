@@ -52,7 +52,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "Account Partner ID",
+      "label": "Account Partner/Relationship ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -307,9 +307,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "System Integrator",
+          "label": "Advertiser",
           "validFor": null,
-          "value": "System Integrator"
+          "value": "Advertiser"
         },
         {
           "active": true,
@@ -321,34 +321,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Advertiser",
-          "validFor": null,
-          "value": "Advertiser"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "VAR/Reseller",
-          "validFor": null,
-          "value": "VAR/Reseller"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Distributor",
-          "validFor": null,
-          "value": "Distributor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Developer",
-          "validFor": null,
-          "value": "Developer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Broker",
           "validFor": null,
           "value": "Broker"
@@ -356,23 +328,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Lender",
+          "label": "Consultant",
           "validFor": null,
-          "value": "Lender"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Supplier",
-          "validFor": null,
-          "value": "Supplier"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Institution",
-          "validFor": null,
-          "value": "Institution"
+          "value": "Consultant"
         },
         {
           "active": true,
@@ -391,9 +349,72 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Consultant",
+          "label": "Developer",
           "validFor": null,
-          "value": "Consultant"
+          "value": "Developer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Distributor",
+          "validFor": null,
+          "value": "Distributor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Institution",
+          "validFor": null,
+          "value": "Institution"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lender",
+          "validFor": null,
+          "value": "Lender"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier",
+          "validFor": null,
+          "value": "Supplier"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "System Integrator",
+          "validFor": null,
+          "value": "System Integrator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "VAR/Reseller",
+          "validFor": null,
+          "value": "VAR/Reseller"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lawyer",
+          "validFor": null,
+          "value": "Lawyer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Spouse",
+          "validFor": null,
+          "value": "Spouse"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Parent",
+          "validFor": null,
+          "value": "Parent"
         }
       ],
       "polymorphicForeignKey": false,
@@ -862,7 +883,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Reverse Partner ID",
+      "label": "Reverse Partner/Relationship ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -896,8 +917,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": null,
-  "label": "Account Partner",
-  "labelPlural": "Account Partner",
+  "label": "Account Partner/Relationship",
+  "labelPlural": "Account Partner/Relationship",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -914,7 +935,7 @@
   "searchable": false,
   "supportedScopes": [
     {
-      "label": "All account partner",
+      "label": "All account partner/relationship",
       "name": "everything"
     }
   ],
