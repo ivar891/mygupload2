@@ -556,23 +556,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "DB Days",
-          "validFor": null,
-          "value": "DB_Days__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Description",
           "validFor": null,
           "value": "Description"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "External ID",
-          "validFor": null,
-          "value": "External_ID__c"
         },
         {
           "active": true,
