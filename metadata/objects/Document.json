@@ -23,30 +23,10 @@
       "restrictedDelete": false
     },
     {
-      "cascadeDelete": true,
-      "childSObject": "DocumentTag",
-      "deprecatedAndHidden": false,
-      "field": "ItemId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "Tags",
-      "restrictedDelete": false
-    },
-    {
       "cascadeDelete": false,
       "childSObject": "FlowRecordRelation",
       "deprecatedAndHidden": false,
       "field": "RelatedRecordId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "Network",
-      "deprecatedAndHidden": false,
-      "field": "EmailFooterLogoId",
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": null,
