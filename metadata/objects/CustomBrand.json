@@ -126,10 +126,7 @@
       "queryByDistance": false,
       "referenceTargetField": null,
       "referenceTo": [
-        "NavigationMenuItem",
-        "Network",
         "Organization",
-        "ReputationLevel",
         "Stamp",
         "Topic"
       ],
