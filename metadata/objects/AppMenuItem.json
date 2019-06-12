@@ -2055,6 +2055,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Network"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "ServiceProvider"
         },
         {
