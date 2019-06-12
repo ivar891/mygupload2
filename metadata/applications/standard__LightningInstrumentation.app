@@ -6,5 +6,6 @@
     <label>LightningInstrumentation</label>
     <navType>Standard</navType>
     <tabs>standard-LightningInstrumentation</tabs>
+    <tabs>GRAX_Consolidation</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
