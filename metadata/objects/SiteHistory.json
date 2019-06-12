@@ -41,7 +41,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "Custom Site ID",
+      "label": "ID du site personnalisé",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -100,7 +100,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Deleted",
+      "label": "Supprimé",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -159,7 +159,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Site ID",
+      "label": "ID Site",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -220,7 +220,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Created By ID",
+      "label": "ID créé par",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -281,7 +281,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Created Date",
+      "label": "Date de création",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -340,7 +340,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Changed Field",
+      "label": "Champ modifié",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -353,233 +353,268 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active",
+          "label": "Actif",
           "validFor": null,
           "value": "siteActive"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active Site Home Page",
-          "validFor": null,
-          "value": "IndexPage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Allow Access to Standard Salesforce Pages",
-          "validFor": null,
-          "value": "SiteAllowStandardPortalPages"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Analytics Tracking Code",
-          "validFor": null,
-          "value": "AnalyticsTrackingCode"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Authorization Required Page (401)",
-          "validFor": null,
-          "value": "siteOverride401"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Change Password Page",
-          "validFor": null,
-          "value": "siteOverrideChangePassword"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Clickjack Protection Level",
-          "validFor": null,
-          "value": "ClickjackProtectionLevel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Created.",
-          "validFor": null,
-          "value": "created"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Custom Web Address",
-          "validFor": null,
-          "value": "SiteDeleteDomain"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Custom Web Address",
-          "validFor": null,
-          "value": "siteNewDomain"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Custom Web Address",
-          "validFor": null,
-          "value": "TopLevelDomain"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Default Site Domain",
-          "validFor": null,
-          "value": "DefaultDomain"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Default Site Domain",
-          "validFor": null,
-          "value": "siteSetPrimaryDomain"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Default Web Address",
-          "validFor": null,
-          "value": "UrlPathPrefix"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Disable Site",
-          "validFor": null,
-          "value": "siteBTDisabled"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Enable Feeds",
-          "validFor": null,
-          "value": "siteEnableFeeds"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Enable Standard Answers Pages",
-          "validFor": null,
-          "value": "siteAllowStandardAnswersPages"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Enable Standard Home Page",
+          "label": "Activer la page d'accueil standard",
           "validFor": null,
           "value": "siteAllowHomePage"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Enable Standard Ideas Pages",
+          "label": "Activer les fils",
+          "validFor": null,
+          "value": "siteEnableFeeds"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Activer les pages d'idées standard",
           "validFor": null,
           "value": "siteAllowStandardIdeasPages"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Enable Standard Lookup Pages",
-          "validFor": null,
-          "value": "siteAllowStandardSearch"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Enable Standard Search Pages",
+          "label": "Activer les pages de recherche standard",
           "validFor": null,
           "value": "siteAllowStandardLookups"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Feed event",
+          "label": "Activer les pages de recherche standard",
+          "validFor": null,
+          "value": "siteAllowStandardSearch"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Activer les pages de réponses standard",
+          "validFor": null,
+          "value": "siteAllowStandardAnswersPages"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Adresse Web par défaut",
+          "validFor": null,
+          "value": "UrlPathPrefix"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Adresse Web personnalisée",
+          "validFor": null,
+          "value": "SiteDeleteDomain"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Adresse Web personnalisée",
+          "validFor": null,
+          "value": "siteNewDomain"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Adresse Web personnalisée",
+          "validFor": null,
+          "value": "TopLevelDomain"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Autoriser l'accès aux pages Salesforce standard",
+          "validFor": null,
+          "value": "SiteAllowStandardPortalPages"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Classe URL Rewriter",
+          "validFor": null,
+          "value": "UrlRewriterClass"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Code de suivi analytique",
+          "validFor": null,
+          "value": "AnalyticsTrackingCode"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Contact du site",
+          "validFor": null,
+          "value": "Admin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Créé.",
+          "validFor": null,
+          "value": "created"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Demander des connexions non sécurisées (HTTP)",
+          "validFor": null,
+          "value": "siteRequireInsecurePortalAccess"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Demander des connexions sécurisées (HTTPS)",
+          "validFor": null,
+          "value": "siteRequireHttps"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Désactiver le site",
+          "validFor": null,
+          "value": "siteBTDisabled"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description du site",
+          "validFor": null,
+          "value": "Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Domaine de Site par défaut",
+          "validFor": null,
+          "value": "DefaultDomain"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Domaine de Site par défaut",
+          "validFor": null,
+          "value": "siteSetPrimaryDomain"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Enregistrement déverrouillé.",
+          "validFor": null,
+          "value": "unlocked"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Enregistrement verrouillé.",
+          "validFor": null,
+          "value": "locked"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Étiquette du site",
+          "validFor": null,
+          "value": "MasterLabel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Événement de fil",
           "validFor": null,
           "value": "feedEvent"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Forgot Password Page",
+          "label": "Icône de favori de Site",
           "validFor": null,
-          "value": "siteOverrideForgotPassword"
+          "value": "FavoriteIcon"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Generic Error Page",
-          "validFor": null,
-          "value": "siteOverride500"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Guest User",
-          "validFor": null,
-          "value": "GuestUser"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Inactive Site Home Page",
-          "validFor": null,
-          "value": "siteOverrideInactive"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Individual Merged",
+          "label": "Individu fusionné",
           "validFor": null,
           "value": "individualMerged"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Limit Exceeded Page (509)",
+          "label": "Langue principale de Site",
           "validFor": null,
-          "value": "siteOverride509"
+          "value": "Language"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Maintenance Page(500/503)",
-          "validFor": null,
-          "value": "siteOverride503"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Monthly page view limit exceeded for org",
+          "label": "Limite de vues de page mensuelles dépassée pour l'organisation",
           "validFor": null,
           "value": "sitePageLimitExceeded"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "My Profile Page",
+          "label": "mappages de redirections. Créé un mappage",
           "validFor": null,
-          "value": "siteOverrideMyProfile"
+          "value": "siteNewRedirect"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "New Password Template",
+          "label": "mappages de redirections. La nouvelle valeur de mappage est",
+          "validFor": null,
+          "value": "siteChangeRedirect"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "mappages de redirections. Supprimé le mappage",
+          "validFor": null,
+          "value": "siteDeleteRedirect"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Modèle de nouveau mot de passe",
           "validFor": null,
           "value": "NewPassTemplate"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "New User Template",
+          "label": "Modèle de nouvel utilisateur",
           "validFor": null,
           "value": "NewUserTemplate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Modèle de site",
+          "validFor": null,
+          "value": "siteOverrideTemplate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Niveau de protection contre le détournement de clic",
+          "validFor": null,
+          "value": "ClickjackProtectionLevel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nom Site",
+          "validFor": null,
+          "value": "Name"
         },
         {
           "active": true,
@@ -591,135 +626,114 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Owner (Accepted)",
+          "label": "Page Autorisation nécessaire (401)",
           "validFor": null,
-          "value": "ownerAccepted"
+          "value": "siteOverride401"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Owner (Assignment)",
+          "label": "Page d'accueil de site inactif",
           "validFor": null,
-          "value": "ownerAssignment"
+          "value": "siteOverrideInactive"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Page Not Found Page (404)",
+          "label": "Page d'accueil Site active",
           "validFor": null,
-          "value": "siteOverride404"
+          "value": "IndexPage"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Portal",
-          "validFor": null,
-          "value": "Portal"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Record locked.",
-          "validFor": null,
-          "value": "locked"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Record unlocked.",
-          "validFor": null,
-          "value": "unlocked"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "redirection mappings. Created a new mapping",
-          "validFor": null,
-          "value": "siteNewRedirect"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "redirection mappings. Deleted the mapping",
-          "validFor": null,
-          "value": "siteDeleteRedirect"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "redirection mappings. The new mapping value is",
-          "validFor": null,
-          "value": "siteChangeRedirect"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Require Non-Secure Connections (HTTP)",
-          "validFor": null,
-          "value": "siteRequireInsecurePortalAccess"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Require Secure Connections (HTTPS)",
-          "validFor": null,
-          "value": "siteRequireHttps"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Self Registration Page",
+          "label": "Page d'auto-inscription",
           "validFor": null,
           "value": "siteOverrideSelfReg"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Service Not Available",
+          "label": "Page d'erreur générique",
+          "validFor": null,
+          "value": "siteOverride500"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Page de modification du mot de passe",
+          "validFor": null,
+          "value": "siteOverrideChangePassword"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Page limite dépassée (509)",
+          "validFor": null,
+          "value": "siteOverride509"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Page Maintenance (500/503)",
+          "validFor": null,
+          "value": "siteOverride503"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Page Mon profil",
+          "validFor": null,
+          "value": "siteOverrideMyProfile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Page Mot de passe oublié",
+          "validFor": null,
+          "value": "siteOverrideForgotPassword"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Page Page introuvable (404)",
+          "validFor": null,
+          "value": "siteOverride404"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Portail",
+          "validFor": null,
+          "value": "Portal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Préfixe du sous-domaine Site",
+          "validFor": null,
+          "value": "Subdomain"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Propriétaire (Accepté)",
+          "validFor": null,
+          "value": "ownerAccepted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Propriétaire (Attribution)",
+          "validFor": null,
+          "value": "ownerAssignment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Service non disponible",
           "validFor": null,
           "value": "ServerIsDown"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Site Contact",
-          "validFor": null,
-          "value": "Admin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Site Description",
-          "validFor": null,
-          "value": "Description"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Site Favorite Icon",
-          "validFor": null,
-          "value": "FavoriteIcon"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Site Label",
-          "validFor": null,
-          "value": "MasterLabel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Site Master Language",
-          "validFor": null,
-          "value": "Language"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Site Name",
-          "validFor": null,
-          "value": "Name"
         },
         {
           "active": true,
@@ -731,28 +745,14 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Site Status",
+          "label": "Statut Site",
           "validFor": null,
           "value": "Status"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Site Subdomain Prefix",
-          "validFor": null,
-          "value": "Subdomain"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Site Template",
-          "validFor": null,
-          "value": "siteOverrideTemplate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Site Type",
+          "label": "Type de Site",
           "validFor": null,
           "value": "SiteType"
         },
@@ -766,9 +766,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "URL Rewriter Class",
+          "label": "Utilisateur invité",
           "validFor": null,
-          "value": "UrlRewriterClass"
+          "value": "GuestUser"
         }
       ],
       "polymorphicForeignKey": false,
@@ -820,7 +820,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Old Value",
+      "label": "Ancienne valeur",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -879,7 +879,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "New Value",
+      "label": "Nouvelle valeur",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -911,8 +911,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": null,
-  "label": "Site History",
-  "labelPlural": "Site History",
+  "label": "Historique du site",
+  "labelPlural": "Historique du site",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -929,7 +929,7 @@
   "searchable": false,
   "supportedScopes": [
     {
-      "label": "All site history",
+      "label": "Toutes historique du site",
       "name": "everything"
     }
   ],
