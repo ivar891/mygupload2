@@ -13,36 +13,6 @@
       "restrictedDelete": false
     },
     {
-      "cascadeDelete": true,
-      "childSObject": "AttachedContentNote",
-      "deprecatedAndHidden": false,
-      "field": "ContentDocumentId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "Campaign",
-      "deprecatedAndHidden": false,
-      "field": "CampaignImageId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "CampaignChangeEvent",
-      "deprecatedAndHidden": false,
-      "field": "CampaignImageId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
       "cascadeDelete": false,
       "childSObject": "ContentAsset",
       "deprecatedAndHidden": false,
@@ -207,36 +177,6 @@
       "childSObject": "FolderedContentDocument",
       "deprecatedAndHidden": false,
       "field": "ContentDocumentId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "NetworkActivityAudit",
-      "deprecatedAndHidden": false,
-      "field": "EntityId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "AuditableEntities",
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "NetworkActivityAudit",
-      "deprecatedAndHidden": false,
-      "field": "ParentEntityId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "ParentEntities",
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": true,
-      "childSObject": "NetworkModeration",
-      "deprecatedAndHidden": false,
-      "field": "EntityId",
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": null,
@@ -1856,11 +1796,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/ContentDocument/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/ContentDocument/{ID}",
-    "uiDetailTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}",
-    "uiEditTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://ap15.salesforce.com/{ID}",
+    "uiEditTemplate": "https://ap15.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/ContentDocument/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/ContentDocument/describe",
-    "uiNewRecord": "https://demohardingpoint200.my.salesforce.com/069/e",
+    "uiNewRecord": "https://ap15.salesforce.com/069/e",
     "layouts": "/services/data/v43.0/sobjects/ContentDocument/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/ContentDocument"
   }
