@@ -52,7 +52,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "Opportunity Partner/Relationship ID",
+      "label": "Opportunity Partner ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -246,9 +246,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Advertiser",
+          "label": "System Integrator",
           "validFor": null,
-          "value": "Advertiser"
+          "value": "System Integrator"
         },
         {
           "active": true,
@@ -260,37 +260,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Broker",
+          "label": "Advertiser",
           "validFor": null,
-          "value": "Broker"
+          "value": "Advertiser"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Consultant",
+          "label": "VAR/Reseller",
           "validFor": null,
-          "value": "Consultant"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Contractor",
-          "validFor": null,
-          "value": "Contractor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Dealer",
-          "validFor": null,
-          "value": "Dealer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Developer",
-          "validFor": null,
-          "value": "Developer"
+          "value": "VAR/Reseller"
         },
         {
           "active": true,
@@ -302,9 +281,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Institution",
+          "label": "Developer",
           "validFor": null,
-          "value": "Institution"
+          "value": "Developer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Broker",
+          "validFor": null,
+          "value": "Broker"
         },
         {
           "active": true,
@@ -323,37 +309,30 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "System Integrator",
+          "label": "Institution",
           "validFor": null,
-          "value": "System Integrator"
+          "value": "Institution"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "VAR/Reseller",
+          "label": "Contractor",
           "validFor": null,
-          "value": "VAR/Reseller"
+          "value": "Contractor"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Lawyer",
+          "label": "Dealer",
           "validFor": null,
-          "value": "Lawyer"
+          "value": "Dealer"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Spouse",
+          "label": "Consultant",
           "validFor": null,
-          "value": "Spouse"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Parent",
-          "validFor": null,
-          "value": "Parent"
+          "value": "Consultant"
         }
       ],
       "polymorphicForeignKey": false,
@@ -822,7 +801,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Reverse Partner/Relationship ID",
+      "label": "Reverse Partner ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -856,8 +835,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": null,
-  "label": "Opportunity Partner/Relationship",
-  "labelPlural": "Opportunity Partner/Relationship",
+  "label": "Opportunity Partner",
+  "labelPlural": "Opportunity Partner",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -874,7 +853,7 @@
   "searchable": false,
   "supportedScopes": [
     {
-      "label": "All opportunity partner/relationship",
+      "label": "All opportunity partner",
       "name": "everything"
     }
   ],
