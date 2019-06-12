@@ -8,6 +8,4 @@
     <tabs>standard-Workspace</tabs>
     <tabs>standard-ContentSearch</tabs>
     <tabs>standard-ContentSubscriptions</tabs>
-    <tabs>GRAX_Graph_Connect</tabs>
-    <tabs>GRAX_Consolidation</tabs>
 </CustomApplication>
