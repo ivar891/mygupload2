@@ -41,7 +41,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "ID de partage de l'objet personnalisé",
+      "label": "Custom Object Share ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -100,7 +100,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "ID parent",
+      "label": "Parent ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -161,7 +161,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "ID de l'utilisateur/du groupe",
+      "label": "User/Group ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -223,7 +223,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Accès aux objets personnalisés",
+      "label": "Custom Object Access",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -236,21 +236,21 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Lecture seule",
+          "label": "Read Only",
           "validFor": null,
           "value": "Read"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Lecture/Écriture",
+          "label": "Read/Write",
           "validFor": null,
           "value": "Edit"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Propriétaire",
+          "label": "Owner",
           "validFor": null,
           "value": "All"
         }
@@ -304,7 +304,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Cause de ligne",
+      "label": "Row Cause",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -317,84 +317,84 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Propriétaire",
+          "label": "Owner",
           "validFor": null,
           "value": "Owner"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Partage manuel",
+          "label": "Manual Sharing",
           "validFor": null,
           "value": "Manual"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Règle de partage",
+          "label": "Sharing Rule",
           "validFor": null,
           "value": "Rule"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Partage de compte",
+          "label": "Account Sharing",
           "validFor": null,
           "value": "ImplicitChild"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Propriétaire de l'enregistrement ou partage associé",
+          "label": "Associated record owner or sharing",
           "validFor": null,
           "value": "ImplicitParent"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Contact de la personne",
+          "label": "Person Contact",
           "validFor": null,
           "value": "ImplicitPerson"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Équipe de vente",
+          "label": "Sales Team",
           "validFor": null,
           "value": "Team"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Règle d'attribution de territoire",
+          "label": "Territory Assignment Rule",
           "validFor": null,
           "value": "Territory"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Territoire - Manuel",
+          "label": "Territory Manual",
           "validFor": null,
           "value": "TerritoryManual"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Territoire - Manuel",
+          "label": "Territory Manual",
           "validFor": null,
           "value": "Territory2AssociationManual"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Règle de partage de territoires",
+          "label": "Territory Sharing Rule",
           "validFor": null,
           "value": "TerritoryRule"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Attribution de territoire pour les prévisions et les rapports",
+          "label": "Territory assignment for forecasting and reporting",
           "validFor": null,
           "value": "Territory2Forecast"
         }
@@ -448,7 +448,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Date de dernière modification",
+      "label": "Last Modified Date",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -507,7 +507,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Dernière modification par ID",
+      "label": "Last Modified By ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -568,7 +568,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Supprimé",
+      "label": "Deleted",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -600,8 +600,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": null,
-  "label": "Partage Texte rapide",
-  "labelPlural": "Partage Texte rapide",
+  "label": "Quick Text Share",
+  "labelPlural": "Quick Text Share",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -618,7 +618,7 @@
   "searchable": false,
   "supportedScopes": [
     {
-      "label": "Toutes partage texte rapide",
+      "label": "All quick text share",
       "name": "everything"
     }
   ],
