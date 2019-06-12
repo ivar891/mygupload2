@@ -41,7 +41,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "ID valore ruolo partner",
+      "label": "Partner Role Value ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -100,7 +100,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Etichetta principale",
+      "label": "Master Label",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -159,7 +159,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "Nome API",
+      "label": "Api Name",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -218,7 +218,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Ordinamento",
+      "label": "Sort Order",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -277,7 +277,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Ruolo opposto",
+      "label": "Reverse Role",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -290,9 +290,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "System Integrator",
+          "label": "Advertiser",
           "validFor": null,
-          "value": "System Integrator"
+          "value": "Advertiser"
         },
         {
           "active": true,
@@ -304,34 +304,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Advertiser",
-          "validFor": null,
-          "value": "Advertiser"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "VAR/Reseller",
-          "validFor": null,
-          "value": "VAR/Reseller"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Distributor",
-          "validFor": null,
-          "value": "Distributor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Developer",
-          "validFor": null,
-          "value": "Developer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Broker",
           "validFor": null,
           "value": "Broker"
@@ -339,23 +311,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Lender",
+          "label": "Consultant",
           "validFor": null,
-          "value": "Lender"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Supplier",
-          "validFor": null,
-          "value": "Supplier"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Institution",
-          "validFor": null,
-          "value": "Institution"
+          "value": "Consultant"
         },
         {
           "active": true,
@@ -374,9 +332,72 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Consultant",
+          "label": "Developer",
           "validFor": null,
-          "value": "Consultant"
+          "value": "Developer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Distributor",
+          "validFor": null,
+          "value": "Distributor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Institution",
+          "validFor": null,
+          "value": "Institution"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lender",
+          "validFor": null,
+          "value": "Lender"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier",
+          "validFor": null,
+          "value": "Supplier"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "System Integrator",
+          "validFor": null,
+          "value": "System Integrator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "VAR/Reseller",
+          "validFor": null,
+          "value": "VAR/Reseller"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lawyer",
+          "validFor": null,
+          "value": "Lawyer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Spouse",
+          "validFor": null,
+          "value": "Spouse"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Parent",
+          "validFor": null,
+          "value": "Parent"
         }
       ],
       "polymorphicForeignKey": false,
@@ -428,7 +449,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Creato da ID",
+      "label": "Created By ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -489,7 +510,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Data creazione",
+      "label": "Created Date",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -548,7 +569,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "ID ultima modifica di",
+      "label": "Last Modified By ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -609,7 +630,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Data ultima modifica",
+      "label": "Last Modified Date",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -668,7 +689,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Modstamp di sistema",
+      "label": "System Modstamp",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -700,8 +721,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": null,
-  "label": "Valore ruolo partner",
-  "labelPlural": "Valore ruolo partner",
+  "label": "Partner Role Value",
+  "labelPlural": "Partner Role Value",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -718,7 +739,7 @@
   "searchable": false,
   "supportedScopes": [
     {
-      "label": "Tutte le valore ruolo partner",
+      "label": "All partner role value",
       "name": "everything"
     }
   ],
