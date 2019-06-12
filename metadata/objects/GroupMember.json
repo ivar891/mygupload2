@@ -177,6 +177,7 @@
       "referenceTargetField": null,
       "referenceTo": [
         "Group",
+        "PartnerNetworkConnection",
         "User"
       ],
       "relationshipName": null,
