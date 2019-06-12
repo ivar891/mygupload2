@@ -353,20 +353,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "% of Reps Trained",
-          "validFor": null,
-          "value": "of_Reps_Trained__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Account Date Field",
-          "validFor": null,
-          "value": "Account_Date_Field__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Account Merged",
           "validFor": null,
           "value": "accountMerged"
@@ -402,13 +388,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Account Record Type",
-          "validFor": null,
-          "value": "RecordType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Account Site",
           "validFor": null,
           "value": "Site"
@@ -423,44 +402,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Account Source Custom",
+          "label": "Active",
           "validFor": null,
-          "value": "Account_Source_Custom__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active Leads",
-          "validFor": null,
-          "value": "Number_Leads_Active__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "ActiveLiveAgentUser",
-          "validFor": null,
-          "value": "ActiveLiveAgentUser__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "analyticsdemo_batch_id__c",
-          "validFor": null,
-          "value": "analyticsdemo_batch_id__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "analyticsdemo_batch_id__c",
-          "validFor": null,
-          "value": "analyticsdemo_batch_id__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Annual Income",
-          "validFor": null,
-          "value": "Annual_Income__c"
+          "value": "Active__c"
         },
         {
           "active": true,
@@ -468,27 +412,6 @@
           "label": "Annual Revenue",
           "validFor": null,
           "value": "AnnualRevenue"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Application Date",
-          "validFor": null,
-          "value": "Application_Date__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Assistant",
-          "validFor": null,
-          "value": "PersonAssistantName"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Asst. Phone",
-          "validFor": null,
-          "value": "PersonAssistantPhone"
         },
         {
           "active": true,
@@ -556,58 +479,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Birthdate",
-          "validFor": null,
-          "value": "PersonBirthdate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Buying Relationship",
-          "validFor": null,
-          "value": "Buying_Relationship__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Certification Level",
-          "validFor": null,
-          "value": "Certification_Level__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Clean Status",
           "validFor": null,
           "value": "CleanStatus"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Closed Opportunities",
-          "validFor": null,
-          "value": "Number_Closed_Opportunities__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Competitive Certifications",
-          "validFor": null,
-          "value": "Competitive_Certifications__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Contract Signed",
-          "validFor": null,
-          "value": "Contract_Signed__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Converted Leads",
-          "validFor": null,
-          "value": "Number_Leads_Converted__c"
         },
         {
           "active": true,
@@ -626,37 +500,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Created Date",
+          "label": "Customer Priority",
           "validFor": null,
-          "value": "CreatedDate__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Current Year Revenue Goal",
-          "validFor": null,
-          "value": "Current_Year_Revenue_Goal__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Custom Contact Date",
-          "validFor": null,
-          "value": "Custom_Contact_Date__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Customer Account #",
-          "validFor": null,
-          "value": "Customer_Account__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Customer Satisfaction Index",
-          "validFor": null,
-          "value": "Customer_Satisfaction_Index__c"
+          "value": "CustomerPriority__c"
         },
         {
           "active": true,
@@ -668,65 +514,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Data.com Does Not Auto-Update",
-          "validFor": null,
-          "value": "jsImpacts__Data_com_does_not_auto_update__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Data.com Does Not Auto-Update",
-          "validFor": null,
-          "value": "jsImpacts__Data_com_does_not_auto_update__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Data.com Key",
           "validFor": null,
           "value": "Jigsaw"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Date Time Field",
-          "validFor": null,
-          "value": "Date_Time_Field__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "DB",
-          "validFor": null,
-          "value": "EDY_ORGCUSTOM__DB__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "DB",
-          "validFor": null,
-          "value": "EDY_ORGCUSTOM__DB__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Default Field Entitlement",
-          "validFor": null,
-          "value": "Default_Field_Entitlement__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Default Price Book",
-          "validFor": null,
-          "value": "Default_Price_Book__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Department",
-          "validFor": null,
-          "value": "PersonDepartment"
         },
         {
           "active": true,
@@ -738,135 +528,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Do Not Call",
-          "validFor": null,
-          "value": "PersonDoNotCall"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "D-U-N-S Number",
           "validFor": null,
           "value": "DunsNumber"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Account Insights",
-          "validFor": null,
-          "value": "Einstein_Account_Insights__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 1 Date",
-          "validFor": null,
-          "value": "Einstein_Article_1_Date__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 1 Source",
-          "validFor": null,
-          "value": "Einstein_Article_1_Source__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 1 Title",
-          "validFor": null,
-          "value": "Einstein_Article_1_Title__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 1 URL",
-          "validFor": null,
-          "value": "Einstein_Article_1_URL__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 2 Date",
-          "validFor": null,
-          "value": "Einstein_Article_2_Date__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 2 Source",
-          "validFor": null,
-          "value": "Einstein_Article_2_Source__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 2 Title",
-          "validFor": null,
-          "value": "Einstein_Article_2_Title__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 2 URL",
-          "validFor": null,
-          "value": "Einstein_Article_2_URL__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 3 Date",
-          "validFor": null,
-          "value": "Einstein_Article_3_Date__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 3 Source",
-          "validFor": null,
-          "value": "Einstein_Article_3_Source__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 3 Title",
-          "validFor": null,
-          "value": "Einstein_Article_3_Title__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Einstein - Article 3 URL",
-          "validFor": null,
-          "value": "Einstein_Article_3_URL__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Email",
-          "validFor": null,
-          "value": "PersonEmail"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Email Bounced Date",
-          "validFor": null,
-          "value": "PersonEmailBouncedDate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Email Bounced Reason",
-          "validFor": null,
-          "value": "PersonEmailBouncedReason"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Email Opt Out",
-          "validFor": null,
-          "value": "PersonHasOptedOutOfEmail"
         },
         {
           "active": true,
@@ -878,41 +542,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Exclude from territory assignment rules",
-          "validFor": null,
-          "value": "IsExcludedFromRealign"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "External ID",
-          "validFor": null,
-          "value": "External_ID__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "External ID",
-          "validFor": null,
-          "value": "External_ID__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Facebook Persona ID",
-          "validFor": null,
-          "value": "Facebook_Persona_ID__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Facebook Picture",
-          "validFor": null,
-          "value": "Facebook_Picture__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Fax",
           "validFor": null,
           "value": "Fax"
@@ -920,79 +549,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Fax Opt Out",
-          "validFor": null,
-          "value": "PersonHasOptedOutOfFax"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "FB Id for Identity",
-          "validFor": null,
-          "value": "FB_Id_for_Identity__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Feed event",
           "validFor": null,
           "value": "feedEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "First Name",
-          "validFor": null,
-          "value": "FirstName"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Global_Unique_ID",
-          "validFor": null,
-          "value": "Global_Unique_ID__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Google Analytics Campaign",
-          "validFor": null,
-          "value": "pi__utm_campaign__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Google Analytics Content",
-          "validFor": null,
-          "value": "pi__utm_content__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Google Analytics Medium",
-          "validFor": null,
-          "value": "pi__utm_medium__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Google Analytics Source",
-          "validFor": null,
-          "value": "pi__utm_source__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Google Analytics Term",
-          "validFor": null,
-          "value": "pi__utm_term__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Home Phone",
-          "validFor": null,
-          "value": "PersonHomePhone"
         },
         {
           "active": true,
@@ -1011,27 +570,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Klout Score",
-          "validFor": null,
-          "value": "Klout_Score__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Last Name",
-          "validFor": null,
-          "value": "LastName"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Last Year Revenue Generated",
-          "validFor": null,
-          "value": "Last_Year_Revenue_Generated__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Lead converted to Account",
           "validFor": null,
           "value": "accountUpdatedByLead"
@@ -1042,111 +580,6 @@
           "label": "Lead converted to Person Account",
           "validFor": null,
           "value": "personAccountUpdatedByLead"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Lead Source",
-          "validFor": null,
-          "value": "PersonLeadSource"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Liabilities",
-          "validFor": null,
-          "value": "Liabilities__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Long Text",
-          "validFor": null,
-          "value": "Long_Text__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Lost Opportunities",
-          "validFor": null,
-          "value": "Number_Closed_Lost_Opportunities__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Mailing Address",
-          "validFor": null,
-          "value": "PersonMailingAddress"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Mailing City",
-          "validFor": null,
-          "value": "PersonMailingCity"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Mailing Country",
-          "validFor": null,
-          "value": "PersonMailingCountry"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Mailing Geocode Accuracy",
-          "validFor": null,
-          "value": "PersonMailingGeocodeAccuracy"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Mailing Latitude",
-          "validFor": null,
-          "value": "PersonMailingLatitude"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Mailing Longitude",
-          "validFor": null,
-          "value": "PersonMailingLongitude"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Mailing State/Province",
-          "validFor": null,
-          "value": "PersonMailingState"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Mailing Street",
-          "validFor": null,
-          "value": "PersonMailingStreet"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Mailing Zip/Postal Code",
-          "validFor": null,
-          "value": "PersonMailingPostalCode"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Mobile",
-          "validFor": null,
-          "value": "PersonMobilePhone"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Month of Birth",
-          "validFor": null,
-          "value": "Month_of_Birth__pc"
         },
         {
           "active": true,
@@ -1165,135 +598,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Needs Score Synced",
+          "label": "Number of Locations",
           "validFor": null,
-          "value": "pi__Needs_Score_Synced__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Notes",
-          "validFor": null,
-          "value": "Notes__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Number of Friends",
-          "validFor": null,
-          "value": "Number_of_Friends__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Old Name",
-          "validFor": null,
-          "value": "EDY_ORGCUSTOM__Old_Name__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Old Title",
-          "validFor": null,
-          "value": "EDY_ORGCUSTOM__Old_Title__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Open Opportunities",
-          "validFor": null,
-          "value": "Number_Open_Opportunities__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Operating Hours",
-          "validFor": null,
-          "value": "Operating_Hours__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Operating Hours",
-          "validFor": null,
-          "value": "OperatingHours"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Other Address",
-          "validFor": null,
-          "value": "PersonOtherAddress"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Other City",
-          "validFor": null,
-          "value": "PersonOtherCity"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Other Country",
-          "validFor": null,
-          "value": "PersonOtherCountry"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Other Geocode Accuracy",
-          "validFor": null,
-          "value": "PersonOtherGeocodeAccuracy"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Other Income",
-          "validFor": null,
-          "value": "Other_Income__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Other Latitude",
-          "validFor": null,
-          "value": "PersonOtherLatitude"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Other Longitude",
-          "validFor": null,
-          "value": "PersonOtherLongitude"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Other Phone",
-          "validFor": null,
-          "value": "PersonOtherPhone"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Other State/Province",
-          "validFor": null,
-          "value": "PersonOtherState"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Other Street",
-          "validFor": null,
-          "value": "PersonOtherStreet"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Other Zip/Postal Code",
-          "validFor": null,
-          "value": "PersonOtherPostalCode"
+          "value": "NumberofLocations__c"
         },
         {
           "active": true,
@@ -1319,125 +626,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Pardot Campaign",
-          "validFor": null,
-          "value": "pi__campaign__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Comments",
-          "validFor": null,
-          "value": "pi__comments__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Conversion Date",
-          "validFor": null,
-          "value": "pi__conversion_date__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Conversion Object Name",
-          "validFor": null,
-          "value": "pi__conversion_object_name__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Conversion Object Type",
-          "validFor": null,
-          "value": "pi__conversion_object_type__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Created Date",
-          "validFor": null,
-          "value": "pi__created_date__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot First Activity",
-          "validFor": null,
-          "value": "pi__first_activity__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot First Referrer",
-          "validFor": null,
-          "value": "pi__first_touch_url__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot First Referrer Query",
-          "validFor": null,
-          "value": "pi__first_search_term__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot First Referrer Type",
-          "validFor": null,
-          "value": "pi__first_search_type__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Grade",
-          "validFor": null,
-          "value": "pi__grade__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Hard Bounced",
-          "validFor": null,
-          "value": "pi__pardot_hard_bounced__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Last Activity",
-          "validFor": null,
-          "value": "pi__last_activity__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Last Scored At",
-          "validFor": null,
-          "value": "pi__Pardot_Last_Scored_At__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Notes",
-          "validFor": null,
-          "value": "pi__notes__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Score",
-          "validFor": null,
-          "value": "pi__score__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot URL",
-          "validFor": null,
-          "value": "pi__url__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Parent Account",
           "validFor": null,
           "value": "Parent"
@@ -1445,65 +633,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Partner/Relationship Account",
-          "validFor": null,
-          "value": "IsPartner"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Partner Certification",
-          "validFor": null,
-          "value": "Partner_Certification__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Partner Geographic Coverage",
-          "validFor": null,
-          "value": "Partner_Geographic_Coverage__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Partner Program Level",
-          "validFor": null,
-          "value": "Partner_Program_Level__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Partnership Status",
-          "validFor": null,
-          "value": "Partnership_Status__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Partner Type",
-          "validFor": null,
-          "value": "Partner_Type__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Personal Assets",
-          "validFor": null,
-          "value": "Personal_Assets__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Phone",
           "validFor": null,
           "value": "Phone"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Programs",
-          "validFor": null,
-          "value": "Programs__c"
         },
         {
           "active": true,
@@ -1529,34 +661,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Region",
-          "validFor": null,
-          "value": "Region__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Salutation",
-          "validFor": null,
-          "value": "Salutation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Scorecard Last Updated",
-          "validFor": null,
-          "value": "Scorecard_Last_Updated__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Service Territory",
-          "validFor": null,
-          "value": "Service_Territory__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Shipping Address",
           "validFor": null,
           "value": "ShippingAddress"
@@ -1574,27 +678,6 @@
           "label": "Shipping Country",
           "validFor": null,
           "value": "ShippingCountry"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "ShippingGeo",
-          "validFor": null,
-          "value": "ShippingGeo__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "ShippingGeo (Latitude)",
-          "validFor": null,
-          "value": "ShippingGeo__Latitude__s"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "ShippingGeo (Longitude)",
-          "validFor": null,
-          "value": "ShippingGeo__Longitude__s"
         },
         {
           "active": true,
@@ -1641,13 +724,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Show on Checkin Map",
-          "validFor": null,
-          "value": "Show_on_Checkin_Map__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "SIC Code",
           "validFor": null,
           "value": "Sic"
@@ -1662,16 +738,23 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "SSP User",
+          "label": "SLA",
           "validFor": null,
-          "value": "SSP_User__pc"
+          "value": "SLA__c"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "TEST FIELD",
+          "label": "SLA Expiration Date",
           "validFor": null,
-          "value": "TEST_FIELD__c"
+          "value": "SLAExpirationDate__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SLA Serial Number",
+          "validFor": null,
+          "value": "SLASerialNumber__c"
         },
         {
           "active": true,
@@ -1683,37 +766,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Title",
-          "validFor": null,
-          "value": "PersonTitle"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Total # of Activities",
-          "validFor": null,
-          "value": "Total_of_Activities__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Total Leads",
-          "validFor": null,
-          "value": "Number_Leads_Total__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Tradestyle",
           "validFor": null,
           "value": "Tradestyle"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Twitter Persona ID",
-          "validFor": null,
-          "value": "Twitter_Persona_ID__pc"
         },
         {
           "active": true,
@@ -1725,30 +780,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Value",
+          "label": "Upsell Opportunity",
           "validFor": null,
-          "value": "Value__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Value Closed Won Opportunities",
-          "validFor": null,
-          "value": "Value_Closed_Won_Opportunties__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Value of Open Opportunities",
-          "validFor": null,
-          "value": "Value_Open_Opportunties__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Vertical Coverage",
-          "validFor": null,
-          "value": "Vertical_Coverage__c"
+          "value": "UpsellOpportunity__c"
         },
         {
           "active": true,
@@ -1760,44 +794,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Won Opportunities",
-          "validFor": null,
-          "value": "Number_Closed_Won_Opportunities__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Work Type",
-          "validFor": null,
-          "value": "Work_Type__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Work Type for Quote Creation",
-          "validFor": null,
-          "value": "Work_Type_for_Quote_Creation__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Year of Birth",
-          "validFor": null,
-          "value": "Year_of_Birth__pc"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Year Started",
           "validFor": null,
           "value": "YearStarted"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "YTD Revenue Generated",
-          "validFor": null,
-          "value": "YTD_Revenue_Generated__c"
         }
       ],
       "polymorphicForeignKey": false,
