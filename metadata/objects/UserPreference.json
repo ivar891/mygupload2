@@ -41,7 +41,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "ID de préférence utilisateur",
+      "label": "User Preference ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -100,7 +100,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "ID d'utilisateur",
+      "label": "User ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -161,7 +161,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Préférence",
+      "label": "Preference",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -188,91 +188,91 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Empêcher les journaux au chargement",
+          "label": "Prevent Logs on Load",
           "validFor": null,
           "value": "91"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Remplir automatiquement Apex après une pression sur la touche",
+          "label": "Autocomplete Apex After Key Press",
           "validFor": null,
           "value": "92"
         },
         {
           "active": true,
           "defaultValue": true,
-          "label": "Inspecteur Viewstate Visualforce",
+          "label": "Visualforce Viewstate Inspector",
           "validFor": null,
           "value": "93"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Type de prévision affichée",
+          "label": "Forecasting Displayed Type",
           "validFor": null,
           "value": "94"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Thème de l'éditeur",
+          "label": "Editor Theme",
           "validFor": null,
           "value": "96"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Taille de police de l'éditeur",
+          "label": "Editor Font Size",
           "validFor": null,
           "value": "97"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Dossiers épinglés",
+          "label": "Pinned Folders",
           "validFor": null,
           "value": "98"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Activer le plan de requête",
+          "label": "Enable Query Plan",
           "validFor": null,
           "value": "99"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Activer la boîte de dialogue Ouvrir nouveau",
+          "label": "Enable New Open Dialog",
           "validFor": null,
           "value": "100"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Type de transport des e-mails",
+          "label": "Email Transport Type",
           "validFor": null,
           "value": "101"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Dossiers Wave épinglés",
+          "label": "Pinned Wave Folders",
           "validFor": null,
           "value": "102"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Densité",
+          "label": "Density",
           "validFor": null,
           "value": "108"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Préférences de Lightning Flow Builder",
+          "label": "Lightning Flow Builder preferences",
           "validFor": null,
           "value": "109"
         }
@@ -326,7 +326,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Valeur",
+      "label": "Value",
       "length": 10000,
       "mask": null,
       "maskType": null,
@@ -385,7 +385,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Horodateur des modifications du système",
+      "label": "System Modstamp",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -417,8 +417,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": "03u",
-  "label": "Préférence utilisateur",
-  "labelPlural": "Préférences utilisateur",
+  "label": "User Preference",
+  "labelPlural": "User Preferences",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -435,7 +435,7 @@
   "searchable": false,
   "supportedScopes": [
     {
-      "label": "Toutes préférences utilisateur",
+      "label": "All user preferences",
       "name": "everything"
     }
   ],
