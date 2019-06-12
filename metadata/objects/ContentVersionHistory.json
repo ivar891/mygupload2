@@ -374,20 +374,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Document Type",
-          "validFor": null,
-          "value": "Document_Type__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "External-Approved",
-          "validFor": null,
-          "value": "External_Approved__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "External Data Source",
           "validFor": null,
           "value": "ExternalDataSource"
@@ -486,30 +472,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Record Type",
-          "validFor": null,
-          "value": "RecordType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Record unlocked.",
           "validFor": null,
           "value": "unlocked"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Related Campaign",
-          "validFor": null,
-          "value": "Related_Campaign__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Review Date",
-          "validFor": null,
-          "value": "Review_Date__c"
         },
         {
           "active": true,
