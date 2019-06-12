@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SecuritySettings xmlns="http://soap.sforce.com/2006/04/metadata">
-    <networkAccess>
-        <ipRanges>
-            <end>204.14.239.255</end>
-            <start>204.14.239.0</start>
-        </ipRanges>
-        <ipRanges>
-            <end>63.82.23.200</end>
-            <start>63.82.23.200</start>
-        </ipRanges>
-        <ipRanges>
-            <end>255.255.255.255</end>
-            <start>0.0.0.0</start>
-        </ipRanges>
-    </networkAccess>
+    <networkAccess/>
     <passwordPolicies>
         <complexity>AlphaNumeric</complexity>
         <expiration>NinetyDays</expiration>
@@ -23,10 +10,10 @@
         <minimumPasswordLength>8</minimumPasswordLength>
         <minimumPasswordLifetime>false</minimumPasswordLifetime>
         <obscureSecretAnswer>false</obscureSecretAnswer>
-        <questionRestriction>None</questionRestriction>
+        <questionRestriction>DoesNotContainPassword</questionRestriction>
     </passwordPolicies>
     <sessionSettings>
-        <disableTimeoutWarning>true</disableTimeoutWarning>
+        <disableTimeoutWarning>false</disableTimeoutWarning>
         <enableCSPOnEmail>true</enableCSPOnEmail>
         <enableCSRFOnGet>true</enableCSRFOnGet>
         <enableCSRFOnPost>true</enableCSRFOnPost>
@@ -41,17 +28,16 @@
         <enableUpgradeInsecureRequests>true</enableUpgradeInsecureRequests>
         <enableXssProtection>true</enableXssProtection>
         <enforceIpRangesEveryRequest>false</enforceIpRangesEveryRequest>
-        <forceLogoutOnSessionTimeout>false</forceLogoutOnSessionTimeout>
-        <forceRelogin>false</forceRelogin>
+        <forceLogoutOnSessionTimeout>true</forceLogoutOnSessionTimeout>
+        <forceRelogin>true</forceRelogin>
         <hstsOnForcecomSites>false</hstsOnForcecomSites>
         <identityConfirmationOnEmailChange>false</identityConfirmationOnEmailChange>
         <identityConfirmationOnTwoFactorRegistrationEnabled>true</identityConfirmationOnTwoFactorRegistrationEnabled>
         <lockSessionsToDomain>true</lockSessionsToDomain>
         <lockSessionsToIp>false</lockSessionsToIp>
-        <lockerServiceCSP>false</lockerServiceCSP>
+        <lockerServiceCSP>true</lockerServiceCSP>
         <lockerServiceFrozenRealm>false</lockerServiceFrozenRealm>
-        <logoutURL>https://login.salesforce.com</logoutURL>
-        <redirectionWarning>false</redirectionWarning>
+        <redirectionWarning>true</redirectionWarning>
         <referrerPolicy>true</referrerPolicy>
         <requireHttpOnly>false</requireHttpOnly>
         <requireHttps>true</requireHttps>
