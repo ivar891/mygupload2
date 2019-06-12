@@ -581,11 +581,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/CustomPermissionDependency/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/CustomPermissionDependency/{ID}",
-    "uiDetailTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}",
-    "uiEditTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://ap15.salesforce.com/{ID}",
+    "uiEditTemplate": "https://ap15.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/CustomPermissionDependency/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/CustomPermissionDependency/describe",
-    "uiNewRecord": "https://demohardingpoint200.my.salesforce.com/0PD/e",
+    "uiNewRecord": "https://ap15.salesforce.com/0PD/e",
     "layouts": "/services/data/v43.0/sobjects/CustomPermissionDependency/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/CustomPermissionDependency"
   }
