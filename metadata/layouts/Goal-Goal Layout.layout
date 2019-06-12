@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <excludeButtons>Delete</excludeButtons>
-    <excludeButtons>Share</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
-        <detailHeading>true</detailHeading>
+        <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
         <label>Goal Information</label>
         <layoutColumns>
@@ -13,25 +11,12 @@
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Description</field>
-            </layoutItems>
-        </layoutColumns>
-        <style>OneColumn</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
-        <label>Details</label>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>StartDate</field>
+                <behavior>Readonly</behavior>
+                <field>ImageUrl</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>DueDate</field>
+                <field>IsKeyCompanyGoal</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -41,7 +26,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>IsKeyCompanyGoal</field>
+                <field>StartDate</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>DueDate</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -51,12 +40,17 @@
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
         <label>Description</label>
-        <layoutColumns/>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Description</field>
+            </layoutItems>
+        </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
     <layoutSections>
         <customLabel>false</customLabel>
-        <detailHeading>true</detailHeading>
+        <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
         <label>Goal Progress</label>
         <layoutColumns>
@@ -93,20 +87,13 @@
                 <behavior>Readonly</behavior>
                 <field>LastModifiedById</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>ImageUrl</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
         <customLabel>false</customLabel>
-        <detailHeading>true</detailHeading>
+        <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
-        <label>Custom Links</label>
-        <layoutColumns/>
-        <layoutColumns/>
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
@@ -117,50 +104,23 @@
         <fields>DueDate</fields>
     </miniLayout>
     <relatedLists>
-        <fields>Name</fields>
-        <fields>Progress</fields>
-        <fields>Status</fields>
-        <fields>DueDate</fields>
-        <fields>CurrentValue</fields>
-        <fields>InitialValue</fields>
-        <fields>TargetValue</fields>
-        <fields>Owner</fields>
-        <fields>LastComment</fields>
-        <fields>Weight</fields>
-        <relatedList>OpenGoalRelatedMetricList</relatedList>
+        <fields>TASK.SUBJECT</fields>
+        <fields>ACTIVITY.TASK</fields>
+        <fields>TASK.DUE_DATE</fields>
+        <fields>TASK.STATUS</fields>
+        <fields>TASK.PRIORITY</fields>
+        <fields>CORE.USERS.FULL_NAME</fields>
+        <relatedList>RelatedActivityList</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>Name</fields>
-        <fields>Progress</fields>
-        <fields>Status</fields>
-        <fields>DueDate</fields>
-        <fields>CurrentValue</fields>
-        <fields>InitialValue</fields>
-        <fields>TargetValue</fields>
-        <fields>Owner</fields>
-        <fields>LastComment</fields>
-        <fields>Weight</fields>
-        <relatedList>CompletedGoalRelatedMetricList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Subgoal</fields>
-        <fields>SubgoalProgress</fields>
-        <fields>SubgoalOwner</fields>
-        <relatedList>RelatedSubgoalLinkList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>ParentGoal</fields>
-        <fields>ParentGoalProgress</fields>
-        <fields>ParentGoalOwner</fields>
-        <relatedList>RelatedParentGoalLinkList</relatedList>
+        <fields>TASK.SUBJECT</fields>
+        <fields>ACTIVITY.TASK</fields>
+        <fields>TASK.DUE_DATE</fields>
+        <fields>TASK.PRIORITY</fields>
+        <fields>CORE.USERS.FULL_NAME</fields>
+        <relatedList>RelatedHistoryList</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
-    <summaryLayout>
-        <masterLabel>00ho000000742R5</masterLabel>
-        <sizeX>4</sizeX>
-        <sizeY>0</sizeY>
-        <summaryLayoutStyle>Default</summaryLayoutStyle>
-    </summaryLayout>
 </Layout>
