@@ -360,27 +360,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "ActiveLiveAgentUser",
-          "validFor": null,
-          "value": "ActiveLiveAgentUser__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Allow Customer Portal Self-Registration",
-          "validFor": null,
-          "value": "CanAllowPortalSelfReg"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "analyticsdemo_batch_id__c",
-          "validFor": null,
-          "value": "analyticsdemo_batch_id__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Assistant",
           "validFor": null,
           "value": "AssistantName"
@@ -398,13 +377,6 @@
           "label": "Birthdate",
           "validFor": null,
           "value": "Birthdate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Certification Level",
-          "validFor": null,
-          "value": "Certification_Level__c"
         },
         {
           "active": true,
@@ -430,13 +402,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Contact Record Type",
-          "validFor": null,
-          "value": "RecordType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Created.",
           "validFor": null,
           "value": "created"
@@ -451,30 +416,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Custom Contact Date",
-          "validFor": null,
-          "value": "Custom_Contact_Date__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Data.com Does Not Auto-Update",
-          "validFor": null,
-          "value": "jsImpacts__Data_com_does_not_auto_update__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Data.com Key",
           "validFor": null,
           "value": "Jigsaw"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "DB",
-          "validFor": null,
-          "value": "EDY_ORGCUSTOM__DB__c"
         },
         {
           "active": true,
@@ -528,27 +472,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "External ID",
-          "validFor": null,
-          "value": "External_ID__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Facebook Persona ID",
-          "validFor": null,
-          "value": "Facebook_Persona_ID__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Facebook Picture",
-          "validFor": null,
-          "value": "Facebook_Picture__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Fax",
           "validFor": null,
           "value": "Fax"
@@ -559,13 +482,6 @@
           "label": "Fax Opt Out",
           "validFor": null,
           "value": "HasOptedOutOfFax"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "FB Id for Identity",
-          "validFor": null,
-          "value": "FB_Id_for_Identity__c"
         },
         {
           "active": true,
@@ -584,41 +500,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Google Analytics Campaign",
-          "validFor": null,
-          "value": "pi__utm_campaign__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Google Analytics Content",
-          "validFor": null,
-          "value": "pi__utm_content__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Google Analytics Medium",
-          "validFor": null,
-          "value": "pi__utm_medium__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Google Analytics Source",
-          "validFor": null,
-          "value": "pi__utm_source__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Google Analytics Term",
-          "validFor": null,
-          "value": "pi__utm_term__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Home Phone",
           "validFor": null,
           "value": "HomePhone"
@@ -633,9 +514,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Klout Score",
+          "label": "Languages",
           "validFor": null,
-          "value": "Klout_Score__c"
+          "value": "Languages__c"
         },
         {
           "active": true,
@@ -657,6 +538,13 @@
           "label": "Lead Source",
           "validFor": null,
           "value": "LeadSource"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Level",
+          "validFor": null,
+          "value": "Level__c"
         },
         {
           "active": true,
@@ -731,44 +619,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Month of Birth",
-          "validFor": null,
-          "value": "Month_of_Birth__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Name",
           "validFor": null,
           "value": "Name"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Needs Score Synced",
-          "validFor": null,
-          "value": "pi__Needs_Score_Synced__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Notes",
-          "validFor": null,
-          "value": "Notes__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Number of Friends",
-          "validFor": null,
-          "value": "Number_of_Friends__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Old Title",
-          "validFor": null,
-          "value": "EDY_ORGCUSTOM__Old_Title__c"
         },
         {
           "active": true,
@@ -857,125 +710,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Pardot Campaign",
-          "validFor": null,
-          "value": "pi__campaign__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Comments",
-          "validFor": null,
-          "value": "pi__comments__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Conversion Date",
-          "validFor": null,
-          "value": "pi__conversion_date__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Conversion Object Name",
-          "validFor": null,
-          "value": "pi__conversion_object_name__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Conversion Object Type",
-          "validFor": null,
-          "value": "pi__conversion_object_type__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Created Date",
-          "validFor": null,
-          "value": "pi__created_date__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot First Activity",
-          "validFor": null,
-          "value": "pi__first_activity__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot First Referrer",
-          "validFor": null,
-          "value": "pi__first_touch_url__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot First Referrer Query",
-          "validFor": null,
-          "value": "pi__first_search_term__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot First Referrer Type",
-          "validFor": null,
-          "value": "pi__first_search_type__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Grade",
-          "validFor": null,
-          "value": "pi__grade__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Hard Bounced",
-          "validFor": null,
-          "value": "pi__pardot_hard_bounced__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Last Activity",
-          "validFor": null,
-          "value": "pi__last_activity__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Last Scored At",
-          "validFor": null,
-          "value": "pi__Pardot_Last_Scored_At__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Notes",
-          "validFor": null,
-          "value": "pi__notes__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot Score",
-          "validFor": null,
-          "value": "pi__score__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Pardot URL",
-          "validFor": null,
-          "value": "pi__url__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Phone",
           "validFor": null,
           "value": "Phone"
@@ -1011,37 +745,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "SSP User",
-          "validFor": null,
-          "value": "SSP_User__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Title",
           "validFor": null,
           "value": "Title"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Total # of Activities",
-          "validFor": null,
-          "value": "Total_of_Activities__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Twitter Persona ID",
-          "validFor": null,
-          "value": "Twitter_Persona_ID__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Year of Birth",
-          "validFor": null,
-          "value": "Year_of_Birth__c"
         }
       ],
       "polymorphicForeignKey": false,
