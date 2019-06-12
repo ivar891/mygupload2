@@ -374,13 +374,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Campaign Image",
-          "validFor": null,
-          "value": "CampaignImage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Campaign Member Type",
           "validFor": null,
           "value": "CampaignMemberRecordType"
@@ -402,30 +395,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Campaign Record Type",
-          "validFor": null,
-          "value": "RecordType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Created.",
           "validFor": null,
           "value": "created"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "DB",
-          "validFor": null,
-          "value": "EDY_ORGCUSTOM__DB__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "DB Days",
-          "validFor": null,
-          "value": "DB_Days__c"
         },
         {
           "active": true,
@@ -458,13 +430,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "External ID",
-          "validFor": null,
-          "value": "External_ID__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Feed event",
           "validFor": null,
           "value": "feedEvent"
@@ -479,16 +444,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Number Sent in Campaign",
+          "label": "Num Sent in Campaign",
           "validFor": null,
           "value": "NumberSent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Old Name",
-          "validFor": null,
-          "value": "EDY_ORGCUSTOM__Old_Name__c"
         },
         {
           "active": true,
@@ -510,13 +468,6 @@
           "label": "Parent Campaign",
           "validFor": null,
           "value": "Parent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Primary Offer",
-          "validFor": null,
-          "value": "Primary_Offer__c"
         },
         {
           "active": true,
