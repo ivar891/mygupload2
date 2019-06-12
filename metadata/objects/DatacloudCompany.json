@@ -4594,11 +4594,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/DatacloudCompany/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/DatacloudCompany/{ID}",
-    "uiDetailTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}",
-    "uiEditTemplate": "https://demohardingpoint200.my.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://ap15.salesforce.com/{ID}",
+    "uiEditTemplate": "https://ap15.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/DatacloudCompany/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/DatacloudCompany/describe",
-    "uiNewRecord": "https://demohardingpoint200.my.salesforce.com/09K/e",
+    "uiNewRecord": "https://ap15.salesforce.com/09K/e",
     "layouts": "/services/data/v43.0/sobjects/DatacloudCompany/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/DatacloudCompany"
   }
