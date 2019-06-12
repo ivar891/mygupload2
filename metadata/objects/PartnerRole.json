@@ -41,7 +41,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "Partner Role Value ID",
+      "label": "ID valore ruolo partner",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -100,7 +100,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Master Label",
+      "label": "Etichetta principale",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -159,7 +159,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "Api Name",
+      "label": "Nome API",
       "length": 255,
       "mask": null,
       "maskType": null,
@@ -218,7 +218,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Sort Order",
+      "label": "Ordinamento",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -277,7 +277,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Reverse Role",
+      "label": "Ruolo opposto",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -290,9 +290,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Advertiser",
+          "label": "System Integrator",
           "validFor": null,
-          "value": "Advertiser"
+          "value": "System Integrator"
         },
         {
           "active": true,
@@ -304,37 +304,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Broker",
+          "label": "Advertiser",
           "validFor": null,
-          "value": "Broker"
+          "value": "Advertiser"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Consultant",
+          "label": "VAR/Reseller",
           "validFor": null,
-          "value": "Consultant"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Contractor",
-          "validFor": null,
-          "value": "Contractor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Dealer",
-          "validFor": null,
-          "value": "Dealer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Developer",
-          "validFor": null,
-          "value": "Developer"
+          "value": "VAR/Reseller"
         },
         {
           "active": true,
@@ -346,9 +325,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Institution",
+          "label": "Developer",
           "validFor": null,
-          "value": "Institution"
+          "value": "Developer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Broker",
+          "validFor": null,
+          "value": "Broker"
         },
         {
           "active": true,
@@ -367,37 +353,30 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "System Integrator",
+          "label": "Institution",
           "validFor": null,
-          "value": "System Integrator"
+          "value": "Institution"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "VAR/Reseller",
+          "label": "Contractor",
           "validFor": null,
-          "value": "VAR/Reseller"
+          "value": "Contractor"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Lawyer",
+          "label": "Dealer",
           "validFor": null,
-          "value": "Lawyer"
+          "value": "Dealer"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Spouse",
+          "label": "Consultant",
           "validFor": null,
-          "value": "Spouse"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Parent",
-          "validFor": null,
-          "value": "Parent"
+          "value": "Consultant"
         }
       ],
       "polymorphicForeignKey": false,
@@ -449,7 +428,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Created By ID",
+      "label": "Creato da ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -510,7 +489,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Created Date",
+      "label": "Data creazione",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -569,7 +548,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Last Modified By ID",
+      "label": "ID ultima modifica di",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -630,7 +609,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Last Modified Date",
+      "label": "Data ultima modifica",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -689,7 +668,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "System Modstamp",
+      "label": "Modstamp di sistema",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -721,8 +700,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": null,
-  "label": "Partner Role Value",
-  "labelPlural": "Partner Role Value",
+  "label": "Valore ruolo partner",
+  "labelPlural": "Valore ruolo partner",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -739,7 +718,7 @@
   "searchable": false,
   "supportedScopes": [
     {
-      "label": "All partner role value",
+      "label": "Tutte le valore ruolo partner",
       "name": "everything"
     }
   ],
