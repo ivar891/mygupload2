@@ -1,60 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
-        <fullName>Standard Assignment Rule</fullName>
+        <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <formula>NOT(ISNEW())</formula>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>Tier1Queue</assignedTo>
-            <assignedToType>Queue</assignedToType>
+            <assignedTo>rtatikonda@hardingpoint.com</assignedTo>
+            <assignedToType>User</assignedToType>
             <criteriaItems>
-                <field>Case.Priority</field>
+                <field>Account.BillingCountry</field>
                 <operation>equals</operation>
-                <value>Low</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>Tier3Queue</assignedTo>
-            <assignedToType>Queue</assignedToType>
-            <booleanFilter>1 OR 2</booleanFilter>
-            <criteriaItems>
-                <field>Case.Priority</field>
-                <operation>equals</operation>
-                <value>Critical</value>
+                <value>US,USA,United States,United States of America</value>
             </criteriaItems>
             <criteriaItems>
-                <field>Case.Status</field>
+                <field>Account.SLA__c</field>
                 <operation>equals</operation>
-                <value>Escalated</value>
+                <value>Gold,Platinum</value>
             </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>Tier2Queue</assignedTo>
-            <assignedToType>Queue</assignedToType>
             <criteriaItems>
-                <field>Case.Priority</field>
-                <operation>equals</operation>
-                <value>High</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>Tier2Queue</assignedTo>
-            <assignedToType>Queue</assignedToType>
-            <criteriaItems>
-                <field>Account.Rating</field>
-                <operation>equals</operation>
-                <value>Hot</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>Tier3Queue</assignedTo>
-            <assignedToType>Queue</assignedToType>
-            <criteriaItems>
-                <field>Contact.Title</field>
+                <field>Account.Type</field>
                 <operation>contains</operation>
-                <value>CEO,CIO,CFO,CMO,SVP</value>
+                <value>Customer</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>rtatikonda@hardingpoint.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Account.BillingCountry</field>
+                <operation>equals</operation>
+                <value>US,USA,United States,United States of America</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.SLA__c</field>
+                <operation>equals</operation>
+                <value>Silver,Bronze</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Type</field>
+                <operation>contains</operation>
+                <value>Customer</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>rtatikonda@hardingpoint.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Account.BillingCountry</field>
+                <operation>notEqual</operation>
+                <value>US,USA,United States,United States of America</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.SLA__c</field>
+                <operation>equals</operation>
+                <value>Gold,Platinum</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Type</field>
+                <operation>contains</operation>
+                <value>Customer</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>rtatikonda@hardingpoint.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Account.BillingCountry</field>
+                <operation>notEqual</operation>
+                <value>US,USA,United States,United States of America</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.SLA__c</field>
+                <operation>equals</operation>
+                <value>Silver,Bronze</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Type</field>
+                <operation>contains</operation>
+                <value>Customer</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>rtatikonda@hardingpoint.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Account.Type</field>
+                <operation>contains</operation>
+                <value>Partner</value>
             </criteriaItems>
         </ruleEntry>
     </assignmentRule>
