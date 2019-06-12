@@ -344,35 +344,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Account"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Account"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AccountBrand"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "AccountCleanInfo"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AccountContactRelation"
         },
         {
           "active": true,
@@ -386,35 +358,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "AccountInsight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AccountInsightNewsArticle"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "AccountPartner"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AccountTeamMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AccountUserTerritory2View"
         },
         {
           "active": true,
@@ -652,13 +596,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Address"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "AddressableEventInterface"
         },
         {
@@ -687,182 +624,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "AgentWork"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "AggregateResult"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIApplication"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIDataDefinition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIError"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIFactorComponent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIFilter"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIFilterGroup"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIFilterValue"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightAction"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightFeedback"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightReason"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightSource"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightValue"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIManagedField"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIModel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIModelDefinition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIModelFactor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIModelGraph"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIModelMetric"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIPredictionDefinition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIPredictionField"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIPredictionTarget"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AiqEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIRecordInsight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIState"
         },
         {
           "active": true,
@@ -1079,13 +841,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ApexDebuggerLicense"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "ApexDebuggerRequest"
         },
         {
@@ -1261,13 +1016,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "AppExtension"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "AppIpRange"
         },
         {
@@ -1332,13 +1080,6 @@
           "label": null,
           "validFor": null,
           "value": "AppNotifTypeUserSetting"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Approval"
         },
         {
           "active": true,
@@ -1450,13 +1191,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "AssignedResource"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "AssignmentRule"
         },
         {
@@ -1486,20 +1220,6 @@
           "label": null,
           "validFor": null,
           "value": "AssistantRecommendationType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AssociatedFilterCriteria"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AssociatedLocation"
         },
         {
           "active": true,
@@ -1611,13 +1331,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "AttachedContentNote"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "Attachment"
         },
         {
@@ -1625,49 +1338,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "AttachmentArticle"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Audience"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AudienceCriteria"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AudienceCustomFormula"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "AudienceMembership"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AudiencePermissionCriteria"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AudienceTargetInfo"
         },
         {
           "active": true,
@@ -1800,20 +1471,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "BadgeMissionDefinition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BadgeMissionRule"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "BaseEventInterface"
         },
         {
@@ -1870,119 +1527,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "BluetailFeedback"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Bookmark"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BotDefinition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BotDialog"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BotDialogGroup"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BotInvocation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BotInvocationMapping"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BotMessage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BotNavigation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BotNavigationLink"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BotQuickReplyOption"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "BotSessionsMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BotSlotOperation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BotSlotOperationMapping"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BotStep"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BotStepCondition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BotVersion"
         },
         {
           "active": true,
@@ -2025,13 +1570,6 @@
           "label": null,
           "validFor": null,
           "value": "BrandTemplate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BTSuggestionFeedback"
         },
         {
           "active": true,
@@ -2087,13 +1625,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "C2CPermissionBinding"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "Calendar"
         },
         {
@@ -2123,13 +1654,6 @@
           "label": null,
           "validFor": null,
           "value": "Campaign"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CampaignInfluence"
         },
         {
           "active": true,
@@ -2192,13 +1716,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "CaseArticle"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "CaseContactRole"
         },
         {
@@ -2213,21 +1730,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "CaseExternalDocument"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "CaseHistory2"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CaseMilestone"
         },
         {
           "active": true,
@@ -2305,76 +1808,6 @@
           "label": null,
           "validFor": null,
           "value": "ChangeListBranch"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ChangeSetDeployHistory"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ChangeSetDeployMessage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ChangeSetUploadHistory"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ChannelProgram"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ChannelProgramLevel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ChannelProgramMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ChatbotMetric"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ChatbotSession"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ChatSession"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ChatSessionMembers"
         },
         {
           "active": true,
@@ -2647,48 +2080,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "CMSConnectAsset"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CMSConnectLanguage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CMSConnectPersonalization"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CMSConnectResourceDefinition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CMSConnectResourceType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CMSConnectSource"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "CollaborationGroup"
         },
         {
@@ -2781,83 +2172,6 @@
           "label": null,
           "validFor": null,
           "value": "Community"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CommunityCustomThemeLayoutType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CommunityIqCtrMetric"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CommunityTemplateBundleInfo"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CommunityTemplateComponentBundle"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CommunityTemplateDefinition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CommunityTemplatePageSetting"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CommunityTemplateRelationship"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CommunityThemeDefinition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CommunityThemeRouteOverride"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CommunityThemeSetting"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CommunityWorkspacesNode"
         },
         {
           "active": true,
@@ -2969,20 +2283,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ConfidenceThresholdConfig"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ConfidenceThresholdCoverage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "ConnectedApplication"
         },
         {
@@ -3060,6 +2360,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "ConsumptionRate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ConsumptionSchedule"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Contact"
         },
         {
@@ -3082,13 +2396,6 @@
           "label": null,
           "validFor": null,
           "value": "ContactRequest"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ContactSuggestionInsight"
         },
         {
           "active": true,
@@ -3396,42 +2703,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ContractLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "ContractStatus"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ConversationChannelProvider"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ConversationContextVariableMapping"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ConversationEntry"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ConversationVariable"
         },
         {
           "active": true,
@@ -3949,13 +3221,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "DataAssessmentRecord"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "DataAssessmentValueMetric"
         },
         {
@@ -4180,20 +3445,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "DataIntegrationPurchasedRecord"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "DataIntegrationRecordPurchasePermission"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "DataPrepRecipe"
         },
         {
@@ -4320,13 +3571,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "DeflectionSignal"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "DelegateGroup"
         },
         {
@@ -4349,13 +3593,6 @@
           "label": null,
           "validFor": null,
           "value": "DependentPicklist"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "DeployDirection"
         },
         {
           "active": true,
@@ -4391,13 +3628,6 @@
           "label": null,
           "validFor": null,
           "value": "DialerMinutesMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "DigitalSignature"
         },
         {
           "active": true,
@@ -4677,34 +3907,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "EinsteinDiscoveryFilter"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "EinsteinDiscoveryFilterVal"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "EinsteinDiscoveryModel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "EinsteinDiscoveryPredDef"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "EltWorkflow"
         },
         {
@@ -4929,13 +4131,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "EmbeddedServiceFieldService"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "EmbeddedServiceFlow"
         },
         {
@@ -4951,20 +4146,6 @@
           "label": null,
           "validFor": null,
           "value": "EmbeddedServiceLabel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "EmbeddedServiceLiveAgent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "EmbeddedServiceQuickAction"
         },
         {
           "active": true,
@@ -5027,42 +4208,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "EnInsightsFeedback"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Entitlement"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "EntitlementContact"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "EntitlementTemplate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "EntityAssociationDefinitionVersion"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "EntityAudienceMapping"
         },
         {
           "active": true,
@@ -5140,13 +4286,6 @@
           "label": null,
           "validFor": null,
           "value": "EntityLock"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "EntityMilestone"
         },
         {
           "active": true,
@@ -5727,20 +4866,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "FieldBasedPAC"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FieldClassificationSetting"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "FieldDefinition"
         },
         {
@@ -5784,20 +4909,6 @@
           "label": null,
           "validFor": null,
           "value": "FieldPermissions"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FieldServiceMobileSettings"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FieldServiceOrgSettings"
         },
         {
           "active": true,
@@ -6007,13 +5118,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ForecastingAdjustment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "ForecastingCategoryMapping"
         },
         {
@@ -6035,70 +5139,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ForecastingFact"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ForecastingItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ForecastingItemPivot"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ForecastingOwnerAdjustment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ForecastingQuota"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "ForecastingShare"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ForecastingType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ForecastingTypeMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ForecastingTypeToCategory"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ForecastingUserPreference"
         },
         {
           "active": true,
@@ -6190,13 +5231,6 @@
           "label": null,
           "validFor": null,
           "value": "GatherStatsTaskInfo"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "GeoLocationPAC"
         },
         {
           "active": true,
@@ -6406,13 +5440,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "IdeaTheme"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "IDEPerspective"
         },
         {
@@ -6455,21 +5482,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "InboundChangeSet"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "InboundSocialPost"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "IncomingRecommendation"
         },
         {
           "active": true,
@@ -6497,13 +5510,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Insight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "InsightsApplication"
         },
         {
@@ -6519,20 +5525,6 @@
           "label": null,
           "validFor": null,
           "value": "InsightsExternalDataPart"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "InsightType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "InsightUserValue"
         },
         {
           "active": true,
@@ -6582,13 +5574,6 @@
           "label": null,
           "validFor": null,
           "value": "InstanceSizeJob"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "IntegrationAuditingEvent"
         },
         {
           "active": true,
@@ -6952,27 +5937,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "IotActivityLog"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "IoTActivityLogEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "IoTOutputsEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "IpWhitelist"
         },
         {
@@ -7008,84 +5972,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Keyword"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KeywordList"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "KnowledgeableUser"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KnowledgeArticleHistory"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KnowledgeExport"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KnowledgeExportArticle"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KnowledgeExportFile"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KnowledgeExportLanguage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KnowledgeExportLog"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KnowledgeImport"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KnowledgeImportFile"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KnowledgeImportLog"
         },
         {
           "active": true,
@@ -7414,13 +6301,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "LinkedArticle"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "LinkedInLeadGen"
         },
         {
@@ -7561,132 +6441,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "LiveAgentSession"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatBlockingRule"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatButton"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatButtonCriteria"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatButtonDeployment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatButtonSkill"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatDeployment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatFileToken"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatSdApexPage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatSdTabSet"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatSensitiveDataRule"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatTranscript"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatTranscriptEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatTranscriptSkill"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatUserConfig"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatUserConfigProfile"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatUserConfigUser"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatVisitor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "LmaApiSession"
         },
         {
@@ -7702,13 +6456,6 @@
           "label": null,
           "validFor": null,
           "value": "LocalNamespace"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Location"
         },
         {
           "active": true,
@@ -7786,13 +6533,6 @@
           "label": null,
           "validFor": null,
           "value": "LoginIpRange"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LogoFeedback"
         },
         {
           "active": true,
@@ -7890,27 +6630,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "MaintenanceAsset"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MaintenancePlan"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "ManagedContentBlock"
         },
         {
@@ -7919,146 +6638,6 @@
           "label": null,
           "validFor": null,
           "value": "ManagedContentBlockVersion"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentFolder"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentFolderMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentNode"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentNodeRendition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentNodeType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentQueryCriterion"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentQueryDefinition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentRelease"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentReleaseItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentSet"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentSetLink"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentSpace"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentSpaceContentType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentSpaceLink"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentSpaceMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentSpacePermission"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentSpaceRole"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentTypeVersion"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentVersion"
         },
         {
           "active": true,
@@ -8268,125 +6847,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Milestone"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MilestoneCondition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MilestoneSuccessAction"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MilestoneTimeAction"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MilestoneTimeTrigger"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MilestoneType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MlDomain"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MlExternalModel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MlIntent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MlIntentModelMetric"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MlIntentModelMisclassification"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MlIntentUtterance"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MlIntentUtteranceSuggestion"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MlRelatedIntent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MlSlotClass"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MlSlotClassValue"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MlTrainingIntentUtterance"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "MobileApplicationDetail"
         },
         {
@@ -8457,13 +6917,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "MobileSettingsAssignment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "MobileTab"
         },
         {
@@ -8493,34 +6946,6 @@
           "label": null,
           "validFor": null,
           "value": "MobileViewSortColumn"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ModerationRule"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ModerationRuleEntityTypeMapping"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ModerationRuleKeywordCriteriaMapping"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ModerationRuleUserCriteriaMapping"
         },
         {
           "active": true,
@@ -8611,62 +7036,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "NavigationLinkSet"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NavigationMenuItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Network"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkActiveMemberMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkActivityAudit"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkActivityDailyMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkAffinity"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkCustMemberMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "NetworkCustomerDailyLoginMetrics"
         },
         {
@@ -8675,27 +7044,6 @@
           "label": null,
           "validFor": null,
           "value": "NetworkCustomerLoginMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkDashboardSetting"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkDefaultBadgeSetting"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkDiscoverableLogin"
         },
         {
           "active": true,
@@ -8716,41 +7064,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "NetworkMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkMemberGroup"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkMembershipDailyMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkModeration"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkPageOverride"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "NetworkPartnerDailyLoginMetrics"
         },
         {
@@ -8765,13 +7078,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "NetworkPartnerMemberMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "NetworkPCustDailyLoginMetrics"
         },
         {
@@ -8780,97 +7086,6 @@
           "label": null,
           "validFor": null,
           "value": "NetworkPowerCustomerLoginMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkPowerCustomerMemberMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkPublicUsageDailyMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkPulseActionsMapping"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkPulseSetting"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkRegularMemberMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkSearchQueryFrequency"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkSelfRegistration"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkTenantUsageEntitlementWklyMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkUniqueContributorDailyMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkUserHistory"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkUserHistoryRecent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkUserParticipationDailyMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkWorkspaceMetricSetting"
         },
         {
           "active": true,
@@ -9010,27 +7225,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ObjectTerritory2AssignmentRule"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ObjectTerritory2AssignmentRuleItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ObjectTerritory2Association"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "OnboardingMetrics"
         },
         {
@@ -9039,13 +7233,6 @@
           "label": null,
           "validFor": null,
           "value": "OpenActivity"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OperatingHours"
         },
         {
           "active": true,
@@ -9087,13 +7274,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "OpportunityContactRoleSuggestionInsight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "OpportunityHistory"
         },
         {
@@ -9101,21 +7281,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "OpportunityInsight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "OpportunityLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OpportunityLineItemSchedule"
         },
         {
           "active": true,
@@ -9136,13 +7302,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "OpportunitySplit"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "OpportunitySplitMetrics"
         },
         {
@@ -9150,21 +7309,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "OpportunitySplitType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "OpportunityStage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OpportunityTeamMember"
         },
         {
           "active": true,
@@ -9207,146 +7352,6 @@
           "label": null,
           "validFor": null,
           "value": "OracleAwrSqltext"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Orchestration"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationContext"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationContextDataset"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationContextDeploy"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationContextEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationContextEventField"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationContextRuntimeEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationDeployment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationEmailRecord"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationEventField"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationInstance"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationRuntimeEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationRuntimeEventHv"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationRuntimeLog"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationScheduledTimer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationState"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationStats"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationTracker"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationTransitionCount"
         },
         {
           "active": true,
@@ -9487,13 +7492,6 @@
           "label": null,
           "validFor": null,
           "value": "OutgoingEmailRelation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OutOfOffice"
         },
         {
           "active": true,
@@ -9668,20 +7666,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "PageAssignment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PageAssignmentCriteria"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "PageComponent"
         },
         {
@@ -9703,20 +7687,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "PartitionLevelMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartitionLevelScheme"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "PartitionStatus"
         },
         {
@@ -9731,154 +7701,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "PartnerFundAllocation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerFundClaim"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerFundRequest"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerMarketingBudget"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkAccountStage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkCaseStage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkConnection"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkConnectionAudit"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkContactStage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkFieldMap"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkLeadStage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkOppStage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkProductStage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkRecordConnection"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "PartnerNetworkSetup"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkStage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkTemplate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkTemplateField"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkTemplateType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkTemplateValue"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkTypeMap"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerNetworkValueMap"
         },
         {
           "active": true,
@@ -9921,13 +7744,6 @@
           "label": null,
           "validFor": null,
           "value": "PendingChangeContainer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PendingServiceRouting"
         },
         {
           "active": true,
@@ -10228,77 +8044,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "PredictionDefinition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PredictionDefinitionField"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PredictiveCompFieldInfo"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PredictiveComponent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "PredictiveModel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PresenceConfigDeclineReason"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PresenceDeclineReason"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PresenceUserConfig"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PresenceUserConfigInfo"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PresenceUserConfigProfile"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PresenceUserConfigUser"
         },
         {
           "active": true,
@@ -10341,13 +8087,6 @@
           "label": null,
           "validFor": null,
           "value": "PrivacyConsent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PrmAppInstallationStatus"
         },
         {
           "active": true,
@@ -10529,56 +8268,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ProductConsumed"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductEntitlementTemplate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductItemTransaction"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductRequest"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductRequestLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductRequired"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductTransfer"
+          "value": "ProductConsumptionSchedule"
         },
         {
           "active": true,
@@ -10648,27 +8338,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ProfileSkill"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProfileSkillEndorsement"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProfileSkillUser"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "ProfileTabSetConfiguration"
         },
         {
@@ -10704,21 +8373,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "PublishableEntity"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "Publisher"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PushBackDefinition"
         },
         {
           "active": true,
@@ -10872,13 +8527,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "QueueRoutingConfig"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "QueueSobject"
         },
         {
@@ -10915,27 +8563,6 @@
           "label": null,
           "validFor": null,
           "value": "QuickText"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Quote"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "QuoteDocument"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "QuoteLineItem"
         },
         {
           "active": true,
@@ -11103,13 +8730,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "RecommendationFeedback"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "RecommendationMetric"
         },
         {
@@ -11146,20 +8766,6 @@
           "label": null,
           "validFor": null,
           "value": "RecommendationUserActivity"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "RecommendedAction"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "RecommendedValue"
         },
         {
           "active": true,
@@ -11222,13 +8828,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "RecordRecommendation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "RecordSalt"
         },
         {
@@ -11257,13 +8856,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "RecordVisibility"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "RelatedEntity"
         },
         {
@@ -11285,7 +8877,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "RemoteKeyCalloutEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "RemoteProxy"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "RemoteTenantSecretSetting"
         },
         {
           "active": true,
@@ -11474,20 +9080,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ReputationLevel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ReputationPointsRule"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "RequestsForAccessSIQ"
         },
         {
@@ -11516,34 +9108,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ResourceAbsence"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ResourcePreference"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ReturnOrder"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ReturnOrderLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "RichTextAreaFieldData"
         },
         {
@@ -11566,13 +9130,6 @@
           "label": null,
           "validFor": null,
           "value": "RuleFilterItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "RuleTerritory2Association"
         },
         {
           "active": true,
@@ -11684,20 +9241,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "SalesforceIqInboxOrg"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SalesforceIqInboxUser"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "SalesforceIqOrgBlacklist"
         },
         {
@@ -11733,20 +9276,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "SamplingStrategy"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Sandbox"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "SandboxDimensionMetrics"
         },
         {
@@ -11754,42 +9283,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "SandboxInfo"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SandboxObserver"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SandboxObserver2"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "SandboxOrgDimensionMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SandboxProcess"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SandboxRelayObserver"
         },
         {
           "active": true,
@@ -12041,55 +9535,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ServiceAppointment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceAppointmentStatus"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceChannel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceChannelStatus"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceContract"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceCrew"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceCrewMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "ServiceDataType"
         },
         {
@@ -12132,77 +9577,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ServicePresenceStatus"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServicePresenceStatusInfo"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "ServiceProvider"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceReport"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceReportLayout"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceResource"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceResourceCapacity"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceResourceSkill"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceTerritory"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceTerritoryLocation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceTerritoryMember"
         },
         {
           "active": true,
@@ -12370,21 +9745,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Shipment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "SidebarComponentLayout"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SiqCustomInsight"
         },
         {
           "active": true,
@@ -12399,13 +9760,6 @@
           "label": null,
           "validFor": null,
           "value": "SiqExchangeSetting"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SiqRecConnection"
         },
         {
           "active": true,
@@ -12524,34 +9878,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Skill"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SkillProfile"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SkillRequirement"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SkillUser"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "SkinnyIndex"
         },
         {
@@ -12587,49 +9913,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "SlaProcess"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SlaProcessFilter"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SlaProcessFilterItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SlaProcessPushRule"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SmartAnswerSlaMetric"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "SocialPersona"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SocialPost"
         },
         {
           "active": true,
@@ -12700,27 +9984,6 @@
           "label": null,
           "validFor": null,
           "value": "SolutionStatus"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SOSDeployment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SOSSession"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SOSSessionActivity"
         },
         {
           "active": true,
@@ -12958,13 +10221,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "SupervisorAgentConfigSkill"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "SupportOrgWideMetrics"
         },
         {
@@ -13022,13 +10278,6 @@
           "label": null,
           "validFor": null,
           "value": "TabSetMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "TagDefinition"
         },
         {
           "active": true,
@@ -13161,34 +10410,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Territory2"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Territory2Model"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Territory2ModelMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Territory2Type"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "TestSuiteMembership"
         },
         {
@@ -13204,34 +10425,6 @@
           "label": null,
           "validFor": null,
           "value": "ThirdPartyAccountLinkLocal"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "TimeSheet"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "TimeSheetEntry"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "TimeSlot"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "TimeStop"
         },
         {
           "active": true,
@@ -13357,13 +10550,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "TopInsight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "TraceFlag"
         },
         {
@@ -13378,7 +10564,28 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "TransactionSecurityAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TransactionSecurityActionEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "TransactionSecurityEventInterface"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TransactionSecurityPolicy"
         },
         {
           "active": true,
@@ -13393,13 +10600,6 @@
           "label": null,
           "validFor": null,
           "value": "Translation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "TranslationUser"
         },
         {
           "active": true,
@@ -13511,13 +10711,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "UserAccountTeamMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "UserActivityTimelineFilter"
         },
         {
@@ -13547,41 +10740,6 @@
           "label": null,
           "validFor": null,
           "value": "UserComponentData"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "UserConfigTransferButton"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "UserConfigTransferSkill"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "UserCriteria"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "UserCriteriaGroup"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "UserCustomBadge"
         },
         {
           "active": true,
@@ -13805,28 +10963,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "UserServicePresence"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "UserSetupAppInfo"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "UserTeamMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "UserTerritory2Association"
         },
         {
           "active": true,
@@ -13882,13 +11019,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "VeritableModel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "VersionedContentEntity"
         },
         {
@@ -13903,20 +11033,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "VisDataComponentMetadata"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "VisibilityChangeNotification"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "VisualforceAccessMetrics"
         },
         {
@@ -13925,48 +11041,6 @@
           "label": null,
           "validFor": null,
           "value": "VisualforceMetrics"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "VisualizationPlugin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "VisualizationResource"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "VisualizationSettingMetadata"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "VisualizationType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "VoiceJobState"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "VoiceVendorInfo"
         },
         {
           "active": true,
@@ -14092,35 +11166,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "WaveTemplate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WaveTemplateDetails"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WaveTemplateExternalData"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "WaveTemplateValues"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WaveTrendedReport"
         },
         {
           "active": true,
@@ -14142,27 +11188,6 @@
           "label": null,
           "validFor": null,
           "value": "WindowsPushApplicationSetup"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkAccess"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkBadge"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkBadgeDefinition"
         },
         {
           "active": true,
@@ -14212,13 +11237,6 @@
           "label": null,
           "validFor": null,
           "value": "WorkflowAlertMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkflowApexMember"
         },
         {
           "active": true,
@@ -14281,70 +11299,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "WorkOrder"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkOrderLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkOrderLineItemStatus"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkOrderStatus"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "WorkPerformanceCycle"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkReward"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkRewardFund"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkRewardFundType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkThanks"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkType"
         },
         {
           "active": true,
