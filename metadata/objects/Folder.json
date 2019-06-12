@@ -14,6 +14,16 @@
     },
     {
       "cascadeDelete": false,
+      "childSObject": "Dataflow",
+      "deprecatedAndHidden": false,
+      "field": "FolderId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": false,
       "childSObject": "Document",
       "deprecatedAndHidden": false,
       "field": "FolderId",
@@ -21,6 +31,16 @@
       "junctionReferenceTo": [],
       "relationshipName": null,
       "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EdgeMart",
+      "deprecatedAndHidden": false,
+      "field": "FolderId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": true
     },
     {
       "cascadeDelete": false,
@@ -43,6 +63,26 @@
       "restrictedDelete": false
     },
     {
+      "cascadeDelete": true,
+      "childSObject": "InsightsApplication",
+      "deprecatedAndHidden": false,
+      "field": "FolderId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "Lens",
+      "deprecatedAndHidden": false,
+      "field": "FolderId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": true
+    },
+    {
       "cascadeDelete": false,
       "childSObject": "Report",
       "deprecatedAndHidden": false,
@@ -55,6 +95,26 @@
     {
       "cascadeDelete": true,
       "childSObject": "WaveAutoInstallRequest",
+      "deprecatedAndHidden": false,
+      "field": "FolderId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "WaveTemplate",
+      "deprecatedAndHidden": false,
+      "field": "ApplicationOriginId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "WaveTemplateValues",
       "deprecatedAndHidden": false,
       "field": "FolderId",
       "junctionIdListNames": [],
