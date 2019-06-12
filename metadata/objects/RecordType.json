@@ -51,16 +51,6 @@
       "junctionReferenceTo": [],
       "relationshipName": null,
       "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": true,
-      "childSObject": "RecordTypeLocalization",
-      "deprecatedAndHidden": false,
-      "field": "ParentId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "Localization",
-      "restrictedDelete": false
     }
   ],
   "compactLayoutable": false,
@@ -102,7 +92,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "Record Type ID",
+      "label": "ID du type d'enregistrement",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -161,7 +151,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "Name",
+      "label": "Nom",
       "length": 80,
       "mask": null,
       "maskType": null,
@@ -220,7 +210,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Record Type Name",
+      "label": "Nom du type d'enregistrement",
       "length": 80,
       "mask": null,
       "maskType": null,
@@ -279,7 +269,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Namespace Prefix",
+      "label": "Préfixe d'espace de noms",
       "length": 15,
       "mask": null,
       "maskType": null,
@@ -397,7 +387,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Business Process ID",
+      "label": "ID du processus commercial",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -458,7 +448,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Sobject Type Name",
+      "label": "Nom du type d'objet",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -480,203 +470,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Account_Insight__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Account_Insight_Article__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AccountBrand"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AccountInsight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AccountInsightNewsArticle"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Address"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AgentWork"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AgentWork__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIError"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightAction"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightFeedback"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightReason"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightSource"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightValue"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIRecordInsight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIState"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "Announcement"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Apple_Config__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Appointment__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "asb_App__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "asb_Banner__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "asb_BannerImage__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "asb_Listing__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "asb_ListingActivity__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "asb_ListingAsset__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "asb_ListingExtension__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "asb_ListingPopularity__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "asb_Log__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "asb_Store__c"
         },
         {
           "active": true,
@@ -704,20 +498,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "AssociatedLocation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BusinessAccount"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "Campaign"
         },
         {
@@ -733,97 +513,6 @@
           "label": null,
           "validFor": null,
           "value": "Case"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Case_Pipeline_Snapshot__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CaseArticle__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CaseExternalDocument"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CaseHistory__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Catalog__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Certification__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ChannelProgram"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ChannelProgramLevel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Chatter_Story__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ChatterTool__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CIO_Dashboard_Data__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Cirrus__kav"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Claims__c"
         },
         {
           "active": true,
@@ -858,6 +547,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "ConsumptionRate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ConsumptionSchedule"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Contact"
         },
         {
@@ -866,13 +569,6 @@
           "label": null,
           "validFor": null,
           "value": "ContactRequest"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ContactSuggestionInsight"
         },
         {
           "active": true,
@@ -900,56 +596,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ContractLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Custom_Widgets__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Customer_Survey__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "CustomSettingNameIndex"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Data_sfga_header__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "DeflectionSignal"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "DEMODATA__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Digital_Sales_Aid__c"
         },
         {
           "active": true,
@@ -977,77 +624,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "engage_reports__Engage_Contact_Stat__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "engage_reports__Engage_Email_Template__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "engage_reports__Engage_Lead_Stat__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "engage_reports__Engage_Send__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Entitlement"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "EntitlementContact"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "EntityMilestone"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "Event"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Fake_Search__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FAQ__kav"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Field__c"
         },
         {
           "active": true,
@@ -1082,125 +659,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "FSL__FSL_Operation__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__Gantt_Filter__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__GanttPalette__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__Optimization_Data__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__Optimization_Request__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__Polygon__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__Scheduling_Policy__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__Scheduling_Policy_Goal__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__Scheduling_Policy_Work_Rule__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__Service_Goal__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__SLR_Cache__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__Territory_Optimization_Request__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__Time_Dependency__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__User_Setting_Territory__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__User_Territory__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__UserSetting__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "FSL__Work_Rule__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "Goal"
         },
         {
@@ -1215,70 +673,35 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "GRAX_Archive_Process__c"
+          "value": "grax__GRAX_Archive_Process__c"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "GRAX_Data_Record__c"
+          "value": "grax__GRAX_Data_Record__c"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "GRAX_Data_Record_Id__c"
+          "value": "grax__GRAX_Data_Record_Id__c"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "GRAX_Schedule_Process__c"
+          "value": "grax__GRAX_Schedule_Process__c"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "GRAXQuery__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Holiday_Calendar__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "HR_Applicant__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "HR_Employee__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "HR_Job_Requisition__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "HR_Object_timemachine__c"
+          "value": "grax__GRAXQuery__c"
         },
         {
           "active": true,
@@ -1286,34 +709,6 @@
           "label": null,
           "validFor": null,
           "value": "Idea"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Idea_Issues__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Idea_Milestone__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Idea_Team__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Ideas_Projects__c"
         },
         {
           "active": true,
@@ -1334,105 +729,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Insight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "InsightUserValue"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Interviewer_Feedback__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Invoice_Example__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "IotActivityLog"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KCSArticle__kav"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KCSArticle_DataCategorySelection__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KCSArticle_ka__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KCSArticle_kav__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KCSArticle_ViewStat__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "KCSArticle_VoteStat__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Knowledge__kav"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Large_Object__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "Lead"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LinkedArticle"
         },
         {
           "active": true,
@@ -1467,55 +764,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Live_Agent_ID__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveAgentSession"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatFileToken"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatTranscript"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatTranscript__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "LiveChatTranscriptEvent__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Location"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "Macro"
         },
         {
@@ -1537,27 +785,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "MaintenanceAsset"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MaintenancePlan"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "ManagedContentBlock"
         },
         {
@@ -1566,69 +793,6 @@
           "label": null,
           "validFor": null,
           "value": "ManagedContentBlockVersion"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentFolderMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentNode"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentNodeRendition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentRelease"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentReleaseItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentSet"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentSetLink"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentVersion"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Meter_Reading__c"
         },
         {
           "active": true,
@@ -1649,210 +813,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Milestone1_Expense__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Milestone1_Log__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Milestone1_Milestone__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Milestone1_Project__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Milestone1_Task__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Milestone1_Time__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MlIntentUtteranceSuggestion"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Mobileconfig__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MOCK_Score__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MOCK_Score_Reason__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "My_Notes__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkSearchQueryFrequency"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "NetworkUserHistoryRecent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "News__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "News_Announcements__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Offer_sdo__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "openCTIconfig__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "Opportunity"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Opportunity_Pipeline_Snapshot__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OpportunityContactRoleSuggestionInsight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OpportunityHistory__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OpportunityInsight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationContextRuntimeEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationEmailRecord"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationInstance"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationRuntimeLog"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationScheduledTimer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationStats"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationTracker"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationTransitionCount"
         },
         {
           "active": true,
@@ -1866,13 +827,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Org_Template__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "OrgDeleteRequest"
         },
         {
@@ -1880,147 +834,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "OutOfOffice"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerFundAllocation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerFundClaim"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerFundRequest"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerMarketingBudget"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Pay_Cycle__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Payroll_System__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PendingServiceRouting"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PersonAccount"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "PersonalizationResource"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "pi__AsyncRequest__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "pi__Category_Contact_Score__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "pi__Category_Lead_Score__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "pi__EngageCampaignRecipient__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "pi__LDFilter__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "pi__ObjectChangeLog__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "pi__Pardot_Scoring_Category__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "pi__PardotTask__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PKBSiteSetup__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Platform_Events_Button__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Platform_Events_Page__c"
         },
         {
           "active": true,
@@ -2041,77 +855,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ProductConsumed"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductRequest"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductRequestLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductRequired"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductTransfer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProfileSkill"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProfileSkillEndorsement"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProfileSkillUser"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Project_Snapshot__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Queue_Stat__c"
+          "value": "ProductConsumptionSchedule"
         },
         {
           "active": true,
@@ -2119,20 +863,6 @@
           "label": null,
           "validFor": null,
           "value": "QuickText"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Quota__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Quote"
         },
         {
           "active": true,
@@ -2167,63 +897,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Referral__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Related_Idea__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Requested_Day__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "RequestsForAccessSIQ"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ResourceAbsence"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ReturnOrder"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ReturnOrderLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Sample_Event_Data_Store__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ScheduledTSDetails__c"
         },
         {
           "active": true,
@@ -2251,27 +925,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "scrubDemo_Interaction_Analysis__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SDO_News__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SDO_Tool__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "SearchActivity"
         },
         {
@@ -2280,55 +933,6 @@
           "label": null,
           "validFor": null,
           "value": "SearchPromotionRule"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceAppointment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceContract"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceCrew"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceCrewMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceResource"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceTerritory"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceTerritoryLocation"
         },
         {
           "active": true,
@@ -2356,49 +960,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "SFDC_Channel_Account_Plan__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SFDC_Objective__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SFDC_Objective_Opportunity_Association__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SFDC_Plan_Resource_Association__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Shipment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "SiqUserBlacklist"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SocialPost"
         },
         {
           "active": true,
@@ -2412,42 +974,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "SOSSession"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "StreamActivityAccess"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Survey__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Survey_Question__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SurveyQuestionResponse__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SurveyTaker__c"
         },
         {
           "active": true,
@@ -2468,35 +995,14 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Template_Map__c"
+          "value": "TransactionSecurityAction"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Time_Off_Info__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Time_Off_Request__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "TimeSheet"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "TimeSheetEntry"
+          "value": "TransactionSecurityActionEvent"
         },
         {
           "active": true,
@@ -2518,83 +1024,6 @@
           "label": null,
           "validFor": null,
           "value": "UserNavItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "UserServicePresence"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "UserServicePresence__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WebToObject__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Widget_CSS_Definition__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Widget_Template__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Wizard__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Wizard_Step__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Wizard_Step_Tool__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkAccess"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkBadge"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkBadgeDefinition"
         },
         {
           "active": true,
@@ -2643,56 +1072,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "WorkOrder"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkOrderLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "WorkPerformanceCycle"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkReward"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkRewardFund"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkRewardFundType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkThanks"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkType"
         }
       ],
       "polymorphicForeignKey": false,
@@ -2744,7 +1124,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Active",
+      "label": "Actif",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -2770,65 +1150,6 @@
       "type": "boolean",
       "unique": false,
       "updateable": true,
-      "writeRequiresMasterRead": false
-    },
-    {
-      "aggregatable": false,
-      "aiPredictionField": false,
-      "autoNumber": false,
-      "byteLength": 0,
-      "calculated": false,
-      "calculatedFormula": null,
-      "cascadeDelete": false,
-      "caseSensitive": false,
-      "compoundFieldName": null,
-      "controllerName": null,
-      "createable": false,
-      "custom": false,
-      "defaultValue": false,
-      "defaultValueFormula": null,
-      "defaultedOnCreate": true,
-      "dependentPicklist": false,
-      "deprecatedAndHidden": false,
-      "digits": 0,
-      "displayLocationInDecimal": false,
-      "encrypted": false,
-      "externalId": false,
-      "extraTypeInfo": null,
-      "filterable": true,
-      "filteredLookupInfo": null,
-      "formulaTreatNullNumberAsZero": false,
-      "groupable": true,
-      "highScaleNumber": false,
-      "htmlFormatted": false,
-      "idLookup": false,
-      "inlineHelpText": null,
-      "label": "Is Person Type",
-      "length": 0,
-      "mask": null,
-      "maskType": null,
-      "name": "IsPersonType",
-      "nameField": false,
-      "namePointing": false,
-      "nillable": false,
-      "permissionable": false,
-      "picklistValues": [],
-      "polymorphicForeignKey": false,
-      "precision": 0,
-      "queryByDistance": false,
-      "referenceTargetField": null,
-      "referenceTo": [],
-      "relationshipName": null,
-      "relationshipOrder": null,
-      "restrictedDelete": false,
-      "restrictedPicklist": false,
-      "scale": 0,
-      "searchPrefilterable": false,
-      "soapType": "xsd:boolean",
-      "sortable": true,
-      "type": "boolean",
-      "unique": false,
-      "updateable": false,
       "writeRequiresMasterRead": false
     },
     {
@@ -2862,7 +1183,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Created By ID",
+      "label": "ID créé par",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -2923,7 +1244,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Created Date",
+      "label": "Date de création",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -2982,7 +1303,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Last Modified By ID",
+      "label": "Dernière modification par ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -3043,7 +1364,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Last Modified Date",
+      "label": "Date de dernière modification",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -3102,7 +1423,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "System Modstamp",
+      "label": "Horodateur des modifications du système",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -3134,8 +1455,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": "012",
-  "label": "Record Type",
-  "labelPlural": "Record Types",
+  "label": "Type d'enregistrement",
+  "labelPlural": "Types d'enregistrement",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -3152,7 +1473,7 @@
   "searchable": false,
   "supportedScopes": [
     {
-      "label": "All record types",
+      "label": "Tous les types d'enregistrement",
       "name": "everything"
     }
   ],
