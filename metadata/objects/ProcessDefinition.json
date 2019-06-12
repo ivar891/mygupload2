@@ -62,7 +62,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "Approval Process ID",
+      "label": "ID du processus d'approbation",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -121,7 +121,7 @@
       "htmlFormatted": false,
       "idLookup": true,
       "inlineHelpText": null,
-      "label": "Name",
+      "label": "Nom",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -180,7 +180,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Unique Name",
+      "label": "Nom unique",
       "length": 80,
       "mask": null,
       "maskType": null,
@@ -239,7 +239,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Process Definition Type",
+      "label": "Type de définition de processus",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -252,14 +252,14 @@
         {
           "active": true,
           "defaultValue": true,
-          "label": "Approval Process",
+          "label": "Processus d'approbation",
           "validFor": null,
           "value": "Approval"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "State-based Process",
+          "label": "Processus basé sur le statut",
           "validFor": null,
           "value": "State"
         }
@@ -372,7 +372,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Custom Object Definition ID",
+      "label": "ID de définition d'objet personnalisé",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -394,13 +394,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Address"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "Asset"
         },
         {
@@ -409,13 +402,6 @@
           "label": null,
           "validFor": null,
           "value": "AssetRelationship"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AssignedResource"
         },
         {
           "active": true,
@@ -443,21 +429,14 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ChannelProgram"
+          "value": "ConsumptionRate"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ChannelProgramLevel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ChannelProgramMember"
+          "value": "ConsumptionSchedule"
         },
         {
           "active": true,
@@ -472,13 +451,6 @@
           "label": null,
           "validFor": null,
           "value": "Contract"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "DigitalSignature"
         },
         {
           "active": true,
@@ -500,20 +472,6 @@
           "label": null,
           "validFor": null,
           "value": "EmailMessage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Entitlement"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "EntityMilestone"
         },
         {
           "active": true,
@@ -562,27 +520,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Location"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MaintenanceAsset"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MaintenancePlan"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "Metric"
         },
         {
@@ -611,41 +548,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "PartnerFundAllocation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerFundClaim"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerFundRequest"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PartnerMarketingBudget"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "PendingServiceRouting"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "Product2"
         },
         {
@@ -653,203 +555,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ProductConsumed"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductItemTransaction"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductRequest"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductRequestLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductRequired"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProductTransfer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProfileSkill"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProfileSkillEndorsement"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ProfileSkillUser"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Quote"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "RequestsForAccessSIQ"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ResourceAbsence"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ResourcePreference"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ReturnOrder"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ReturnOrderLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceAppointment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceContract"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceCrew"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceCrewMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceResource"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceResourceCapacity"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceResourceSkill"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceTerritory"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceTerritoryLocation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ServiceTerritoryMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Shipment"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SkillRequirement"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "SocialPost"
         },
         {
           "active": true,
@@ -870,42 +576,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "TimeSheet"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "TimeSheetEntry"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "TimeSlot"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "UserProvisioningRequest"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "UserServicePresence"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkBadgeDefinition"
         },
         {
           "active": true,
@@ -954,49 +625,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "WorkOrder"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkOrderLineItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "WorkPerformanceCycle"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkReward"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkRewardFund"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkRewardFundType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkType"
         }
       ],
       "polymorphicForeignKey": false,
@@ -1048,7 +677,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Lock Type",
+      "label": "Type de verrouillage",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -1150,7 +779,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "State",
+      "label": "État",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -1163,21 +792,21 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active",
+          "label": "Actif",
           "validFor": null,
           "value": "Active"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Inactive",
+          "label": "Inactif",
           "validFor": null,
           "value": "Inactive"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Obsolete",
+          "label": "Obsolète",
           "validFor": null,
           "value": "Obsolete"
         }
@@ -1231,7 +860,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Created Date",
+      "label": "Date de création",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -1290,7 +919,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Created By ID",
+      "label": "ID créé par",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -1351,7 +980,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Last Modified Date",
+      "label": "Date de dernière modification",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -1410,7 +1039,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Last Modified By ID",
+      "label": "Dernière modification par ID",
       "length": 18,
       "mask": null,
       "maskType": null,
@@ -1471,7 +1100,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "System Modstamp",
+      "label": "Horodateur des modifications du système",
       "length": 0,
       "mask": null,
       "maskType": null,
@@ -1503,8 +1132,8 @@
   "hasSubtypes": false,
   "isSubtype": false,
   "keyPrefix": "04a",
-  "label": "Process Definition",
-  "labelPlural": "Process Definition",
+  "label": "Définition du processus",
+  "labelPlural": "Définition du processus",
   "layoutable": false,
   "listviewable": null,
   "lookupLayoutable": null,
@@ -1521,7 +1150,7 @@
   "searchable": true,
   "supportedScopes": [
     {
-      "label": "All process definitions",
+      "label": "Toutes les définitions des processus",
       "name": "everything"
     }
   ],
