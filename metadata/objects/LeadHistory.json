@@ -353,6 +353,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Accepted",
+          "validFor": null,
+          "value": "Accepted__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Address",
           "validFor": null,
           "value": "Address"
@@ -360,9 +367,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "analyticsdemo_batch_id__c",
+          "validFor": null,
+          "value": "analyticsdemo_batch_id__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Annual Revenue",
           "validFor": null,
           "value": "AnnualRevenue"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Approval Status",
+          "validFor": null,
+          "value": "Approval_Status__c"
         },
         {
           "active": true,
@@ -395,6 +416,20 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Competition",
+          "validFor": null,
+          "value": "Competition__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Converted Date",
+          "validFor": null,
+          "value": "ConvertedDate__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Country",
           "validFor": null,
           "value": "Country"
@@ -409,9 +444,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Current Generator(s)",
+          "label": "Created Date",
           "validFor": null,
-          "value": "CurrentGenerators__c"
+          "value": "CreatedDate__c"
         },
         {
           "active": true,
@@ -423,9 +458,58 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Data.com Does Not Auto-Update",
+          "validFor": null,
+          "value": "jsImpacts__Data_com_do_not_auto_update__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Data.com Key",
           "validFor": null,
           "value": "Jigsaw"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Data.com Lead",
+          "validFor": null,
+          "value": "Data_com_Lead__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Days Remaining",
+          "validFor": null,
+          "value": "Days_Remaining__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DB Days",
+          "validFor": null,
+          "value": "DB_Days__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Deal Approved Date",
+          "validFor": null,
+          "value": "Deal_Approved_Date__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Decision Maker",
+          "validFor": null,
+          "value": "Know_Decision_Maker__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Decision Timeframe",
+          "validFor": null,
+          "value": "Decision_Timeframe__c"
         },
         {
           "active": true,
@@ -437,9 +521,170 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Disqual/Archive Reason",
+          "validFor": null,
+          "value": "Disqual_Reason__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Do Not Call",
           "validFor": null,
           "value": "DoNotCall"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Custom Predictive Factors?",
+          "validFor": null,
+          "value": "CustomL__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Indicator 1 Positive",
+          "validFor": null,
+          "value": "Indicator_1_Positive__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Indicator 1 Strength",
+          "validFor": null,
+          "value": "Indicator_1_Strength__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Indicator 2 Positive",
+          "validFor": null,
+          "value": "Indicator_2_Positive__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Indicator 2 Strength",
+          "validFor": null,
+          "value": "Indicator_2_Strength__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Indicator 3 Positive",
+          "validFor": null,
+          "value": "Indicator_3_Positive__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Indicator 3 Strength",
+          "validFor": null,
+          "value": "Indicator_3_Strength__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Indicator 4 Positive",
+          "validFor": null,
+          "value": "Indicator_4_Positive__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Indicator 4 Strength",
+          "validFor": null,
+          "value": "Indicator_4_Strength__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Indicator 5 Positive",
+          "validFor": null,
+          "value": "Indicator_5_Positive__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Indicator 5 Strength",
+          "validFor": null,
+          "value": "Indicator_5_Strength__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Lead Score",
+          "validFor": null,
+          "value": "escore__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Top Predictive 1",
+          "validFor": null,
+          "value": "Top_Predictive_1__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Top Predictive 2",
+          "validFor": null,
+          "value": "Top_Predictive_2__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Top Predictive 3",
+          "validFor": null,
+          "value": "Top_Predictive_3__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Top Predictive 4",
+          "validFor": null,
+          "value": "Top_Predictive_4__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Top Predictive 5",
+          "validFor": null,
+          "value": "Top_Predictive_5__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Top Predictive Result 1",
+          "validFor": null,
+          "value": "Top_Predictive_Result_1__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Top Predictive Result 2",
+          "validFor": null,
+          "value": "Top_Predictive_Result_2__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Top Predictive Result 3",
+          "validFor": null,
+          "value": "Top_Predictive_Result_3__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Top Predictive Result 4",
+          "validFor": null,
+          "value": "Top_Predictive_Result_4__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Einstein - Top Predictive Result 5",
+          "validFor": null,
+          "value": "Top_Predictive_Result_5__c"
         },
         {
           "active": true,
@@ -468,6 +713,20 @@
           "label": "Email Opt Out",
           "validFor": null,
           "value": "HasOptedOutOfEmail"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "External ID",
+          "validFor": null,
+          "value": "External_ID__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Facebook Persona ID",
+          "validFor": null,
+          "value": "Facebook_Persona_ID__c"
         },
         {
           "active": true,
@@ -507,6 +766,48 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Google Analytics Campaign",
+          "validFor": null,
+          "value": "pi__utm_campaign__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Google Analytics Content",
+          "validFor": null,
+          "value": "pi__utm_content__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Google Analytics Medium",
+          "validFor": null,
+          "value": "pi__utm_medium__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Google Analytics Source",
+          "validFor": null,
+          "value": "pi__utm_source__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Google Analytics Term",
+          "validFor": null,
+          "value": "pi__utm_term__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Has Budget",
+          "validFor": null,
+          "value": "Has_Budget__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Individual Merged",
           "validFor": null,
           "value": "individualMerged"
@@ -535,6 +836,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Latitude",
+          "validFor": null,
+          "value": "Latitude__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Lead Converted.",
           "validFor": null,
           "value": "leadConverted"
@@ -552,6 +860,20 @@
           "label": "Lead Owner",
           "validFor": null,
           "value": "Owner"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lead Record Type",
+          "validFor": null,
+          "value": "RecordType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lead Score Value",
+          "validFor": null,
+          "value": "Lead_Score_Value__c"
         },
         {
           "active": true,
@@ -577,6 +899,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Longitude",
+          "validFor": null,
+          "value": "Longitude__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Mobile",
           "validFor": null,
           "value": "MobilePhone"
@@ -591,16 +920,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "No. of Employees",
+          "label": "Needs Score Synced",
           "validFor": null,
-          "value": "NumberOfEmployees"
+          "value": "pi__Needs_Score_Synced__c"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Number of Locations",
+          "label": "No. of Employees",
           "validFor": null,
-          "value": "NumberofLocations__c"
+          "value": "NumberOfEmployees"
         },
         {
           "active": true,
@@ -619,6 +948,132 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Pardot Campaign",
+          "validFor": null,
+          "value": "pi__campaign__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot Comments",
+          "validFor": null,
+          "value": "pi__comments__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot Conversion Date",
+          "validFor": null,
+          "value": "pi__conversion_date__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot Conversion Object Name",
+          "validFor": null,
+          "value": "pi__conversion_object_name__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot Conversion Object Type",
+          "validFor": null,
+          "value": "pi__conversion_object_type__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot Created Date",
+          "validFor": null,
+          "value": "pi__created_date__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot First Activity",
+          "validFor": null,
+          "value": "pi__first_activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot First Referrer",
+          "validFor": null,
+          "value": "pi__first_touch_url__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot First Referrer Query",
+          "validFor": null,
+          "value": "pi__first_search_term__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot First Referrer Type",
+          "validFor": null,
+          "value": "pi__first_search_type__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot Grade",
+          "validFor": null,
+          "value": "pi__grade__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot Hard Bounced",
+          "validFor": null,
+          "value": "pi__pardot_hard_bounced__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot Last Activity",
+          "validFor": null,
+          "value": "pi__last_activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot Last Scored At",
+          "validFor": null,
+          "value": "pi__Pardot_Last_Scored_At__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot Notes",
+          "validFor": null,
+          "value": "pi__notes__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot Score",
+          "validFor": null,
+          "value": "pi__score__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pardot URL",
+          "validFor": null,
+          "value": "pi__url__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Partner/Relationship Account",
+          "validFor": null,
+          "value": "PartnerAccount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Phone",
           "validFor": null,
           "value": "Phone"
@@ -626,16 +1081,30 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Primary",
+          "label": "Product Interest",
           "validFor": null,
-          "value": "Primary__c"
+          "value": "Product_Interest__c"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Product Interest",
+          "label": "Project Amount",
           "validFor": null,
-          "value": "ProductInterest__c"
+          "value": "Project_Amount__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Project Budget Amount",
+          "validFor": null,
+          "value": "Project_Budget_Amount__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Project Defined",
+          "validFor": null,
+          "value": "Project_Defined__c"
         },
         {
           "active": true,
@@ -661,6 +1130,41 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Region",
+          "validFor": null,
+          "value": "Region__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Registration Expiration",
+          "validFor": null,
+          "value": "Registration_Expiration__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reported Convert Date",
+          "validFor": null,
+          "value": "Reported_Convert_Date__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reported Create Date",
+          "validFor": null,
+          "value": "Reported_Create_Month_del__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Roof Type",
+          "validFor": null,
+          "value": "Roof_Type__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Salutation",
           "validFor": null,
           "value": "Salutation"
@@ -668,9 +1172,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "SIC Code",
+          "label": "Shadow Roof Type",
           "validFor": null,
-          "value": "SICCode__c"
+          "value": "Shadow_Roof_Type__c"
         },
         {
           "active": true,
@@ -692,6 +1196,13 @@
           "label": "Title",
           "validFor": null,
           "value": "Title"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Twitter Persona ID",
+          "validFor": null,
+          "value": "Twitter_Persona_ID__c"
         },
         {
           "active": true,
